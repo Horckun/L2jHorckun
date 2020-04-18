@@ -16,7 +16,7 @@ from java.lang import System
 Benom = 29054
 BenomTeleport = 13101
 
-BenomSpeak = [ "You should have finished me when you had the chance!!!", "I will crush all of you!!!", "I am not finished here, come face me!!!", "You cowards!!! I will torture each and everyone of you!!!" ]
+BenomSpeak = [ "¡Deberías haber acabado conmigo cuando tuviste la oportunidad!", "¡Los aplastaré a todos!", "No he terminado aquí, ¡enfréntate a mi!", "¡Cobardes! ¡Voy a torturaros a todos y cada uno de ustedes!" ]
 
 WalkTimes = [ 18000,17000,4500,16000,22000,14000,10500,14000,9500,12500,20500,14500,17000,20000,22000,11000,11000,20000,8000,5500,20000,18000,25000,28000,25000,25000,25000,25000,10000,24000,7000,12000,20000 ]
 
@@ -96,9 +96,9 @@ class benom (JQuest):
         player.teleToLocation(X, Y, -3007)
         return
       else :
-        htmltext = "<html><body>Benom's Avatar:<br>Your clan does not own this castle. Only members of this Castle's owning clan can challenge Benom.</body></html>"
+        htmltext = "<html><body>Avatar de Benom: <br>Tu clan no posee este castillo. Solo los miembros del clan propietario de este castillo pueden desafiar a Benom.</body></html>"
     else :
-      htmltext = "<html><body>Benom's Avatar:<br>Your clan does not own this castle. Only members of this Castle's owning clan can challenge Benom.</body></html>"
+      htmltext = "<html><body>Avatar de Benom: <br>Tu clan no posee este castillo. Solo los miembros del clan propietario de este castillo pueden desafiar a Benom.</body></html>"
     return htmltext
 
   def onAdvEvent(self, event, npc, player) :

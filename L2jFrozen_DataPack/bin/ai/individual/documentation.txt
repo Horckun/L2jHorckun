@@ -1,13 +1,12 @@
-Individual AI:
-This folder contains AI scripts for single npc templates (one npc ID, but possibly many instances).  
-That is, if a particular NPC/mob has a unique AI or something slightly different from all other generic NPCs, 
-an individual AI script can be created for all occurences of that npc/mob.  Such individual scripts ought to be here.
+AI individual:
+Esta carpeta contiene scripts AI para plantillas npc individuales (una ID npc, pero posiblemente muchas instancias).
+Es decir, si un NPC / mob en particular tiene una IA única o algo ligeramente diferente de todos los otros NPC genéricos,
+Se puede crear un script de IA individual para todas las ocurrencias de ese npc / mob. Tales guiones individuales deberían estar aquí.
 
-Individual AI scripts can be subclassed.  In other words, an individual may inherit from a group or other individual.  
-For example, one group template might define mobs that cast spells.  A particular mob may cast spells but may also 
-talk whenever it gets attacked.  In that case, instead of writing all the AI for attacking and casting spells, it may 
-inherit from a group template that defines AI for ALL mobs that cast spells, then add behaviours for talking onAttack.
+Las secuencias de comandos de IA individuales se pueden subclasificar. En otras palabras, un individuo puede heredar de un grupo u otro individuo.
+Por ejemplo, una plantilla de grupo podría definir mobs que lanzan hechizos. Un mob en particular puede lanzar hechizos pero también
+hablar cuando sea atacado. En ese caso, en lugar de escribir toda la IA para atacar y lanzar hechizos, puede
+heredar de una plantilla de grupo que define la IA para TODOS los mobs que lanzan hechizos, luego agrega comportamientos para hablar en Ataque.
 
-"NPC registrations" refers to the addition of NPCs in the various events of the scripts, such as onAttack, onKill, etc
-Those are done by using keywords such as "addKillId" etc.  For more details on registrations, see 
-"jscript/quests/documentation.txt"
+"NPC registrations" se refiere a la adición de NPC en los diversos eventos de los scripts, como onAttack, onKill, etc.
+Para ello, utilice palabras clave como "addKillId", etc. Para obtener más detalles sobre los registros, consulte "jscript/quests/documentation.txt"
