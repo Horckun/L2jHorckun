@@ -20,7 +20,7 @@ class retreat_onattack(JQuest) :
                 }
         # made a second dictionary for the texts
         self.MobTexts ={
-                20058: ["I'll be back", "You are stronger than expected"] # I don't recall the retail text they say, so I made custom ones to test it
+                20058: ["Vuelvo enseguida", "Eres más fuerte de lo esperado"] # I don't recall the retail text they say, so I made custom ones to test it
                 }
         # finally, don't forget to call the parent constructor to prepare the event triggering
         # mechanisms etc.
@@ -56,7 +56,7 @@ class retreat_onattack(JQuest) :
                 self.startQuestTimer("Retreat", 10000, npc, player)
         return
 
-QUEST      = retreat_onattack(-1,"retreat_onattack","ai")
+QUEST = retreat_onattack(-1,"retreat_onattack","ai")
 
 CREATED = State('Start', QUEST)
 QUEST.setInitialState(CREATED)

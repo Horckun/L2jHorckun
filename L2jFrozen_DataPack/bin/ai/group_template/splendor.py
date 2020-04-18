@@ -54,7 +54,7 @@ class splendor(JQuest):
           self.AlwaysSpawn = False
     return
 
-QUEST       = splendor(-1,"splendor","ai")
+QUEST = splendor(-1,"splendor","ai")
 
 CREATED = State('Start', QUEST)
 QUEST.setInitialState(CREATED)

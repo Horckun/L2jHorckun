@@ -20,10 +20,10 @@ class delu_lizardman_special_agent(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Hey! Were having a duel here!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Oye! ¡Estamos teniendo un duelo aquí!"))
         else :
            self.FirstAttacked = True
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"How dare you interrupt our fight! Hey guys, help!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¿Cómo te atreves a interrumpir nuestra lucha? Hola chicos, ayuda!"))
         return 
 
     def onKill (self,npc,player,isPet):
@@ -35,7 +35,7 @@ class delu_lizardman_special_agent(JQuest) :
             self.addSpawn(npcId,npc.getX(), npc.getY(), npc.getZ(),npc.getHeading(),True,0)
         return 
 
-QUEST		= delu_lizardman_special_agent(-1,"delu_lizardman_special_agent","ai")
+QUEST = delu_lizardman_special_agent(-1,"delu_lizardman_special_agent","ai")
 
 CREATED = State('Start', QUEST)
 QUEST.setInitialState(CREATED)
