@@ -4,8 +4,9 @@ L2jHorckun basado en L2jFrozen
 
 ----------
 -
+- Textos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\cron.
 - Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\ai\individual
-- Archivos traducidos al español en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template.
+- Archivos traducidos al español en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template y reparación de squash.py.
 
 
 
