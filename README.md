@@ -4,7 +4,8 @@ L2jHorckun basado en L2jFrozen
 
 ----------
 -
-Archivos traducidos al español en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template.
+- Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\ai\individual
+- Archivos traducidos al español en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template.
 
 
 
@@ -12,4 +13,4 @@ Archivos traducidos al español en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_tem
 
 ----------
 -
-Añadido el fork original de L2jFrozen para traducirlo al español, arreglar bugs y personalizarlo.
+- Añadido el fork original de L2jFrozen para traducirlo al español, arreglar bugs y personalizarlo.
