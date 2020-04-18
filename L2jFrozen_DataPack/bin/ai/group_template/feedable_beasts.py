@@ -1,5 +1,6 @@
 # Growth-capable mobs: Polymorphing upon successful feeding.
 # Written by Fulminus
+# Traducido por Horckun.
 # # # # # # # # # # #
 import sys
 from com.l2jfrozen.gameserver.ai import CtrlIntention
@@ -89,9 +90,9 @@ class feedable_beasts(JQuest) :
             21505: [2,{GOLDEN_SPICE:[],CRYSTAL_SPICE:[[21507,21829],[16015,16016]]},25]
             }
         self.madCowPolymorph = {21824:21468,21825:21469,21826:21487,21827:21488,21828:21506,21829:21507}
-        self.Text = [["What did you just do to me?","You want to tame me, huh?","Do not give me this. Perhaps you will be in danger.","Bah bah. What is this unpalatable thing?","My belly has been complaining.  This hit the spot.","What is this? Can I eat it?","You don't need to worry about me.","Delicious food, thanks.","I am starting to like you!","Gulp"], 
-                    ["I do not think you have given up on the idea of taming me.","That is just food to me.  Perhaps I can eat your hand too.","Will eating this make me fat? Ha ha","Why do you always feed me?","Do not trust me.  I may betray you"], 
-                    ["Destroy","Look what you have done!","Strange feeling...!  Evil intentions grow in my heart...!","It is happenning!","This is sad...Good is sad...!"]]
+        self.Text = [["¿Qué me acabas de hacer?","Quieres domesticarme, ¿eh?","No me des esto. Quizás estés en peligro.","Bah bah. ¿Qué es esta cosa desagradable?","Mi barriga se ha estado quejando. Eso dio en el clavo.","¿Que es esto? ¿Puedo comerlo?","No necesitas preocuparte por mí.","Deliciosa comida, gracias.","¡Estás empezando a gustarme!","Trago"], 
+                    ["No creo que hayas renunciado a la idea de domesticarme.","Eso es solo comida para mí. Quizás yo también pueda comer tu mano.","¿Comer esto me hará engordar? Jaja","¿Por qué siempre me das de comer?","No confíes en mi. Puedo traicionarte."], 
+                    ["Destruir","¡Mira lo que has hecho!","Sentimiento raro...! Las malas intenciones crecen en mi corazón...!","¡Esta pasando!","Esto es triste... ¡Lo bueno es triste...!"]]
 
         self.feedInfo = {} # : feedInfo[objectId of mob] = objectId of player feeding it
 
@@ -180,11 +181,11 @@ class feedable_beasts(JQuest) :
             # also, perform a rare random chat
             rand = Rnd.get(20)
             if rand > 4 : pass
-            elif rand == 0 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", will you show me your hideaway?"))
-            elif rand == 1 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", whenever I look at spice, I think about you."))
-            elif rand == 2 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", you do not need to return to the village.  I will give you strength"))
-            elif rand == 3 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), "Thanks, "+player.getName()+".  I hope I can help you"))
-            elif rand == 4 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", what can I do to help you?"))
+            elif rand == 0 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", ¿me vas a mostrar tu escondite?"))
+            elif rand == 1 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", cada vez que veo especias, pienso en ti."))
+            elif rand == 2 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", No es necesario volver al pueblo. Te dare fuerzas"))
+            elif rand == 3 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), "Gracias, "+player.getName()+". Espero poder ayudarle."))
+            elif rand == 4 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", ¿qué puedo hacer para ayudarte?"))
 
         # if not trained, the newly spawned mob will automatically be agro against its feeder
         # (what happened to "never bite the hand that feeds you" anyway?!)
@@ -251,15 +252,15 @@ class feedable_beasts(JQuest) :
         elif npcId in self.tamedBeasts :
             if skillId == npc.getFoodType() :
                 npc.onReceiveFood()
-                mytext = ["Refills! Yeah!","I am such a gluttonous beast, it is embarrassing! Ha ha",
-                          "Your cooperative feeling has been getting better and better.",
-                          "I will help you!",
-                          "The weather is really good.  Wanna go for a picnic?",
-                          "I really like you! This is tasty...",
-                          "If you do not have to leave this place, then I can help you.",
-                          "What can I help you with?",
-                          "I am not here only for food!",
-                          "Yam, yam, yam, yam, yam!"]
+                mytext = ["¡Recargas! ¡Si!","Soy una bestia tan glotona, ¡es vergonzoso! Jaja",
+                          "Su sentimiento cooperativo ha ido mejorando cada vez más.",
+                          "¡Te ayudaré!",
+                          "El clima es muy bueno. ¿Quieres ir de picnic?",
+                          "¡Realmente me gustas! Esto es sabroso...",
+                          "Si no tiene que abandonar este lugar, entonces puedo ayudarlo.",
+                          "¿En qué puedo ayudarte?",
+                          "¡No estoy aquí solo por comida!",
+                          "Ñame, ñame, ñame, ñame, ñame!"]
                 npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
         return
 
@@ -270,4 +271,4 @@ class feedable_beasts(JQuest) :
 
 
 # now call the constructor (starts up the ai)
-QUEST		= feedable_beasts(-1,"feedable_beasts","ai")
+QUEST = feedable_beasts(-1,"feedable_beasts","ai")

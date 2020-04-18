@@ -20,7 +20,7 @@ class timak_orc_overlord(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(50) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Dear ultimate power!!!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡¡¡Querido poder supremo!!!"))
         else :
            self.FirstAttacked = True
         return 
@@ -34,7 +34,7 @@ class timak_orc_overlord(JQuest) :
             self.addSpawn(npcId,npc.getX(), npc.getY(), npc.getZ(),npc.getHeading(),True,0)
         return 
 
-QUEST		= timak_orc_overlord(-1,"timak_orc_overlord","ai")
+QUEST = timak_orc_overlord(-1,"timak_orc_overlord","ai")
 
 CREATED = State('Start', QUEST)
 QUEST.setInitialState(CREATED)
