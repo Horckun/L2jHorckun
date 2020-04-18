@@ -20,11 +20,11 @@ class ol_mahum_general(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(100) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Ya veremos sobre eso!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"We shall see about that!"))
         else :
            self.FirstAttacked = True
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Definitivamente pagaré esta humillación!"))
-        return
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"I will definitely repay this humiliation!"))
+        return 
 
     def onKill (self,npc,player,isPet):
         npcId = npc.getNpcId()

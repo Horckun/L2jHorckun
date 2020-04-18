@@ -1,14 +1,12 @@
-Plantilla de grupo AI:
-Esta carpeta contiene scripts AI para plantillas de grupo. Es decir, si muchas mobs diferentes comparten el mismo comportamiento,
-Se puede crear un script AI de grupo para todos ellos. Tales plantillas de grupo deberían estar aquí.
+Group Template AI:
+This folder contains AI scripts for group templates.  That is, if many different mobs share the same behaviour, 
+a group AI script can be created for all of them.  Such group templates ought to be here.
 
-Las plantillas de grupo se pueden subclasificar. En otras palabras, un grupo puede heredar de otro grupo. Por ejemplo,
-una plantilla de grupo puede definir mobs que lanzan hechizos. Luego, otra plantilla puede definir la IA para las turbas
-que lanzan hechizos Y usan tiros. En ese caso, en lugar de reescribir todo el ataque y el uso de hechizos AI, podemos
-heredar de la primera plantilla de grupo, luego agregue los nuevos comportamientos y divida los registros de NPC adecuadamente.
+Group templates can be subclassed.  In other words, a group may inherit from another group.  For example,
+one group template might define mobs that cast spells.  Another template may then define the AI for mobs
+that cast spells AND use shots.  In that case, instead of rewriting all the attack and spell-use AI, we can
+inherit from the first group template, then add the new behaviours, and split up the NPC registrations appropriately.
 
-"Registros de NPC" se refiere a la adición de NPC en los diversos eventos de los scripts, como onAttack, onKill, etc.
-Para ello, utilice palabras clave como "addKillId", etc. Para obtener más detalles sobre los registros, consulte
-"jscript / quests / documentation.txt".
-
-NOTA: Hay que revisar las tildes de los textos traducidos.
+"NPC registrations" refers to the addition of NPCs in the various events of the scripts, such as onAttack, onKill, etc
+Those are done by using keywords such as "addKillId" etc.  For more details on registrations, see 
+"jscript/quests/documentation.txt"

@@ -20,10 +20,10 @@ class delu_lizardman_special_commander(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Vamos, te llevaré!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Come on, Ill take you on!"))
         else :
            self.FirstAttacked = True
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¿Cómo te atreves a interrumpir un duelo sagrado? ¡Debes aprender una lección!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"How dare you interrupt a sacred duel! You must be taught a lesson!"))
         return 
 
     def onKill (self,npc,player,isPet):
@@ -35,7 +35,7 @@ class delu_lizardman_special_commander(JQuest) :
             self.addSpawn(npcId,npc.getX(), npc.getY(), npc.getZ(),npc.getHeading(),True,0)
         return 
 
-QUEST = delu_lizardman_special_commander(-1,"delu_lizardman_special_commander","ai")
+QUEST		= delu_lizardman_special_commander(-1,"delu_lizardman_special_commander","ai")
 
 CREATED = State('Start', QUEST)
 QUEST.setInitialState(CREATED)

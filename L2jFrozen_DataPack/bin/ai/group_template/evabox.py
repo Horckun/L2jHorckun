@@ -30,7 +30,7 @@ class evabox(JQuest):
 		return
 
 QUEST = evabox(-1, "evabox", "ai")
-CREATED = State('Start',QUEST)
+CREATED     = State('Start',QUEST)
 
 QUEST.setInitialState(CREATED)
 

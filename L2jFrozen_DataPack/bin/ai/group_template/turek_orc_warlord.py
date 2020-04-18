@@ -20,10 +20,10 @@ class turek_orc_warlord(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"No me derribarás fácilmente."))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"You wont take me down easily."))
         else :
            self.FirstAttacked = True
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡La batalla acaba de comenzar!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"The battle has just begun!"))
         return 
 
     def onKill (self,npc,player,isPet):
