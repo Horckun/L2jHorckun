@@ -1,5 +1,6 @@
 ##############################################
-### Author: Layane (andrashe@gmail.com)
+### Autor: Layane (andrashe@gmail.com)
+### Administrador: Horckun (admin@horckun.es)
 ##############################################
 
-print "Hi world!"
+print "L2jHorckun"
