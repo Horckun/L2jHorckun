@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen
 
 ----------
 
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\4000_ShadowWeapons
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\3995_echo
 
 18/04/2020
