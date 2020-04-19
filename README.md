@@ -1,7 +1,9 @@
 L2jHorckun basado en L2jFrozen
 
 19/04/2020
+
 ----------
+
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\3995_echo
 
 18/04/2020
