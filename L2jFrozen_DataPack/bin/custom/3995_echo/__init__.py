@@ -1,6 +1,6 @@
-# Formerly based on Elektra's script
-# updated by DrLecter for the Official L2J Datapack Project.
-# Visit http://forum.l2jdp.com/ for more details.
+# Anteriormente basado en el guión de Elektra.
+# Actualizado por DrLecter para el proyecto oficial L2J Datapack.
+# Visite http://forum.l2jdp.com/ para más detalles.
 
 qn = "3995_echo"
 
@@ -59,8 +59,8 @@ class Quest (JQuest) :
    return "1.htm"
 
 
-QUEST       = Quest(QuestId,qn,QuestDesc)
-CREATED     = State('Start',     QUEST)
+QUEST = Quest(QuestId,qn,QuestDesc)
+CREATED = State('Start',QUEST)
 
 QUEST.setInitialState(CREATED)
 
