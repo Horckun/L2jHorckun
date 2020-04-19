@@ -1,17 +1,21 @@
 L2jHorckun basado en L2jFrozen
 
+19/04/2020
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\3995_echo
+
 18/04/2020
 
 ----------
--
-- Textos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\cron.
+
+- Textos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\cron
 - Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\ai\individual
-- Archivos traducidos al español en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template y reparación de squash.py.
+- Archivos traducidos al español en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template y reparación de squash.py
 
 
 
 17/04/2020
 
 ----------
--
+
 - Añadido el fork original de L2jFrozen para traducirlo al español, arreglar bugs y personalizarlo.
