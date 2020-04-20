@@ -1,5 +1,11 @@
 L2jHorckun basado en L2jFrozen
 
+20/04/2020
+
+----------
+
+- Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5000_MissQueen
+
 19/04/2020
 
 ----------
