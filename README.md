@@ -4,15 +4,13 @@ L2jHorckun basado en L2jFrozen
 
 ----------
 
-- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5001_NewbieCoupons
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5001_NewbieCoupons - El script no funciona
 
 20/04/2020
 
 ----------
 
 - Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5000_MissQueen
-
-El script no funciona
 
 19/04/2020
 
