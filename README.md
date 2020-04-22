@@ -1,5 +1,11 @@
 L2jHorckun basado en L2jFrozen
 
+22/04/2020
+
+----------
+
+- Correciones en tildes dentro de la carpeta "ai" en grupos y en individual
+
 21/04/2020
 
 ----------
