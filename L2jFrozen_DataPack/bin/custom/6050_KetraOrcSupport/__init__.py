@@ -133,9 +133,9 @@ class Quest (JQuest) :
             htmltext = "31376-3.htm"
     return htmltext
 
-QUEST       = Quest(6050, qn, "custom")
-CREATED     = State('Start', QUEST)
-STARTED     = State('Started', QUEST)
+QUEST = Quest(6050, qn, "custom")
+CREATED = State('Start', QUEST)
+STARTED = State('Started', QUEST)
 
 QUEST.setInitialState(CREATED)
 for i in NPCS:
