@@ -4,13 +4,14 @@ L2jHorckun basado en L2jFrozen
 
 ----------
 
-- Correciones en tildes dentro de la carpeta "ai" en grupos y en individual
+- Correciones en tildes dentro de la carpeta "ai" en grupos y en individual.
+- L2jHorckun\L2jFrozen_DataPack\bin\custom\6050_KetraOrcSupport
 
 21/04/2020
 
 ----------
 
-- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5001_NewbieCoupons - El script no funciona
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5001_NewbieCoupons - El script no funciona.
 
 20/04/2020
 
