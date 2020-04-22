@@ -20,7 +20,7 @@ class timak_orc_troop_leader(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(50) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Destroy the enemy, my brothers!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Destruid al enemigo, mis hermanos!"))
         else :
            self.FirstAttacked = True
         return 
@@ -34,7 +34,7 @@ class timak_orc_troop_leader(JQuest) :
             self.addSpawn(npcId,npc.getX(), npc.getY(), npc.getZ(),npc.getHeading(),True,0)
         return 
 
-QUEST		= timak_orc_troop_leader(-1,"timak_orc_troop_leader","ai")
+QUEST = timak_orc_troop_leader(-1,"timak_orc_troop_leader","ai")
 
 CREATED = State('Start', QUEST)
 QUEST.setInitialState(CREATED)

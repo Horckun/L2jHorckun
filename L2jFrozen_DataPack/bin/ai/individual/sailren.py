@@ -78,11 +78,11 @@ class Sailren(JQuest) :
              self.startQuestTimer("start",30000,npc,player)
              self.startQuestTimer("open",1800000,npc,None)
          else :
-           return "<html><body><font color=LEVEL>Only with party...</font></body></html>"
+           return "<html><body><font color=LEVEL>Solo en grupo...</font></body></html>"
        else :
-         return "<html><body><font color=LEVEL>Some one else is inside...</font></body></html>"
+         return "<html><body><font color=LEVEL>Alguien mas esta adentro...</font></body></html>"
      else :
-       return "<html><body>You need quest item: <font color=LEVEL>Gazkh...</font></body></html>"
+       return "<html><body>Necesitas un objeto de busqueda: <font color=LEVEL>Gazkh...</font></body></html>"
    return
 
  def onKill(self,npc,player,isPet):

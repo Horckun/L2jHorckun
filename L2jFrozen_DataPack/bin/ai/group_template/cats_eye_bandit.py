@@ -20,7 +20,7 @@ class cats_eye_bandit(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"You childish fool, do you think you can catch me?"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Tonto infantil, crees que puedes atraparme?"))
         else :
            self.FirstAttacked = True
         return
@@ -29,7 +29,7 @@ class cats_eye_bandit(JQuest) :
         npcId = npc.getNpcId()
         if npcId == self.cats_eye_bandit:
             objId=npc.getObjectId()
-            if Rnd.get(80) : npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"I must do something about this shameful incident..."))
+            if Rnd.get(80) : npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Debo hacer algo sobre este vergonzoso incidente..."))
 
             self.FirstAttacked = False
         elif self.FirstAttacked :

@@ -100,4 +100,4 @@ class chests(JQuest) :
         return
 
 # now call the constructor (starts up the ai)
-QUEST           = chests(-1,"chests","ai")
+QUEST = chests(-1,"chests","ai")

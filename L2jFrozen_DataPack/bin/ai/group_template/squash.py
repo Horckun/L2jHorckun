@@ -1,3 +1,5 @@
+# Traducido por Horckun
+#######################
 import sys
 from com.l2jfrozen.gameserver.ai import CtrlIntention
 from com.l2jfrozen.gameserver.model.quest import State
@@ -9,33 +11,33 @@ from com.l2jfrozen.util.random import Rnd
 POLLEN = 6391
 SKILL_NECTAR = 9998
 
-# Поливаемые
+# IDs
 WATERED_SQUASH = [12774,12775,12776,12777,12778,12779]
 
 class squash(JQuest) :
 
     def __init__(self,id,name,descr):
         JQuest.__init__(self,id,name,descr)
-        # Выросшие
+        
         self.adultSmallSquash = [12775,12776]
         self.adultLargeSquash = [12778,12779]
 
     def onAdvEvent(self,event,npc,player) :
         objId = npc.getObjectId()
         if event == "Good By" and npc and player :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Good By!!  LOL."))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Adios!! Jajaja"))
             npc.onDecay()
         elif event == "Good By1" and npc and player :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Всем, до свидания... Большая тыква сказала до свидания ..."))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Adios a todos... Una gran calabaza se despidio..."))
             npc.onDecay()
         elif event == "Good By2" and npc and player :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Вы можете быстрее? Через 30 секунд я сбегу ..."))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Puedes mas r�pido? En 30 segundos huire..."))
         elif event == "Good By3" and npc and player :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Я прерву отношения с Вами через 20 секунд!"))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Rompere relaciones contigo en 20 segundos!"))
         elif event == "Good By4" and npc and player :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"У меня осталось всего 10 секунд! 9. 8. 7 ..!"))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Solo me quedan 10 segundos! 9, 8, 7..!"))
         elif event == "Good By5" and npc and player :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Эй! Счастливо оставаться! Идиот, забудь обо мне!"))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Hey Quedate feliz! Idiota, olvidate de mi!"))
         return
 
     def onSkillUse(self,npc,player,skill):
@@ -45,75 +47,74 @@ class squash(JQuest) :
         if npcId not in WATERED_SQUASH : return
         objectId = npc.getObjectId()
         if skillId == SKILL_NECTAR :
-            # Первый полив
+            # Primer riego
             if npc.getNectar() == 0 :
                 if Rnd.get(2) == 1 :
-                    mytext = ["Чтобы быть способной расти, я должна пить только нектар ... причем чаще",
-                              "Если ты будеш быстрее выливать мне нектар - я быстрее выросту!",
-                              "Ну, верьте мне, прыскайте нектар! Я могу конечно превратиться в большую тыкву!!!",
-                              "Принеси нектар, чтобы вырастить тыкву!",
-                              "Плод прекрасной молодой тыквы начинает блестеть, когда семя предано земле! С этого времени будет способен стать здоровым и сильным!",
-                              "О, давно не виделись?",
-                              "Неожидал увидеть мое красивое появление?",
-                              "Отлично! Это - нечто! Нектар?",
-                              "Дозаправка! Заправь 5 бутылок, чтобы я смогла превратиться в большую тыкву! О!"]
+                    mytext = ["Para poder crecer, tengo que beber solo nectar... mas a menudo.",
+                              "Si me viertes nectar mas rapido, crecere mas rapido!",
+                              "Bueno, creeme, toma un sorbo de nectar! Sin duda puedo convertirme en una gran calabaza!!!",
+                              "Trae nectar para cultivar una calabaza!",
+                              "El fruto de una hermosa calabaza joven comienza a brillar cuando se entierra la semilla! De ahora en adelante podra volverse saludable y fuerte!",
+                              "Oh, mucho tiempo sin verte?",
+                              "No esperaba ver mi hermosa apariencia?",
+                              "Genial Esto es algo! Nectar?",
+                              "Reabastecimiento de combustible! Recargue 5 botellas para que pueda convertirme en una gran calabaza! Oh!"]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
                     npc.addGood()
                 else :
-                    mytext = ["Не спеши! Слишком часто, я не успеваю!",
-                              "Я же не автомат, меня скорострельностью не напоиш",
-                              "Да куда же ты торопишься! Слишком часто, я не успеваю!",
-                              "Упс, опять слишком быстро",
-                              "Давай чуток помедленней, не спеши, медленно достань бутылку и медленно ее вылей!",
-                              "У тебя нет чувства скорости? Медленнее давай"]
+                    mytext = ["No te apresures! Demasiado a menudo, no tengo tiempo!",
+                              "No soy una ametralladora, no me dispararas",
+                              "Pero, donde tienes prisa? Demasiado a menudo, no tengo tiempo!",
+                              "Vaya de nuevo demasiado rapido",
+                              "Reduzcamos la velocidad un poco, no se apresure, tome lentamente la botella y viertala lentamente!",
+                              "No tienes sentido de la velocidad? Vamos muy lentos"]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
-            # Второй полив
+            # Segundo riego
             elif npc.getNectar() == 1 :
                 if Rnd.get(2) == 1 :
-                    mytext = ["Желаю стать большой тыквой!",
-                              "Ням, ням, ням! Вышло! Заботится - хорошо!",
-                              "Как думаеш, я зрелая или гнилая?",
-                              "Нектар - только лучшее! Ха! Ха! Ха!"]
+                    mytext = ["Deseo convertirme en una gran calabaza!",
+                              "Crees que estoy maduro o podrido?",
+                              "El nectar es lo mejor! Ja! Ja! Ja!"]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
                     npc.addGood()
                 else :
-                    mytext = ["О! Опять мимо! Может слишком быстро расходуеш нектар?",
-                              "Если я умру такой как сейчас, Вы получите только молодую тыкву ...",
-                              "Выращивают немного быстрее! Неплохо было бы стать большой тыквой, молодая тыква не хороша!",
-                              "Tакую маленькую тыкву вы все должны есть? Принесите нектар, я могу быть больше!"]
+                    mytext = ["Oh! Otra vez! Puedes consumir nectar demasiado rapido?",
+                              "Si muero asi ahora, recibiras solo una calabaza joven...",
+                              "Crece un poco mas rapido! Seria bueno convertirse en una gran calabaza, �Una calabaza joven no esta buena!",
+                              "Deberian comer todos una calabaza tan pequena? Trae nectar, puedo ser mas!"]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
-            # Третий полив
+            # Tercer riego
             elif npc.getNectar() == 2 :
                 if Rnd.get(2) == 1 :
-                    mytext = ["Tыква, изголодалась! Просит утолить жажду!",
-                              "Ну наконец-то ..., это действительно вкусно! Есть еще?",
-                              "Ухаживаешь за мной только для того, чтобы есть? Отлично, является случайным ваш ..., чтобы не дать манну на самоубийство"]
+                    mytext = ["Calabaza, hambrienta! Pide calmar su sed!",
+                              "Bueno, finalmente... esta realmente delicioso! Hay mas?",
+                              "Cuidarme solo para comer? Genial, el tuyo es aleatorio... para no dar mana suicida"]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
                     npc.addGood()
                 else :
-                    mytext = ["Не воду ли Вы добавляете? Какой вкус?",
-                              "Хозяин, спасите меня... Я не имею аромата нектара, я должна умереть ..."]
+                    mytext = ["Anades agua? Que gusto",
+                              "Maestro, salvame... No tengo el aroma del nectar, tengo que morir..."]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
-            # Четвертый полив
+            # Cuarto riego
             elif npc.getNectar() == 3 :
                 if Rnd.get(2) == 1 :
-                    mytext = ["Очень хорошо, делаешь чрезвычайно хорошо! Знаешь что следующим шагом должен делать?",
-                              "Если Вы поймаете меня, я даю Вам 10 миллионов adena!!! Согласны?"]
+                    mytext = ["Muy bien, muy bien! Sabes cual es el siguiente paso?",
+                              "Si me atrapas, te doy 10 millones de adena!!! Estas de acuerdo?"]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
                     npc.addGood()
                 else :
-                    mytext = ["Я голодна, Tы хочеш чтоб я засохла?",
-                              "Tребую нектар, чтобы расти немного быстрее."]
+                    mytext = ["Tengo hambre Quieres que me seque?",
+                              "Necesito nectar para crecer un poco mas rapido."]
                     npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                     npc.addNectar()
-            # Пятый полив
+            # Quinto riego
             elif npc.getNectar() == 4 :
                 if Rnd.get(2) == 1 :
                     npc.addGood()
@@ -121,42 +122,42 @@ class squash(JQuest) :
                     if npcId == 12774 :
                         newGourd = self.addSpawn(12775,npc)
                         newGourd.setOwner(player.getName())
-                        self.startQuestTimer("Good By", 120000, newGourd, player)   # Через 2 минуты исчезновение
-                        self.startQuestTimer("Good By2", 90000, newGourd, player)   # 30 секунд до исчезновения
-                        self.startQuestTimer("Good By3", 100000, newGourd, player)  # 20 секунд до исчезновения
-                        self.startQuestTimer("Good By4", 110000, newGourd, player)  # 10 секунд до исчезновения
-                        mytext = ["Молодая тыква, жаждящая! Как, уже выросла?",
-                                  "Я убегу через 2 минуты"]
+                        self.startQuestTimer("Good By", 120000, newGourd, player) # Despu�s de 2 minutos, desaparici�n
+                        self.startQuestTimer("Good By2", 90000, newGourd, player)   # 30 segundos para desvanecerse
+                        self.startQuestTimer("Good By3", 100000, newGourd, player)  # 20 segundos para desvanecerse
+                        self.startQuestTimer("Good By4", 110000, newGourd, player)  # 10 segundos para desvanecerse
+                        mytext = ["Joven calabaza, sediento! Como, ya crecido?",
+                                  "Huire en 2 minutos"]
                         npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                         npc.onDecay()
                     else :
                         newGourd = self.addSpawn(12778,npc)
                         newGourd.setOwner(player.getName())
-                        self.startQuestTimer("Good By1", 120000, newGourd, player)  # Через 2 минуты исчезновение
-                        self.startQuestTimer("Good By2", 90000, newGourd, player)   # 30 секунд до исчезновения
-                        self.startQuestTimer("Good By3", 100000, newGourd, player)  # 20 секунд до исчезновения
-                        self.startQuestTimer("Good By4", 110000, newGourd, player)  # 10 секунд до исчезновения
-                        mytext = ["Милосердность является очень хорошей чертой. Tеперь посмотрите, я чувствую себя все более хорошо",
-                                  "Я убегу через 2 минуты"]
+                        self.startQuestTimer("Good By", 120000, newGourd, player) # Despu�s de 2 minutos, desaparici�n
+                        self.startQuestTimer("Good By2", 90000, newGourd, player)   # 30 segundos para desvanecerse
+                        self.startQuestTimer("Good By3", 100000, newGourd, player)  # 20 segundos para desvanecerse
+                        self.startQuestTimer("Good By4", 110000, newGourd, player)  # 10 segundos para desvanecerse
+                        mytext = ["La misericordia es un muy buen rasgo. Ahora mira, me siento cada vez mejor",
+                                  "Huire en 2 minutos"]
                         npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                         npc.onDecay()
                 else :
                     if npcId == 12774 :
                         newGourd = self.addSpawn(12776,npc)
                         newGourd.setOwner(player.getName())
-                        mytext = ["Эй! Была - не была! Есть! Сейчас же! Tы не можешь должным образом заботиться? Я же так сгнию!",
-                                  "Ничего себе, остановки? За что тебя благодарить",
-                                  "Жажду нектара о ...",
-                                  "Вы хотите большую тыкву? Но я хочу остаться маленькой тыковкой ..."]
+                        mytext = ["Oh! Fue - no fue! Hay! Ahora! No puedes tener mas cuidado? Me voy a pudrir!",
+                                  "Wow parando? Por que agradecerte?",
+                                  "Sed de nectar...",
+                                  "Quieres una calabaza grande? Pero quiero quedarme un poco de calabaza..."]
                         npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                         npc.onDecay()
                     if npcId == 12777 :
                         newGourd = self.addSpawn(12779,npc)
                         newGourd.setOwner(player.getName())
-                        mytext = ["Эй! Была - не была! Есть! Сейчас же! Tы не можешь должным образом заботиться? Я так сгнию!",
-                                  "Ничего себе, остановки? За что тебя благодарить",
-                                  "Жажду нектара о ...",
-                                  "Вы хотите большую тыкву? Но я хочу остаться маленькой тыковкой ..."]
+                        mytext = ["Oh! Fue - no fue! Hay! Ahora! No puedes tener mas cuidado? Me voy a pudrir!",
+                                  "Wow parando? Por que agradecerte?",
+                                  "Sed de nectar...",
+                                  "Quieres una calabaza grande? Pero quiero quedarme un poco de calabaza..."]
                         npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
                         npc.onDecay()
         return
@@ -167,15 +168,15 @@ class squash(JQuest) :
         if npcId not in WATERED_SQUASH : return
         if npcId  in self.adultLargeSquash :
             if Rnd.get(30) < 2 :
-                mytext = ["Укусы плетут кружево крысой ..., чтобы заменить ... тело ...!",
-                          "Ха ха, росла! Полностью на всех!",
-                          "Не можете чтоли все прицелиться? Смотрите все, чтобы не сбежала ...",
-                          "Я считаю ваши удары! О, напоминает удар снова!",
-                          "Не тратьте впустую ваше время!",
-                          "Ха, этот звук действительно приятно слышать?",
-                          "Я потребляю ваши атаки, чтобы расти!",
-                          "Время, чтобы ударить снова! Ударь еще разок!",
-                          "Tолько полезная музыка может открыть большую тыкву... Меня нельзя открыть с оружием!"]
+                mytext = ["Las mordeduras son de rata de encaje... para reemplazar... el cuerpo...!",
+                          "Ja, ja, creciendo! Totalmente en absoluto!",
+                          "No se puede apuntar todo? Mira todo para no huir...",
+                          "Cuento tus golpes! Oh, recuerda un golpe otra vez!",
+                          "No pierdas el tiempo!",
+                          "Ja, esta bien escuchar eso?",
+                          "Consumo tus ataques para crecer!",
+                          "Es hora de golpear de nuevo! Golpea una vez mas!",
+                          "Solo la musica util puede abrir una gran calabaza... No puedo abrirme con armas!"]
                 npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
         return
 
@@ -184,14 +185,14 @@ class squash(JQuest) :
         objId = npc.getObjectId()
         if npcId not in WATERED_SQUASH : return
         if npcId in self.adultSmallSquash :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Tыква открывается!!"))
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Ееее! Открывается! Много хороших вещей  ..."))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Calabaza se abre!!"))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Eeee! Abre! Muchas cosas buenas..."))
         elif npcId in self.adultLargeSquash :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Tыква открывается!!"))
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Ееее! Открывается! Много хороших вещей  ..."))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Calabaza se abre!!"))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Eeee! Abre! Muchas cosas buenas..."))
         else :
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"За что, хозяин?!"))
-            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Ой, кишки вывалились!!"))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Por que, maestro?"))
+            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Oh, las tripas se cayeron!"))
         return
 
 QUEST = squash(-1,"group_template","ai")

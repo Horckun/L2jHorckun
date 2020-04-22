@@ -36,7 +36,7 @@ class Quest (JQuest) :
          npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, machine_instance)
          machine_instance.broadcastPacket(SpecialCamera(machine_instance.getObjectId(),1,-200,15,10000,20000))
        else :
-         print "Dr Chaos AI: problem finding Strange Machine (npcid = "+Strange_Machine+"). Error: not spawned!"
+         print "Dr Chaos AI: Problema al encontrar Strange Machine (npcid = "+Strange_Machine+"). Error: No invocado!"
        self.startQuestTimer("2",2000,npc,player)
        self.startQuestTimer("3",10000,npc,player)
        if self.isChaosSpawned == 0 :
@@ -71,8 +71,8 @@ class Quest (JQuest) :
        self.startQuestTimer("1",3000,npc,player)
     return ""
 
-QUEST      = Quest(-1,"Doctor Chaos","ai")
-CREATED     = State('Start',QUEST)
+QUEST = Quest(-1,"Doctor Chaos","ai")
+CREATED = State('Start',QUEST)
 
 QUEST.setInitialState(CREATED)
 

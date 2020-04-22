@@ -20,10 +20,10 @@ class turek_orc_supplier(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"You wont take me down easily."))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"No me derribaras facilmente."))
         else :
            self.FirstAttacked = True
-           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"We shall see about that!"))
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Ya lo veremos!"))
         return 
 
     def onKill (self,npc,player,isPet):
@@ -35,7 +35,7 @@ class turek_orc_supplier(JQuest) :
             self.addSpawn(npcId,npc.getX(), npc.getY(), npc.getZ(),npc.getHeading(),True,0)
         return 
 
-QUEST		= turek_orc_supplier(-1,"turek_orc_supplier","ai")
+QUEST = turek_orc_supplier(-1,"turek_orc_supplier","ai")
 
 CREATED = State('Start', QUEST)
 QUEST.setInitialState(CREATED)

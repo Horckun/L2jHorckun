@@ -1,2 +1,2 @@
 #hehehehe
-print "INFO  Start loading Group template AI"
+print "Cargando plantilla de grupo AI..."
