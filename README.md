@@ -5,6 +5,7 @@ L2jHorckun basado en L2jFrozen
 ----------
 
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\6666_NoblessTrader
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\6667_ClanManager
 
 22/04/2020
 
