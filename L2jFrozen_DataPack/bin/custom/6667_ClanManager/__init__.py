@@ -18,14 +18,14 @@ QuestName   = "ClanManager"
 QuestDesc   = "custom"
 InitialHtml = "66667-1.htm"
 
-print "INFO  Clan Manager (66667) Enabled..."
+#print "INFO  Clan Manager (66667) Enabled..."
 
 class Quest (JQuest) :
 
 	def __init__(self,id,name,descr): JQuest.__init__(self,id,name,descr)
 
 	def onEvent(self,event,st):
-               htmltext = "<html><head><body>I have nothing to say you</body></html>"
+               htmltext = "<html><head><body>No tengo nada que decirte.</body></html>"
                count=st.getQuestItemsCount(REQUESTED_ITEM)
                if event == "66667-clanOk.htm" :
                    if st.getPlayer().isClanLeader() and st.getPlayer().getClan().getLevel()<8:
@@ -56,7 +56,7 @@ class Quest (JQuest) :
                return htmltext
 
 	def onTalk (self,npc,player):
-	   htmltext = "<html><head><body>I have nothing to say you</body></html>"
+	   htmltext = "<html><head><body>No tengo nada que decirte.</body></html>"
            st = player.getQuestState(qn)
            if not st : return htmltext
            npcId = npc.getNpcId()
@@ -64,7 +64,7 @@ class Quest (JQuest) :
            if id == CREATED :
                htmltext="66667-1.htm"
            elif id == COMPLETED :
-               htmltext = "<html><head><body>This quest have already been completed.</body></html>"
+               htmltext = "<html><head><body>Esta busqueda ya se ha completado.</body></html>"
            else :
                st.exitQuest(1)
            return htmltext
