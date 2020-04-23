@@ -7,6 +7,7 @@ L2jHorckun basado en L2jFrozen
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\6666_NoblessTrader
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\6667_ClanManager
 - _init_.py traducido en L2jHorckun\L2jFrozen_DataPack\bin\custom\6999_HeroCirclet
+- Traducido archivo _init_.py de L2jHorckun\L2jFrozen_DataPack\bin\custom\7000_HeroItems
 
 22/04/2020
 
