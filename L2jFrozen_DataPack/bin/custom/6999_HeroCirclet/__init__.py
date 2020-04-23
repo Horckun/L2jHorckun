@@ -14,16 +14,16 @@ class Quest (JQuest) :
 
  def onTalk (Self,npc,player) :
    st = player.getQuestState(qn)
-   htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+   htmltext = "<html><body>No estas en una mision que involucra a este NPC, o no cumples con los requisitos minimos de la mision de este NPC.</body></html>"
    if player.isHero() :
      if st.getQuestItemsCount(6842) :
-       htmltext = "You can't have more than one circlet."
+       htmltext = "No puedes tener más de un círculo."
      else:
        st.giveItems(6842,1)
-       htmltext = "Enjoy your Wings of Destiny Circlet."
+       htmltext = "Disfruta de tu Círculo de alas del destino."
      st.exitQuest(1)
    else :
-     html = "<html><body>Monument of Heroes:<br>You're not a Hero and aren't eligible to receive the Wings of Destiny Circlet. Better luck next time.<br><a action=\"bypass -h npc_%objectId%_Chat 0\">Return</a></body></html>"
+     html = "<html><body>Monumento de los heroes:<br> No eres un heroe y no eres elegible para recibir el Circulo de alas del destino. Mas suerte la proxima vez.<br><a action=\"bypass -h npc_%objectId%_Chat 0\">Volver.</a></body></html>"
      htmltext = html.replace("%objectId%",str(npc.getObjectId()))
      st.exitQuest(1)
    return htmltext
