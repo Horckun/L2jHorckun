@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen
 
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\8001_NpcLocationInfo
 - 31862.htm traducido en L2jHorckun\L2jFrozen_DataPack\bin\custom\8003_MeetBaium
+- Toda la carpeta Custom traducida en L2jHorckun\L2jFrozen_DataPack\bin\custom
 
 23/04/2020
 
