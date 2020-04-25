@@ -45,8 +45,8 @@ class Quest (JQuest) :
     st.exitQuest(1)
     return htmltext
 
-QUEST       = Quest(4000,qn,"Custom")
-CREATED     = State('Start', QUEST)
+QUEST = Quest(4000,qn,"Custom")
+CREATED = State('Start', QUEST)
 
 QUEST.setInitialState(CREATED)
 
