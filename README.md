@@ -1,5 +1,11 @@
 L2jHorckun basado en L2jFrozen
 
+04/05/2020
+
+----------
+
+- Archivos de quest Maestro traducido en L2jHorckun\L2jFrozen_DataPack\bin\quests\100_SagaOfTheMaestro
+
 26/04/2020
 
 ----------
