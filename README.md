@@ -5,6 +5,7 @@ L2jHorckun basado en L2jFrozen
 ----------
 
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\102_FungusFever
+- Archivos traducidos anteriormente y corregidos hoy en L2jHorckun\L2jFrozen_DataPack\bin\quests\10_IntoTheWorld
 
 06/05/2020
 
