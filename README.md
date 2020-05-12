@@ -1,5 +1,11 @@
 L2jHorckun basado en L2jFrozen
 
+12/05/2020
+
+----------
+
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\103_SpiritOfCraftsman
+
 09/05/2020
 
 ----------
