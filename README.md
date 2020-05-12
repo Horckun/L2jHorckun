@@ -5,6 +5,7 @@ L2jHorckun basado en L2jFrozen
 ----------
 
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\103_SpiritOfCraftsman
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\104_SpiritOfMirrors
 
 09/05/2020
 
