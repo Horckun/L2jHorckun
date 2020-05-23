@@ -1,5 +1,11 @@
 L2jHorckun basado en L2jFrozen
 
+23/05/2020
+
+----------
+
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\108_JumbleTumbleDiamondFuss
+
 16/05/2020
 
 ----------
