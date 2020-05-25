@@ -42,21 +42,20 @@ class Quest (JQuest) :
         return htmltext
 
     def onTalk (self,npc,player):
-        htmltext = "<html><head><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<html><head><body>No estas en una mision que involucra a este NPC o no cumples con los requisitos minimos de la mision de este NPC.</body></html>"
         st = player.getQuestState(qn)
         if st :
             npcId = npc.getNpcId()
             cond = st.getInt("cond")
             state = st.getState()
             if state == COMPLETED :
-                htmltext = "<html><body>This quest has already been completed.</body></html>"
+                htmltext = "<html><body>Esta busqueda ya se ha completado.</body></html>"
             elif state == CREATED :
                 if st.getPlayer().getLevel() >= 66 and npcId == Pierce and (st.getQuestItemsCount(Golden_Badge_Recruit) > 0 or st.getQuestItemsCount(Golden_Badge_Soldier) > 0) :
                     st.setState(STARTED)
                     st.playSound("ItemSound.quest_accept")
                     st.set("cond","1")
-                    htmltext = "<html><body>Mercenary Captain Pierce:<br>I sent out a scout a while ago, and he hasn't reported back yet. \
-                    Please follow his trail and discover his fate.</body></html>" #this is custom, if someone knows this html from retail, please contribute it.
+                    htmltext = "<html><body><font color='LEVEL'>Capitan mercenario Pierce:</font><br><br>Envie un explorador hace un tiempo, y aun no ha informado. Por favor, siga su rastro y descubra su destino.</body></html>" #this is custom, if someone knows this html from retail, please contribute it.
                 else :
                     htmltext = "31553-00.htm"
                     st.exitQuest(1)
@@ -66,14 +65,14 @@ class Quest (JQuest) :
                     if cond == 1 :
                         htmltext = "32015-01.htm"
                     elif cond == 2 :
-                        htmltext = "<html><body>This is nothing else here. Maybe you should take that memo to Pierce?</body></html>"#again, custom, see note above
+                        htmltext = "<html><body>Esto no es nada mas aqui. Quizas deberias llevarle ese memo a Pierce?</body></html>"#again, custom, see note above
                 elif npcId == Pierce :
                     if cond == 1 :
-                        htmltext = "<html><body>Mercenary Captain Pierce:<br>Please find my scout!</body></html>"#custom
+                        htmltext = "<html><body><font color='LEVEL'>Capitan mercenario Pierce:</font><br><br>Por favor encuentra mi explorador!</body></html>"#custom
                     elif cond == 2 :
                         htmltext = "31553-01.htm"
                     elif cond == 3 :
-                        htmltext = "<html><body>Mercenary Captain Pierce:<br>Thanks for your help. See Kahman for your reward!</body></html>"#custom
+                        htmltext = "<html><body><font color='LEVEL'>Capitan mercenario Pierce:</font><br><br>Gracias por tu ayuda. Ve a ver a Kahman para su recompensa!</body></html>"#custom
                 elif npcId == Kahman and cond == 3 :
                     htmltext = "31554-01.htm"
                     st.giveItems(57,25461)
