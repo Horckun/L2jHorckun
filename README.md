@@ -1,5 +1,11 @@
 L2jHorckun basado en L2jFrozen
 
+29/05/2020
+
+----------
+
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\11_SecretMeetingWithKetraOrcs
+
 25/05/2020
 
 ----------
