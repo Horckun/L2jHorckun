@@ -41,14 +41,14 @@ class Quest (JQuest) :
     st = player.getQuestState(qn)
     if not st : return htmltext    
     npcId=npc.getNpcId()
-    htmltext="<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+    htmltext="<html><body>O no estas llevando a cabo tu mision o no cumples con los criterios.</body></html>" 
     id = st.getState()
     if id == CREATED :
       if st.getPlayer().getLevel() >= 75 :
         htmltext = "0.htm"
       else:
         st.exitQuest(1)
-        htmltext = "<html><body>This quest can only be taken by characters that have a minimum level of 75. Return when you are more experienced.</body></html>"
+        htmltext = "<html><body>Esta mision solo puede ser realizada por personajes que tengan un nivel minimo de 75. Regresa cuando tengas mas experiencia.</body></html>"
     elif id == STARTED:
       cond = int(st.get("cond"))
       if npcId == MARQUEZ :
@@ -59,7 +59,7 @@ class Quest (JQuest) :
             htmltext = "2.htm"
     elif id == COMPLETED:
       st.exitQuest(0)
-      htmltext = "<html><body>This quest have already been completed.</body></html>"
+      htmltext = "<html><body>Esta busqueda ya se ha completado.</body></html>"
     return htmltext    
 
 QUEST=Quest(110,qn,"To The Primeval Isle")
