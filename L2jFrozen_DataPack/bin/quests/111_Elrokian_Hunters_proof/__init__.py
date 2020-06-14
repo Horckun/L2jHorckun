@@ -25,14 +25,14 @@ class Quest (JQuest) :
      self.questItemIds = [FRAGMENT]
  
  def onTalk (self,npc,player):
-     htmltext = "<html><body>This quest can only be undertaken by a party of level 75 or higher. Only the party leader may talk to the quest NPCs.</body></html>"
+     htmltext = "<html><body>Esta mision solo puede ser realizada por un grupo de nivel 75 o superior. Solo el líder del grupo puede hablar con los NPC de busqueda.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
      npcId = npc.getNpcId()
      id = st.getState()
      cond = st.getInt("cond")
      if id == COMPLETED :
-         htmltext = "<html><body>This quest has already been completed.</body></html>"
+         htmltext = "<html><body>Esta busqueda ya se ha completado.</body></html>"
      else :
          party = st.getPlayer().getParty()
          if party :
