@@ -38,14 +38,14 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):        
-    htmltext = "<html><head><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><head><body>O no estas en una mision que involucra a este personaje, o no cumples con los requisitos minimos de busqueda de este personaje.</body></html>"
     st = player.getQuestState(qn)
     if not st : return htmltext
     state = st.getState()
     npcId = npc.getNpcId()
     cond = st.getInt("cond")
     if state == COMPLETED :
-        htmltext = "<html><body>This quest has already been completed.</body></html>"
+        htmltext = "<html><body>Esta busqueda ya se ha completado.</body></html>"
     elif state == CREATED :
         if npcId == Livina :
             if player.getLevel() >= 20 :
