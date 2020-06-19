@@ -1,5 +1,11 @@
 L2jHorckun basado en L2jFrozen
 
+19/06/2020
+
+----------
+
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\112_WalkOfFate
+
 14/06/2020
 
 ----------
