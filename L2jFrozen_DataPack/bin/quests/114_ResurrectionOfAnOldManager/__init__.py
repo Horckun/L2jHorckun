@@ -39,7 +39,7 @@ class Quest (JQuest) :
              st.takeItems(Detector,1)
              st.giveItems(Detector2,1)
              st.set("cond","18")
-             return "The radio signal detector is responding. # A suspicious pile of stones catches your eye."
+             return "El detector de senal de radio esta respondiendo. # Una pila sospechosa de piedras llama tu atencion."
     return
 
  def onEvent(self, event, st):
@@ -142,7 +142,7 @@ class Quest (JQuest) :
     elif event == "32047-15a.htm" :
        if self.isSpawned == 0 :
           golem = st.addSpawn(Guardian,96977,-110625,-3280,0,False,900000)
-          golem.broadcastPacket(CreatureSay(golem.getObjectId(),0,golem.getName(),"You, "+st.getPlayer().getName()+", you attacked Wendy. Prepare to die!"))
+          golem.broadcastPacket(CreatureSay(golem.getObjectId(),0,golem.getName(),"Tu, "+st.getPlayer().getName()+", atacaste a Wendy. Preparate para morir!"))
           golem.setRunning()
           golem.addDamageHate(player,0,999)
           golem.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player)
@@ -199,12 +199,12 @@ class Quest (JQuest) :
            st.takeItems(Detector,1)
            st.giveItems(Detector2,1)
            st.set("cond","18")
-           return "The radio signal detector is responding. # A suspicious pile of stones catches your eye."
+           return "El detector de senal de radio esta respondiendo. # Una pila sospechosa de piedras llama tu atencion."
     npc.showChatWindow(player)
     return None
 
  def onTalk (self,npc,player):
-    htmltext = "<html><head><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><head><body>O no estas en una mision que involucra a este personaje, o no cumples con los requisitos minimos de busqueda de este personaje.</body></html>"
     st = player.getQuestState(qn)
     if not st : return htmltext
     state = st.getState()
@@ -213,7 +213,7 @@ class Quest (JQuest) :
     talk = st.getInt("talk")
     talk1 = st.getInt("talk1")
     if state == COMPLETED :
-       htmltext = "<html><body>This quest has already been completed.</body></html>"
+       htmltext = "<html><body>Esta busqueda ya se ha completado.</body></html>"
     elif npcId == Yumi :
        if state == CREATED :
           Pavel = player.getQuestState("121_PavelTheGiants")
@@ -348,7 +348,7 @@ class Quest (JQuest) :
     npcId = npc.getNpcId()
     if st.getState() == STARTED and st.getInt("cond") == 10:
        if npcId == Guardian :
-          npc.broadcastPacket(CreatureSay(npc.getObjectId(),0,npc.getName(),"This enemy is far too powerful for me to fight. I must withdraw"))
+          npc.broadcastPacket(CreatureSay(npc.getObjectId(),0,npc.getName(),"Este enemigo es demasiado poderoso para que pelee. Debo retirarme."))
           st.set("cond","11")
           st.playSound("ItemSound.quest_middle")
     return
