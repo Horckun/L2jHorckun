@@ -74,7 +74,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_middle")
        st.set("cond","9")
        man = st.addSpawn(Suspicious,104562,-107598,-3688,0,False,4000)
-       man.broadcastPacket(CreatureSay(man.getObjectId(),0,man.getName(),"We meet again."))
+       man.broadcastPacket(CreatureSay(man.getObjectId(),0,man.getName(),"Nos encontremos de nuevo."))
        self.startQuestTimer("2",3700,man,player)
        st.giveItems(Report,1)
     elif event == "Sculpture-04.htm" :
@@ -85,7 +85,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_middle")
        st.set("cond","8")
        man = st.addSpawn(Suspicious,117890,-126478,-2584,0,False,4000)
-       man.broadcastPacket(CreatureSay(man.getObjectId(),0,man.getName(),"This looks like the right place..."))
+       man.broadcastPacket(CreatureSay(man.getObjectId(),0,man.getName(),"Este parece el lugar correcto..."))
        self.startQuestTimer("1",3700,man,player)
        htmltext = "Sculpture-04.htm"
        if st.getInt(str(Sculpture1)) == 0 and st.getInt(str(Sculpture2)) == 0:
@@ -93,20 +93,20 @@ class Quest (JQuest) :
     elif event == "Sculpture-05.htm" :
        st.set(str(npc.getNpcId()),"1")
     elif event == "1" :
-       npc.broadcastPacket(CreatureSay(npc.getObjectId(),0,npc.getName(),"I see someone. Is this fate?"))
+       npc.broadcastPacket(CreatureSay(npc.getObjectId(),0,npc.getName(),"Veo a alguien. Es este el destino?"))
     elif event == "2" :
-       npc.broadcastPacket(CreatureSay(npc.getObjectId(),0,npc.getName(),"Don't bother trying to find out more about me. Follow your own destiny."))
+       npc.broadcastPacket(CreatureSay(npc.getObjectId(),0,npc.getName(),"No se moleste en intentar averiguar mas sobre mi. Sigue tu propio destino."))
     return htmltext
 
  def onTalk (self,npc,player):
-    htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><body>O no estas en una mision que involucra a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
     st = player.getQuestState(qn)
     if not st : return htmltext
     state = st.getState()
     npcId = npc.getNpcId()
     cond = st.getInt("cond")
     if state == COMPLETED :
-       htmltext = "<html><body>This quest has already been completed.</body></html>"
+       htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
     elif npcId == Rafforty :
        if state == CREATED :
           if st.getPlayer().getLevel() >= 53 :
