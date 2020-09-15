@@ -68,11 +68,11 @@ class Quest (JQuest) :
 			st.playSound("ItemSound.quest_finish")
 			st.exitQuest(False)
 		else :
-			htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+			htmltext = "<html><body>O no estas en una mision que involucra a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
 		return htmltext
 		
 	def onTalk (self, npc, player) :
-		htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+		htmltext = "<html><body>O no estas en una mision que involucra a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
 		st = player.getQuestState(qn)
 		if not st : return htmltext
 		
@@ -80,7 +80,7 @@ class Quest (JQuest) :
 		id = st.getState()
 		cond = st.getInt("cond")
 		if id == COMPLETED :
-			htmltext = "<html><body>This quest has already been completed.</body></html>"
+			htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
 		elif npcId == FILAUR :
 			if cond == 0 :
 				if player.getLevel() >= 30 :
