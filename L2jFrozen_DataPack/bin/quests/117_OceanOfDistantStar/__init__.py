@@ -66,14 +66,14 @@ class Quest (JQuest) :
     st = player.getQuestState(qn)
     if not st : return htmltext    
     npcId=npc.getNpcId()
-    htmltext="<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+    htmltext="<html><body>O no esta llevando a cabo su busqueda o no cumple con los criterios.</body></html>"
     id = st.getState()
     if id == CREATED and npcId == ABEY :
       if st.getPlayer().getLevel() >= 39 :
         htmltext = "0.htm" #event 1
       else:
         st.exitQuest(1)
-        htmltext = "<html><body>This quest can only be taken by characters that have a minimum level of 39. Return when you are more experienced.</body></html>"
+        htmltext = "<html><body>Esta mision solo puede ser realizada por personajes que tengan un nivel minimo de 39. Regresa cuando tengas mas experiencia.</body></html>"
     elif id == STARTED :
       cond = int(st.get("cond"))
       if npcId == GHOST :
@@ -102,7 +102,7 @@ class Quest (JQuest) :
       if npcId == GHOST_F and cond == 10 :
             htmltext = "9.htm" #link to 9a.htm so link to event 10
     elif id == COMPLETED:
-      htmltext = "<html><body>This quest has already been completed.</body></html>"
+      htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
     return htmltext
 
   def onKill(self,npc,player,isPet):
