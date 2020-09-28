@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen
 
+28/09/2020
+----------
+- Archivo traducido en L2jHorckun\L2jFrozen_DataPack\bin\quests\118_ToLeadAndBeLed
+
 24/09/2020
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\117_OceanOfDistantStar
