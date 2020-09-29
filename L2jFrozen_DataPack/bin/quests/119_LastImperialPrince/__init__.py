@@ -30,7 +30,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_accept")
     elif event == "32009-2.htm" :
        if st.getQuestItemsCount(BROOCH) < 1 :
-          htmltext = "<html><body>Quest <font color=\"LEVEL\">Four Goblets</font> is not accomplished or the condition is not suitable.</body></html>"
+          htmltext = "<html><body>La mision <font color=\"LEVEL\">Cuatro copas</font> no se ha cumplido o la condicion no es adecuada.</body></html>"
           st.exitQuest(1)
     elif event == "32009-3.htm" :
        st.set("cond","2")
@@ -43,22 +43,22 @@ class Quest (JQuest) :
 
   def onTalk (Self,npc,player):
     st = player.getQuestState(qn)
-    htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><body>O no estas en una mision que involucra a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
     if not st: return htmltext
     cond = st.getInt("cond")
     npcId = npc.getNpcId()
     id = st.getState()
     if st.getQuestItemsCount(BROOCH) < 1 :
-       htmltext = "<html><body>Quest <font color=\"LEVEL\">Four Goblets</font> is not accomplished or the condition is not suitable.</body></html>"
+       htmltext = "<html><body>La mision <font color=\"LEVEL\">Cuatro copas</font> no se ha cumplido o la condicion no es adecuada.</body></html>"
        st.exitQuest(1)
     elif id == CREATED :
        if player.getLevel() < 74 :
-          htmltext = "<html><body>Quest for characters level 74 and above.</body></html>"
+          htmltext = "<html><body>Busqueda de personajes de nivel 74 y superior.</body></html>"
           st.exitQuest(1)
        else :
           htmltext = "31453-1.htm"
     elif id == COMPLETED :
-       htmltext = "<html><body>This quest has already been completed.</body></html>"
+       htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
     elif npcId == SPIRIT :
        if cond == 1 :
           htmltext = "31453-4.htm"
