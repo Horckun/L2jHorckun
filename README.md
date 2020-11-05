@@ -1,5 +1,8 @@
 L2jHorckun basado en L2jFrozen
 
+05/11/2020
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\120_PavelsResearch
+
 30/09/2020
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\12_SecretMeetingWithVarkaSilenos
