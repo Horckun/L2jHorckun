@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+09/11/2020
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\122_OminousNews
+
 06/11/2020
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\121_PavelTheGiants
