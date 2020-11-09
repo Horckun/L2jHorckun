@@ -10,7 +10,7 @@ qn = "122_OminousNews"
 MOIRA = 31979
 KARUDA = 32017
 
-default="<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+default="<html><body>O no estaa llevando a cabo su busqueda o no cumples con los criterios.</body></html>"
 
 class Quest (JQuest) :
 
@@ -46,7 +46,7 @@ class Quest (JQuest) :
    id = st.getState()
    cond = st.getInt("cond")
    if id == COMPLETED :
-      htmltext="<html><body>This quest have already been completed</body></html>"
+      htmltext="<html><body>Esta mision ya ha sido completada</body></html>"
    elif npcId == MOIRA :
       if cond == 0 :
          if player.getLevel()>=20 :
