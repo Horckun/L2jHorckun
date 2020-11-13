@@ -74,7 +74,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
    npcId = npc.getNpcId()
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo su busqueda o no cumples con los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
@@ -85,7 +85,7 @@ class Quest (JQuest) :
      st.exitQuest(1)
    elif player.getPledgeType() == -1 :
      if id==COMPLETED:
-       htmltext = "<html><body>This quest has already been completed.</body></html>" 
+       htmltext = "<html><body>Esta mision ya se ha completado.</body></html>" 
      elif player.getLevel() < 19 or not player.getSponsor() :
        htmltext = "31961-00.htm"
        st.exitQuest(1)
