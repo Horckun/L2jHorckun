@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+17/12/2020
+----------
+- Archivos traducidos y corrección de sintaxis en L2jHorckun\L2jFrozen_DataPack\bin\quests\126_TheNameofEvilPart2
+
 08/12/2020
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\125_TheNameofEvilPart1
