@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+25/12/2020
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\136_MoreThanMeetsTheEye
+
 18/12/2020
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\13_ParcelDelivery
