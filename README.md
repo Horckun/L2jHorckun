@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+20/01/2020
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\139_ShadowFoxPart1
+
 13/01/2020
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\138_TempleChampionPart2
