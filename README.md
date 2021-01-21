@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+21/01/2020
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\14_WhereaboutsOfTheArchaeologist
+
 20/01/2020
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\139_ShadowFoxPart1
