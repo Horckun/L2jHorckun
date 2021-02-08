@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+08/02/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\141_ShadowFoxPart3
+
 03/02/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\140_ShadowFoxPart2
