@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+22/02/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\15_SweetWhisper
+
 19/02/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\143_FallenAngelRequestOfDusk
