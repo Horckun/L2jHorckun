@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+25/02/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\151_SaveMySister1
+
 22/02/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\15_SweetWhisper
