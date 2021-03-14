@@ -1,5 +1,13 @@
 L2jHorckun basado en L2jFrozen:
 
+14/03/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\154_SacrificeToSea
+
+08/03/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\153_WharfOldtimersFavor
+
 01/03/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\152_ShardsOfGolem
