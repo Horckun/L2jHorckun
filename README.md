@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+20/03/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\158_SeedOfEvil
+
 19/03/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\157_RecoverSmuggled
