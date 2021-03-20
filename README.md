@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 20/03/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\158_SeedOfEvil
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\159_ProtectHeadsprings
 
 19/03/2021
 ----------
