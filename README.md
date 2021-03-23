@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+23/03/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\160_NerupasFavor
+
 22/03/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\16_TheComingDarkness
