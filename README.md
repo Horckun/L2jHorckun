@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+25/03/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\162_CurseOfFortress
+
 24/03/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\161_FruitsOfMothertree
