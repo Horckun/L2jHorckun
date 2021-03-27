@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+27/03/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\166_DarkMass
+
 26/03/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\164_BloodFiend
