@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+30/03/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\167_DwarvenKinship
+
 27/03/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\166_DarkMass
