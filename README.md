@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+05/04/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\17_LightAndDarkness
+
 02/04/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\169_NightmareChildren
