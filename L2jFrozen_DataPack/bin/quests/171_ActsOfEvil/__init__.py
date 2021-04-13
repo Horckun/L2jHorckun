@@ -55,7 +55,7 @@ class Quest (JQuest) :
      return htmltext
 
  def onTalk (self,npc,player):
-     htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+     htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
 
@@ -71,7 +71,7 @@ class Quest (JQuest) :
                htmltext = "30381-01a.htm"
                st.exitQuest(1)
          elif id == COMPLETED :
-             htmltext = "<html><body>This quest has already been completed!</body></html>"
+             htmltext = "<html><body>Esta mision ya ha sido completada!</body></html>"
          elif cond==1 :
              htmltext = "30381-02a.htm"
          elif cond==4 :
