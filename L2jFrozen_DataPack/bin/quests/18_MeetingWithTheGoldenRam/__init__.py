@@ -43,13 +43,13 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
      npcId = npc.getNpcId()
-     htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+     htmltext = "<html><body>O no esta llevando a cabo su busqueda o no cumples con los criterios.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
      id = st.getState()
      cond = st.getInt("cond")
      if id == COMPLETED :
-       htmltext = htmltext = "<html><body>This quest has already been completed.</body></html>"
+       htmltext = htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
      elif id == CREATED and npcId == DONAL :
        htmltext = "31314-01.htm"
      elif id == STARTED :
