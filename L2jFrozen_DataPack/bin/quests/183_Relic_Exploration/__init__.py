@@ -51,7 +51,7 @@ class Quest (JQuest) :
         return htmltext
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<html><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
@@ -59,14 +59,14 @@ class Quest (JQuest) :
         cond = st.getInt("cond")
         if id == COMPLETED :
             if npcId == Kusto :
-                htmltext = "<html><body>This quest has already been completed.</body></html>"
+                htmltext = "<html><body>Esta mision ya ha sido completada.</body></html>"
             elif npcId == Nikola :
                 qs1 = player.getQuestState("184_Nikolas_Cooperation_Contract")
                 qs2 = player.getQuestState("185_Nikolas_Cooperation_Consideration")
                 if not qs1 and not qs2 :
                     htmltext = "30621-03.htm"
                 else :
-                    htmltext = "<html><body>This quest has already been completed.</body></html>"
+                    htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
         elif npcId == Kusto :
             if id == CREATED :
                 if player.getLevel() < 40 :
