@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+27/04/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\183_Relic_Exploration
+
 25/04/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\18_MeetingWithTheGoldenRam
