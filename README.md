@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+09/05/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\187_Nikolas_Heart
+
 02/05/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\186_Contract_Execution
