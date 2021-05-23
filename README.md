@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+23/05/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\188_Seal_Removal
+
 09/05/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\187_Nikolas_Heart
