@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+29/05/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\189_Contract_Completion
+
 23/05/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\188_Seal_Removal
