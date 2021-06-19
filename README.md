@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+19/06/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\2_WhatWomenWant1
+
 05/06/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\191_Vain_Conclusion
