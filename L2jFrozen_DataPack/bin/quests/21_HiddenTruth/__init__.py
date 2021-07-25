@@ -44,10 +44,10 @@ class Quest (JQuest) :
                 st.giveItems(7141,1)
             st.playSound("ItemSound.quest_finish")
             st.startQuestTimer("timer",1)
-            htmltext = "Congratulations! You are completed this quest!"     + \
-                       " \n The Quest \"Tragedy In Von Hellmann Forest\""   + \
-                       " become available.\n Show Cross of Einhasad to High"+ \
-                       " Priest Tifaren."
+            htmltext = "Felicidades! Has completado esta mision!"     + \
+                       " \n La busqueda \"Tragedia en el bosque de Von Hellmann\""   + \
+                       " volverse disponible.\n Mostrar la cruz de Einhasad a lo alto"+ \
+                       " Sacerdote Tifaren."
         elif event == "31523-03.htm" :
             st.playSound("SkillSound5.horror_02")
             st.playSound("ItemSound.quest_middle")
@@ -93,7 +93,7 @@ class Quest (JQuest) :
         return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo su busqueda o no cumples con los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
@@ -112,7 +112,7 @@ class Quest (JQuest) :
            htmltext = "31522-03.htm"
            st.exitQuest(1)
        else:
-         htmltext = "This quest have already been completed."
+         htmltext = "Esta mision ya se ha completado."
      elif cond == 1:
        htmltext = "31522-05.htm"       
    elif npcId == 31523 :
