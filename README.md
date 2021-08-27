@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+27/08/2021
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\212_TrialOfDuty
+
 25/07/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\21_HiddenTruth
