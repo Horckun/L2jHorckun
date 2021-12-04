@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+04/12/2021
+----------
+- Archivos traducidos y corregidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\215_TrialOfPilgrim
+
 23/10/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\214_TrialOfScholar
