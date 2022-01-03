@@ -86,7 +86,7 @@ class Quest (JQuest) :
 
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
@@ -109,7 +109,7 @@ class Quest (JQuest) :
          st.exitQuest(1)
    elif id == COMPLETED :                                  # Check if the quest is already made
       if npcId == 30191 :
-        htmltext = "<html><body>This quest has already been completed.</body></html>"
+        htmltext = "<htm><body>Esta mision ya se ha completado.</body></htm>"
    else :                                                  # The quest it self
      try :
        cond = st.getInt("cond")
@@ -268,7 +268,7 @@ class Quest (JQuest) :
          st.playSound("Itemsound.quest_before_battle")
          st.addSpawn(27120,9410,50301,-3713,600000)   ### FIXME ### Temp fix for spawn
          st.addRadar(9410,50301,-3713)
-         return "Luell Of Zephyr Winds has spawned at X=9410 Y=50301 Z=-3713"
+         return "Los vientos de Luell de Zephyr han aparecido en X=9410 Y=50301 Z=-3713"
 #         st.addSpawn(27120)                   # The original spawn code
      elif npcId in [ 20013,20019 ] and st.getQuestItemsCount(SEED_OF_VERDURE_ID) == 0 :
        st.set("id",str(st.getInt("id")+1))
@@ -276,7 +276,7 @@ class Quest (JQuest) :
          st.playSound("Itemsound.quest_before_battle")
          st.addSpawn(27121,16895,47210,-3673,600000)  ### FIXME ### Temp fix for spawn
          st.addRadar(16895,47210,-3673)
-         return "Actea Of Verdant Wilds has spawned at X=16895 Y=47210 Z=-3673"
+         return "Actea de Verdant Wilds ha aparecido en X=16895 Y=47210 Z=-3673"
 #         st.addSpawn(27121)                   # The original spawn code
    elif cond == 14 :                                       # Condition 14 get 10 Parasite of lota
      parasite = st.getQuestItemsCount(PARASITE_OF_LOTA_ID)
