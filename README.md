@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+03/01/2022
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\217_TestimonyOfTrust
+
 24/12/2021
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\216_TrialOfGuildsman
