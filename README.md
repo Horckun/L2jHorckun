@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+25/01/2022
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\219_TestimonyOfFate
+
 14/01/2022
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\218_TestimonyOfLife
