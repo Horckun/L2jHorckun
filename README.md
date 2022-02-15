@@ -1,6 +1,7 @@
 L2jHorckun basado en L2jFrozen:
 
 15/02/2022
+----------
 - Archivos traducidos enL2jFrozen_DataPack\bin\quests\117_OceanOfDistantStar
 
 25/01/2022
