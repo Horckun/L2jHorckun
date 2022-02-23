@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+23/02/2022
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\211_TrialOfChallenger
+
 15/02/2022
 ----------
 - Archivos traducidos enL2jFrozen_DataPack\bin\quests\117_OceanOfDistantStar
