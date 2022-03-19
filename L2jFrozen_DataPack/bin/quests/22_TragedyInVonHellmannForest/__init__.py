@@ -139,7 +139,7 @@ class Quest (JQuest) :
    elif event == "Despawn Ghost Priest 2" :
        npc.reduceCurrentHp(9999999,npc)
        self.tifaren = 0
-       AutoChat(npc,"My train of thought is chaotic. It goes back to the beginning of time...")
+       AutoChat(npc,"Mi linea de pensamiento es caotica. Se remonta al principio de los tiempos...")
        if st.getQuestTimer("Despawn Ghost Priest") :
            st.getQuestTimer("Despawn Ghost Priest").cancel()
        return
@@ -154,7 +154,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
    st = player.getQuestState(qn)
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+   htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>" 
    if not st: return htmltext
    npcId = npc.getNpcId()
    state = st.getState()
@@ -163,7 +163,7 @@ class Quest (JQuest) :
    cond = st.getInt("cond") 
    onlyone = st.getInt("onlyone")
    if state == COMPLETED :
-       htmltext = "<html><body>This quest has already been completed.</body></html>"
+       htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
    elif npcId == INNOCENTIN :
        if state == CREATED :
            st2 = player.getQuestState("21_HiddenTruth")
