@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+13/07/2022
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\224_TestOfSagittarius
+
 25/06/2022
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\223_TestOfChampion
