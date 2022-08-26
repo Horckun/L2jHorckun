@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+26/08/2022
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\226_TestOfHealer
+
 24/07/2022
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\225_TestOfSearcher
