@@ -79,12 +79,12 @@ class Quest (JQuest) :
         return htmltext
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<htm><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></htm>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         state = st.getState()
         if state == COMPLETED :
-            htmltext = "<html><body>This quest has already been completed.</body></html>"
+            htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
         npcId = npc.getNpcId()
         cond = st.getInt("cond")
         if npcId == Innocentin :
@@ -153,13 +153,13 @@ class Quest (JQuest) :
                     st.exitQuest(False)
                     st.playSound("ItemSound.quest_finish")
                 else:
-                    htmltext = "You have no Silver Spear..."
+                    htmltext = "No tienes lanza de plata..."
         elif npcId == Box:
             if cond == 9 :
                 if st.getQuestItemsCount(SilverKey) != 0:
                     htmltext = "31530-01.htm"
                 else:
-                    htmltext = "You have no key..."
+                    htmltext = "No tienes llave..."
             elif cond == 10 :
                 htmltext = "31386-03.htm"
         return htmltext
