@@ -1,9 +1,5 @@
-Jython scripts added in the custom folder define quests and/or AI that are not normally part of 
-the original Lineage 2 game.
+Los scripts Jython agregados en la carpeta personalizada definen misiones y/o IA que normalmente no forman parte del juego original de Lineage 2.
 
-In addition, "custom" is sometimes used as a temporary implementation of aspects of the original
-game that are not yet fully implementable by L2J.  In this manner, partially accurate emulation
-may be offered until a better method is implemented.
+Además, "personalizado" a veces se usa como una implementación temporal de aspectos del juego original que aún no es completamente implementable por L2J. De esta manera, emulación parcialmente precisa se puede ofrecer hasta que se implemente un mejor método.
 
-The mechanics and syntax of custom scripts are the same as all quest scripts.  For more
-details, please see "jscript/quests/documentation.txt"
+La mecánica y la sintaxis de los scripts personalizados son los mismos que todos los scripts de búsqueda. Para más detalles, consulte "jscript/quests/documentation.txt".

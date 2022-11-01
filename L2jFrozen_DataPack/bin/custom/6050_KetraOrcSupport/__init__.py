@@ -65,7 +65,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onFirstTalk (self,npc,player):
-    htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+    htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples con los criterios.</body></html>"
     st = player.getQuestState(qn)
     if not st :
         st = self.newQuestState(player)
@@ -133,9 +133,9 @@ class Quest (JQuest) :
             htmltext = "31376-3.htm"
     return htmltext
 
-QUEST       = Quest(6050, qn, "custom")
-CREATED     = State('Start', QUEST)
-STARTED     = State('Started', QUEST)
+QUEST = Quest(6050, qn, "custom")
+CREATED = State('Start', QUEST)
+STARTED = State('Started', QUEST)
 
 QUEST.setInitialState(CREATED)
 for i in NPCS:

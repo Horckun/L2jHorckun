@@ -87,8 +87,8 @@ class Quest (JQuest) :
    return "30598.htm"
 
 QUEST = Quest(-1,qn,"custom")
-CREATED     = State('Start', QUEST)
-STARTED     = State('Started', QUEST)
+CREATED = State('Start', QUEST)
+STARTED = State('Started', QUEST)
 
 QUEST.setInitialState(CREATED)
 
