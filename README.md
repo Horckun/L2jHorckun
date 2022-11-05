@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+05/10/2022
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\231_TestOfMaestro
+
 01/10/2022
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\230_TestOfSummoner
