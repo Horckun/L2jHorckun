@@ -136,11 +136,8 @@ class Quest (JQuest) :
       st.setState(COMPLETED)
       st.playSound("ItemSound.quest_finish")
     return htmltext
-
-
-
   def onTalk (self,npc,player):
-    htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
     st = player.getQuestState(qn)
     if not st : return htmltext
 
@@ -166,7 +163,7 @@ class Quest (JQuest) :
       return htmltext
     # if quest is already completed
     elif id == COMPLETED:
-      return "<html><body>This quest has already been completed.</body></html>"
+      return "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
     # if quest is accepted and in progress
     elif id == PART1:
         step=st.getInt("step")
