@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+20/11/2022
+----------
+- Archivos modificados en L2jHorckun\L2jFrozen_DataPack\bin\quests\1_LettersOfLove1
+
 12/11/2022
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\232_TestOfLord
