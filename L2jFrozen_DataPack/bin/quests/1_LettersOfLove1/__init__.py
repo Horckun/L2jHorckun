@@ -37,7 +37,7 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
    st = player.getQuestState(qn)
-   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples con los criterios.</body></html>" 
+   htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>" 
    if not st: return htmltext
 
    npcId = npc.getNpcId()
@@ -63,10 +63,10 @@ class Quest (JQuest) :
          htmltext = "30048-01.htm" 
          st.exitQuest(1) 
      else: 
-       htmltext = "<html><body>Busqueda de personajes de nivel 2 y superior.</body></html>" 
+       htmltext = "<htm><body>Busqueda de personajes de nivel 2 y superior.</body></htm>" 
        st.exitQuest(1) 
    elif npcId == DARIN and cond == 0 and onlyone == 1 : 
-     htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
+     htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
    elif id == STARTED :
        if npcId == ROXXY and cond and onlyone == 0: 
          if ItemsCount_RK == 0 and ItemsCount_DL : 
@@ -129,4 +129,4 @@ QUEST.addTalkId(BAULRO)
 STARTED.addQuestDrop(DARIN,DARINGS_LETTER,1) 
 STARTED.addQuestDrop(DARIN,RAPUNZELS_KERCHIEF,1) 
 STARTED.addQuestDrop(DARIN,DARINGS_RECEIPT,1) 
-STARTED.addQuestDrop(DARIN,BAULS_POTION,1)
+STARTED.addQuestDrop(DARIN,BAULS_POTION,1) 
