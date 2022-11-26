@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 26/11/2022
 ----------
 - Archivos modificados en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template
+- Archivos modificados en L2jHorckun\L2jFrozen_DataPack\data\scripts\ai\individual
 
 20/11/2022
 ----------
