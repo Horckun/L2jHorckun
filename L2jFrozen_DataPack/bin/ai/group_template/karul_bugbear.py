@@ -20,11 +20,19 @@ class karul_bugbear(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(4) : return
+<<<<<<< Updated upstream
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Su parte trasera está prácticamente desprotegida!"))
         else :
            self.FirstAttacked = True
            if Rnd.get(4) : return
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Vigila tu espalda!"))
+=======
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Su parte trasera esta practicamente desprotegida!"))
+        else :
+           self.FirstAttacked = True
+           if Rnd.get(4) : return
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Vigila tu espalda!"))
+>>>>>>> Stashed changes
         return 
 
     def onKill (self,npc,player,isPet):

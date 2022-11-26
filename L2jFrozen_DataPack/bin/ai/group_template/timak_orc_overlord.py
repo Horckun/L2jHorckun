@@ -20,7 +20,11 @@ class timak_orc_overlord(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(50) : return
+<<<<<<< Updated upstream
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡¡¡Querido poder supremo!!!"))
+=======
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Querido poder supremo!!!"))
+>>>>>>> Stashed changes
         else :
            self.FirstAttacked = True
         return 

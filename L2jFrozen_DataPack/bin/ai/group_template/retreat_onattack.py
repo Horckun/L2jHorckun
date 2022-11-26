@@ -20,7 +20,11 @@ class retreat_onattack(JQuest) :
                 }
         # made a second dictionary for the texts
         self.MobTexts ={
+<<<<<<< Updated upstream
                 20058: ["Vuelvo enseguida", "Eres más fuerte de lo esperado"] # I don't recall the retail text they say, so I made custom ones to test it
+=======
+                20058: ["Vuelvo enseguida", "Eres mas fuerte de lo esperado"] # I don't recall the retail text they say, so I made custom ones to test it
+>>>>>>> Stashed changes
                 }
         # finally, don't forget to call the parent constructor to prepare the event triggering
         # mechanisms etc.

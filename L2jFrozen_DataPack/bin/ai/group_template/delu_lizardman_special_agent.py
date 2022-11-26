@@ -20,10 +20,17 @@ class delu_lizardman_special_agent(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
+<<<<<<< Updated upstream
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Oye! ¡Estamos teniendo un duelo aquí!"))
         else :
            self.FirstAttacked = True
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¿Cómo te atreves a interrumpir nuestra lucha? Hola chicos, ayuda!"))
+=======
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Oye! Estamos teniendo un duelo aqui!"))
+        else :
+           self.FirstAttacked = True
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Como te atreves a interrumpir nuestra lucha? Hola chicos, ayuda!"))
+>>>>>>> Stashed changes
         return 
 
     def onKill (self,npc,player,isPet):

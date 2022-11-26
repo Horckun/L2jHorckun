@@ -20,7 +20,11 @@ class timak_orc_troop_leader(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(50) : return
+<<<<<<< Updated upstream
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Destruíd al enemigo, mis hermanos!"))
+=======
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Destruid al enemigo, mis hermanos!"))
+>>>>>>> Stashed changes
         else :
            self.FirstAttacked = True
         return 

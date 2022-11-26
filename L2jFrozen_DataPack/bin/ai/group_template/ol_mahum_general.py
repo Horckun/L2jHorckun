@@ -20,10 +20,17 @@ class ol_mahum_general(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(100) : return
+<<<<<<< Updated upstream
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Ya veremos sobre eso!"))
         else :
            self.FirstAttacked = True
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Definitivamente pagaré esta humillación!"))
+=======
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Ya veremos sobre eso!"))
+        else :
+           self.FirstAttacked = True
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Definitivamente pagare esta humillacion!"))
+>>>>>>> Stashed changes
         return
 
     def onKill (self,npc,player,isPet):

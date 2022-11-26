@@ -20,7 +20,11 @@ class cats_eye_bandit(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
+<<<<<<< Updated upstream
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Tonto infantil, ¿crees que puedes atraparme?"))
+=======
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Tonto infantil, crees que puedes atraparme?"))
+>>>>>>> Stashed changes
         else :
            self.FirstAttacked = True
         return

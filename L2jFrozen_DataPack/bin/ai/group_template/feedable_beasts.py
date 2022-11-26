@@ -90,9 +90,15 @@ class feedable_beasts(JQuest) :
             21505: [2,{GOLDEN_SPICE:[],CRYSTAL_SPICE:[[21507,21829],[16015,16016]]},25]
             }
         self.madCowPolymorph = {21824:21468,21825:21469,21826:21487,21827:21488,21828:21506,21829:21507}
+<<<<<<< Updated upstream
         self.Text = [["¿Qué me acabas de hacer?","Quieres domesticarme, ¿eh?","No me des esto. Quizás estés en peligro.","Bah bah. ¿Qué es esta cosa desagradable?","Mi barriga se ha estado quejando. Eso dio en el clavo.","¿Que es esto? ¿Puedo comerlo?","No necesitas preocuparte por mí.","Deliciosa comida, gracias.","¡Estás empezando a gustarme!","Trago"], 
                     ["No creo que hayas renunciado a la idea de domesticarme.","Eso es solo comida para mí. Quizás yo también pueda comer tu mano.","¿Comer esto me hará engordar? Jaja","¿Por qué siempre me das de comer?","No confíes en mi. Puedo traicionarte."], 
                     ["Destruir","¡Mira lo que has hecho!","Sentimiento raro...! Las malas intenciones crecen en mi corazón...!","¡Esta pasando!","Esto es triste... ¡Lo bueno es triste...!"]]
+=======
+        self.Text = [["Que me acabas de hacer?","Quieres domesticarme, eh?","No me des esto. Quizas estes en peligro.","Bah bah. Que es esta cosa desagradable?","Mi barriga se ha estado quejando. Eso dio en el clavo.","Que es esto? Puedo comerlo?","No necesitas preocuparte por mi.","Deliciosa comida, gracias.","Estas empezando a gustarme!","Trago"], 
+                    ["No creo que hayas renunciado a la idea de domesticarme.","Eso es solo comida para mí. Quizas yo tambien pueda comer tu mano.","Comer esto me hara engordar? Jaja","Por que siempre me das de comer?","No confies en mi. Puedo traicionarte."], 
+                    ["Destruir","Mira lo que has hecho!","Sentimiento raro...! Las malas intenciones crecen en mi corazon...!","Esta pasando!","Esto es triste... Lo bueno es triste...!"]]
+>>>>>>> Stashed changes
 
         self.feedInfo = {} # : feedInfo[objectId of mob] = objectId of player feeding it
 
@@ -181,11 +187,19 @@ class feedable_beasts(JQuest) :
             # also, perform a rare random chat
             rand = Rnd.get(20)
             if rand > 4 : pass
+<<<<<<< Updated upstream
             elif rand == 0 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", ¿me vas a mostrar tu escondite?"))
             elif rand == 1 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", cada vez que veo especias, pienso en ti."))
             elif rand == 2 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", No es necesario volver al pueblo. Te dare fuerzas"))
             elif rand == 3 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), "Gracias, "+player.getName()+". Espero poder ayudarle."))
             elif rand == 4 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", ¿qué puedo hacer para ayudarte?"))
+=======
+            elif rand == 0 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", me vas a mostrar tu escondite?"))
+            elif rand == 1 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", cada vez que veo especias, pienso en ti."))
+            elif rand == 2 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", No es necesario volver al pueblo. Te dare fuerzas"))
+            elif rand == 3 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), "Gracias, "+player.getName()+". Espero poder ayudarle."))
+            elif rand == 4 : npc.broadcastPacket(CreatureSay(objectId,0,nextNpc.getName(), player.getName()+", que puedo hacer para ayudarte?"))
+>>>>>>> Stashed changes
 
         # if not trained, the newly spawned mob will automatically be agro against its feeder
         # (what happened to "never bite the hand that feeds you" anyway?!)
@@ -252,6 +266,7 @@ class feedable_beasts(JQuest) :
         elif npcId in self.tamedBeasts :
             if skillId == npc.getFoodType() :
                 npc.onReceiveFood()
+<<<<<<< Updated upstream
                 mytext = ["¡Recargas! ¡Si!","Soy una bestia tan glotona, ¡es vergonzoso! Jaja",
                           "Su sentimiento cooperativo ha ido mejorando cada vez más.",
                           "¡Te ayudaré!",
@@ -261,6 +276,16 @@ class feedable_beasts(JQuest) :
                           "¿En qué puedo ayudarte?",
                           "¡No estoy aquí solo por comida!",
                           "Ñame, ñame, ñame, ñame, ñame!"]
+=======
+                mytext = ["Recargas! Si!","Soy una bestia tan glotona, es vergonzoso! Jaja",
+                          "Su sentimiento cooperativo ha ido mejorando cada vez mas.",
+                          "Te ayudare!",
+                          "El clima es muy bueno. Quieres ir de picnic?",
+                          "Realmente me gusta! Esto es sabroso...",
+                          "Si no tiene que abandonar este lugar, entonces puedo ayudarlo.",
+                          "En que puedo ayudarte?",
+                          "No estoy aqui solo por comida!"]
+>>>>>>> Stashed changes
                 npc.broadcastPacket(CreatureSay(objectId,0,npc.getName(),mytext[Rnd.get(len(mytext))]))
         return
 

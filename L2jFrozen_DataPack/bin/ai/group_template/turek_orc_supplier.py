@@ -20,10 +20,17 @@ class turek_orc_supplier(JQuest) :
         objId=npc.getObjectId()
         if self.FirstAttacked:
            if Rnd.get(40) : return
+<<<<<<< Updated upstream
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"No me derribarás fácilmente."))
         else :
            self.FirstAttacked = True
            npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"¡Ya veremos sobre eso!"))
+=======
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"No me derribaras facilmente."))
+        else :
+           self.FirstAttacked = True
+           npc.broadcastPacket(CreatureSay(objId,0,npc.getName(),"Ya lo veremos!"))
+>>>>>>> Stashed changes
         return 
 
     def onKill (self,npc,player,isPet):
