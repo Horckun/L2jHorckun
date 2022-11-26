@@ -71,7 +71,7 @@ class icequeen (JQuest) :
    elif event == "teleout" :
      if player:
        player.teleToLocation(115525,-125724,-3439)
-       return "<html><body><font color=LEVEL>Time out...</font></body></html>"
+       return "<htm><body>Se acabo el tiempo...</body></htm>"
      self.cancelQuestTimer("teleout",None,player)
    return
 
@@ -96,11 +96,11 @@ class icequeen (JQuest) :
            self.startQuestTimer("resist",1,None,None)
            self.startQuestTimer("teleout",1800000,None,player)
          else :
-           return "<html><body><font color=LEVEL>Only with party...</font></body></html>"
+           return "<htm><body>Solo en grupo...</body></htm>"
        else :
-         return "<html><body>The Raid currently<font color=LEVEL> in process.<font>.<br1>Try later.</body></html>"
+         return "<htm><body>La redada actualmente esta <font color='LEVEL'>en proceso.<font>.<br>Prueba mas tarde.</body></htm>"
      else : 
-       return "<html><body>You dont have <font color=LEVEL>10 Silver Hemocyte<font>.</body></html>"
+       return "<htm><body>No tienes <font color='LEVEL'>10 hemocito de plata<font>.</body></htm>"
    return
 
  def onKill(self,npc,player,isPet):
@@ -121,8 +121,8 @@ class icequeen (JQuest) :
      self.cancelQuestTimer("vkrovatku",npc,None)
    return
 
-QUEST       = icequeen(-1, qn, "ai")
-CREATED     = State('Start', QUEST)
+QUEST = icequeen(-1, qn, "ai")
+CREATED = State('Start', QUEST)
 
 QUEST.setInitialState(CREATED)
 
