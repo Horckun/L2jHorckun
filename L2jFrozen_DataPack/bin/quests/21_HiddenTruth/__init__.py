@@ -45,8 +45,13 @@ class Quest (JQuest) :
             st.playSound("ItemSound.quest_finish")
             st.startQuestTimer("timer",1)
             htmltext = "Felicidades! Has completado esta mision!"     + \
+<<<<<<< Updated upstream
                        " \n La busqueda \"Tragedia en el bosque de Von Hellmann\""   + \
                        " volverse disponible.\n Mostrar la cruz de Einhasad a lo alto"+ \
+=======
+                       " \n La busqueda \"Tragedia en el bosque Von Hellmann\""   + \
+                       " se ha vuelto disponible.\n Muestra la cruz de Einhasad a lo alto."+ \
+>>>>>>> Stashed changes
                        " Sacerdote Tifaren."
         elif event == "31523-03.htm" :
             st.playSound("SkillSound5.horror_02")
@@ -93,7 +98,11 @@ class Quest (JQuest) :
         return htmltext
 
  def onTalk (self,npc,player):
+<<<<<<< Updated upstream
    htmltext = "<html><body>O no estas llevando a cabo su busqueda o no cumples con los criterios.</body></html>"
+=======
+   htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+>>>>>>> Stashed changes
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
