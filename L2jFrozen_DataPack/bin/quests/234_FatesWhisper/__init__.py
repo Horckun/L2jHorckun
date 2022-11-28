@@ -98,8 +98,8 @@ class Quest (JQuest) :
           if pDam >= TopBGradeWeaponData[weaponType][0] or mDam >= TopBGradeWeaponData[weaponType][1] :
             htmltext += "<a action=\"bypass -h Quest 234_FatesWhisper selectBGrade_" + str(Item.getObjectId()) +"\">" + itemTemplate.getName() + "+" + str(Item.getEnchantLevel()) + "</a><br>"
       if htmltext == "": 
-        htmltext = "You have no acceptable top B grade weapon in your inventory"
-      htmltext = "<html><body>Maestro Reorin:<br>Please choose which weapon you wish to give me to melt, from the below list:<br>" + htmltext + "</body></html>"
+        htmltext = "No tienes un arma de grado B superior aceptable en tu inventario."
+      htmltext = "<htm><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Elija que arma desea darme para derretir, de la lista a continuacion:<br><br>" + htmltext + "</body></htm>"
     elif event.startswith("selectBGrade_"):
       # store the object id of the selected weapon for the trade
       bGradeObjId = int(event.replace("selectBGrade_", ""))
@@ -112,7 +112,7 @@ class Quest (JQuest) :
         # now show the A Grade weapon list
         htmltext = "31002-AGradeList.htm"
       else :
-        htmltext = "<html><body>Maestro Reorin:<br>Are you trying to cheat me?!  What happenned to the weapon you were about to give me for the neutralization of Infernum's evil aura?</body></html>"
+        htmltext = "<htm><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Estas tratando de enganarme?! Que paso con el arma que estabas a punto de darme para neutralizar el aura maligna de Infernum?</body></htm>"
     elif event.startswith("selectAGrade_"):
       if st.getInt("bypass"):
         aGradeItemId = int(event.replace("selectAGrade_", ""))
@@ -127,12 +127,12 @@ class Quest (JQuest) :
           htmltext="bye"
           st.exitQuest(1)
       else:
-        htmltext="<html><body>Maestro Reorin:<br>Are you trying to cheat me?!  What happenned to the weapon you were about to give me for the neutralization of Infernum's evil aura?</body></html>"
+        htmltext="<htm><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Estas tratando de enganarme?! Que paso con el arma que estabas a punto de darme para neutralizar el aura maligna de Infernum?</body></htm>"
         #st.exitQuest(1)
     return htmltext
 
   def onTalk (self,npc,player):
-    htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
     st = player.getQuestState(qn)
     if not st : return htmltext
 
@@ -149,7 +149,7 @@ class Quest (JQuest) :
       return htmltext
     # if quest is already completed
     elif id == COMPLETED:
-      return "<html><body>This quest has already been completed.</body></html>"
+      return "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
     # if quest is accepted and in progress
     elif id == STARTED:
       cond =st.getInt("cond")
@@ -252,17 +252,17 @@ class Quest (JQuest) :
         if npcId == NPC[5] and st.getQuestItemsCount(KERMONS_INFERNIUM_SCEPTER)==0 :
           htmltext = "31028-01.htm"
         elif npcId == NPC[5] :
-          htmltext = "<html><body>This chest looks empty</body></html>"
+          htmltext = "<htm><body>Este cofre parece vacio.</body></htm>"
         # Golkonda's Chest
         elif npcId == NPC[6] and st.getQuestItemsCount(GOLCONDAS_INFERNIUM_SCEPTER)==0 :
           htmltext = "31029-01.htm"
         elif npcId == NPC[6] :
-          htmltext = "<html><body>This chest looks empty</body></html>"
+          htmltext = "<htm><body>Este cofre parece vacio.</body></htm>"
         # Hallate's Chest 
         elif npcId == NPC[7] and st.getQuestItemsCount(HALLATES_INFERNIUM_SCEPTER)==0 :
           htmltext = "31030-01.htm"
         elif npcId == NPC[7] :
-          htmltext = "<html><body>This chest looks empty</body></html>"
+          htmltext = "<htm><body>Este cofre parece vacio.</body></htm>"
     return htmltext    
 
   def onAttack (self, npc, player, damage, isPet):                   
