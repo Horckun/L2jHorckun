@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+28/11/2022
+----------
+- Archivos modficiados en L2jHorckun\L2jFrozen_DataPack\bin\quests\21_HiddenTruth
+
 26/11/2022
 ----------
 - Archivos modificados en L2jHorckun\L2jFrozen_DataPack\bin\ai\group_template
