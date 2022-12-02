@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+02/12/2022
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\235_MimirsElixir
+
 28/11/2022
 ----------
 - Archivos modficiados en L2jHorckun\L2jFrozen_DataPack\bin\quests\21_HiddenTruth
