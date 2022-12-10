@@ -138,7 +138,7 @@ class Quest (JQuest) :
     return htmltext
  
  def onTalk (self,npc,player):
-    htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<htm><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></htm>"
     st = player.getQuestState(qn)
     if not st : return htmltext
     npcId = npc.getNpcId()
@@ -149,7 +149,7 @@ class Quest (JQuest) :
             st.set("cond","0")
             if player.getRace() != Race.Kamael :
                 st.exitQuest(1)
-                htmltext = "<html><body>I'm sorry, but I can only give this quest to Kamael. Talk to Magister Ladd.</body></html>"
+                htmltext = "<htm><body>Lo siento, pero solo puedo darle esta misión a Kamael. Habla con el magister Ladd.</body></htm>"
             elif player.getLevel() < 75 :
                 st.exitQuest(1)
                 htmltext = "32138_01.htm"     #not qualified
@@ -164,9 +164,9 @@ class Quest (JQuest) :
             elif cond == 14:
                 htmltext = "32138_08.htm"
             else :
-                htmltext = "<html><body>Kekropus:<br>Go talk to Rodenpicula. Mao can help you get to her.</body></html>"
+                htmltext = "<htm><body><font color='LEVEL'>Kekropus:</font><br><br>Ve a hablar con Rodenpicula. Mao puede ayudarte a llegar a ella.</body></htm>"
         elif id == COMPLETED :
-            htmltext = "<html><body>You have already completed this quest.</body></html>"
+            htmltext = "<htm><body>Ya has completado esta mision.</body></htm>"
     elif npcId == WIZARD and id == STARTED:
        # first time talking to Wizard. Talk a bit
         if cond==1 :
@@ -188,7 +188,7 @@ class Quest (JQuest) :
         if cond == 5 or cond == 13:
             htmltext = "32238.htm" #click the link to spawn Harkilgamed
         else:
-            htmltext = "<html><body>A strange rock...</body></html>"
+            htmltext = "<htm><body>Una roca extrana...</body></htm>"
     elif npcId == HARKILGAMED and id == STARTED:
         if cond == 5:
             htmltext = "32236_05.htm" #First time talking to Harkilgamed
@@ -198,7 +198,7 @@ class Quest (JQuest) :
             st.takeItems(SHINING_MEDALLION,-1)
             htmltext = "32236_07.htm"
         elif cond > 13:
-            htmltext = "<html><body>Harkilgamed:<br><br>Go talk to Kekropus already.</body></html>"
+            htmltext = "<htm><body><font color='LEVEL'>Harkilgamed:</font><br><br>Ve a hablar con Kekropus ya.</body></htm>"
     elif npcId == MAO and id == STARTED: #Ok.  The deal with Mao is that he's supposed to port you to Mother Nornil, but since she's not yet in the spawnlist, he's just gonna tell ya where to find her.
         #THIS MEANS: WHOEVER SPAWNS NORNIL AND RODENPICULA MUST WRITE THE FOLLOWING .htm FILE ACCORDINGLY
         if cond == 15 or cond == 16:
