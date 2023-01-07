@@ -80,7 +80,7 @@ class Quest (JQuest) :
         return htmltext
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<htm><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></htm>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
@@ -89,7 +89,7 @@ class Quest (JQuest) :
             if npcId == Wizard :
                 htmltext = "31522-20.htm"
             else:
-                htmltext = "<html><body>This quest has already been completed.</body></html>"
+                htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
         cond = st.getInt("cond")
         if npcId == Dorian :
             if state == CREATED :
