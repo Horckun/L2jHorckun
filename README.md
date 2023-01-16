@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 16/01/2023
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\241_PossessorOfAPreciousSoul_1
+- Archivos actualizados en L2jHorckun\L2jFrozen_DataPack\bin\quests\162_CurseOfFortress
 
 07/01/2023
 ----------
