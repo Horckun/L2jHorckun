@@ -125,7 +125,7 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_accept")
    if event == "31272-5.htm" :
      if (st.getPlayer().isProcessingRequest() or st.getPlayer().isProcessingTransaction()) :
-       st.getPlayer().sendMessage("Another transaction in progress..")
+       st.getPlayer().sendMessage("Otra transaccion en curso...")
      elif cond == 20 and st.getQuestItemsCount(LUNARGENT) >= 5 and st.getQuestItemsCount(HELLFIRE_OIL) and  st.getPlayer().isSubClassActive() :
        st.takeItems(LUNARGENT,5)
        st.takeItems(HELLFIRE_OIL,1)
@@ -141,7 +141,7 @@ class Quest (JQuest) :
    return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
@@ -153,7 +153,7 @@ class Quest (JQuest) :
      if npcId == TALIEN :
        if cond == 0 :
          if id == COMPLETED :
-           htmltext = "<html><body>This quest has already been completed.</body></html>"
+           htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
          elif player.getLevel() < 50 : 
            htmltext = "31739-2.htm"
            st.exitQuest(1)
