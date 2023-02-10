@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\242_PossessorOfAPreciousSoul_2
 - Archivos modificados en L2jHorckun\L2jFrozen_DataPack\bin\quests\136_MoreThanMeetsTheEye
+- Archivos modificados en L2jHorckun\L2jFrozen_DataPack\bin\quests\2_WhatWomenWant1
 
 16/01/2023
 ----------
