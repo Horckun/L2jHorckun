@@ -64,7 +64,7 @@ class Quest (JQuest) :
                st.set("step","1")
                triol = st.addSpawn(Triol,59712,-47568,-2712,0,0,300000,1)
                time.sleep(1)
-               triol.broadcastPacket(CreatureSay(triol.getObjectId(), 0, triol.getName(), "That box was sealed by my master. Don't touch it!"))
+               triol.broadcastPacket(CreatureSay(triol.getObjectId(), 0, triol.getName(), "Esa caja fue sellada por mi maestro. No lo toques!"))
                triol.setRunning()
                triol.addDamageHate(player,0,999)
                triol.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, player)
@@ -120,14 +120,14 @@ class Quest (JQuest) :
 
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<htm><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision.</body></htm>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
         id = st.getState()
         cond = st.getInt("cond")
         if id == COMPLETED:
-            htmltext = "<html><body>This quest has already been completed.</body></html>"
+            htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
         elif id == CREATED:
             if npcId == Benedict:
                 st2 = player.getQuestState("24_InhabitantsOfTheForrestOfTheDead")
@@ -230,7 +230,7 @@ class Quest (JQuest) :
         if st.getInt("cond") == 7:
             st.playSound("ItemSound.quest_itemget")
             st.set("cond","8")
-            npc.broadcastPacket(CreatureSay(npc.getObjectId(), 0, npc.getName(), "You've ended my immortal life! You've protected by the feudal lord, aren't you?"))
+            npc.broadcastPacket(CreatureSay(npc.getObjectId(), 0, npc.getName(), "Has acabado con mi vida inmortal! Has protegido por el senor feudal, no es asi?"))
             st.giveItems(TotemDoll,1)
             st.set("step","2")
         return
