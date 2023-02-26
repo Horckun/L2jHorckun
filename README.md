@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+26/02/2023
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\25_HidingBehindTheTruth
+
 18/02/2023
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\247_PossessorOfAPreciousSoul_4
