@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\255_Tutorial
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\257_GuardIsBusy1
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\258_BringWolfPelt1
 
 26/02/2023
 ----------
