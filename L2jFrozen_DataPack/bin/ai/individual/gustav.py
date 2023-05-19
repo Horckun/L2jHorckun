@@ -24,12 +24,21 @@ class Gustav(JQuest):
    if npcId == MESSENGER :
      for clname in CLANLEADERS:
        if player.getName() == clname :
+<<<<<<< Updated upstream
          return "<html><body>¡Ya te has registrado!</body></html>"
      if DevastatedCastle.getInstance().Conditions(player) :
        CLANLEADERS.append(player.getName())
        return "<html><body>Ya te has registrado en el asedio</body></html>"
      else:
        return "<html><body>¡Las condiciones no están permitidas para hacer eso!</body></html>"
+=======
+         return "<html><body>Ya te has registrado!</body></html>"
+     if DevastatedCastle.getInstance().Conditions(player) :
+       CLANLEADERS.append(player.getName())
+       return "<html><body>Ya te has registrado en el asedio.</body></html>"
+     else:
+       return "<html><body>Las condiciones no estan permitidas para hacer eso!</body></html>"
+>>>>>>> Stashed changes
    return
  
  def onAttack (self,npc,player,damage,isPet):

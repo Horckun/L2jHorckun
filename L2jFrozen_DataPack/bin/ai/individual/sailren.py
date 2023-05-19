@@ -78,11 +78,19 @@ class Sailren(JQuest) :
              self.startQuestTimer("start",30000,npc,player)
              self.startQuestTimer("open",1800000,npc,None)
          else :
+<<<<<<< Updated upstream
            return "<html><body><font color=LEVEL>Solo en grupo...</font></body></html>"
        else :
          return "<html><body><font color=LEVEL>Alguien más está adentro...</font></body></html>"
      else :
        return "<html><body>Necesitas un objeto de búsqueda: <font color=LEVEL>Gazkh...</font></body></html>"
+=======
+           return "<html><body>Solo en grupo...</body></html>"
+       else :
+         return "<html><body>Alguien mas esta adentro...</body></html>"
+     else :
+       return "<html><body>Necesitas un objeto de busqueda: <font color=LEVEL>Gazkh</font>...</body></html>"
+>>>>>>> Stashed changes
    return
 
  def onKill(self,npc,player,isPet):

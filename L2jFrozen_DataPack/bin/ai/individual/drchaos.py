@@ -36,7 +36,11 @@ class Quest (JQuest) :
          npc.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, machine_instance)
          machine_instance.broadcastPacket(SpecialCamera(machine_instance.getObjectId(),1,-200,15,10000,20000))
        else :
+<<<<<<< Updated upstream
          print "Dr Chaos AI: Problema al encontrar Strange Machine (npcid = "+Strange_Machine+"). Error: ¡No invocado!"
+=======
+         print "Dr Caos IA: Problema al encontrar Strange Machine (npcid = "+Strange_Machine+"). Error: No invocado!"
+>>>>>>> Stashed changes
        self.startQuestTimer("2",2000,npc,player)
        self.startQuestTimer("3",10000,npc,player)
        if self.isChaosSpawned == 0 :

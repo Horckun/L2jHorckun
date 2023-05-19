@@ -22,12 +22,21 @@ class Nurka(JQuest):
    if npcId == MESSENGER :
      for clname in CLANLEADERS:
        if player.getName() == clname :
+<<<<<<< Updated upstream
          return "<html><body>¡Estás registrado!</body></html>"
      if FortressOfResistance.getInstance().Conditions(player) :
        CLANLEADERS.append(player.getName())
        return "<html><body>Te has registrado en la batalla</body></html>"
      else:
        return "<html><body>¡Las condiciones no están permitidas para hacer eso!</body></html>"
+=======
+         return "<html><body>Estas registrado!</body></html>"
+     if FortressOfResistance.getInstance().Conditions(player) :
+       CLANLEADERS.append(player.getName())
+       return "<html><body>Te has registrado en la batalla.</body></html>"
+     else:
+       return "<html><body>Las condiciones no estan permitidas para hacer eso!</body></html>"
+>>>>>>> Stashed changes
    return
  
  def onAttack (self,npc,player,damage,isPet):

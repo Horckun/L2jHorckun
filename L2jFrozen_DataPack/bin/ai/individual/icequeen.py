@@ -71,7 +71,11 @@ class icequeen (JQuest) :
    elif event == "teleout" :
      if player:
        player.teleToLocation(115525,-125724,-3439)
+<<<<<<< Updated upstream
        return "<html><body><font color=LEVEL>Se acabó el tiempo...</font></body></html>"
+=======
+       return "<html><body>Se acabo el tiempo...</body></html>"
+>>>>>>> Stashed changes
      self.cancelQuestTimer("teleout",None,player)
    return
 
@@ -96,11 +100,19 @@ class icequeen (JQuest) :
            self.startQuestTimer("resist",1,None,None)
            self.startQuestTimer("teleout",1800000,None,player)
          else :
+<<<<<<< Updated upstream
            return "<html><body><font color=LEVEL>Solo en grupo...</font></body></html>"
        else :
          return "<html><body>El Raid actualmente está <font color=LEVEL>en proceso.<font>.<br1> Prueba más tarde.</body></html>"
      else : 
        return "<html><body>No tienes <font color=LEVEL>10 Silver Hemocyte<font>.</body></html>"
+=======
+           return "<html><body>Solo en grupo...</body></html>"
+       else :
+         return "<html><body>La redada actualmente esta <font color='LEVEL'>en proceso.<font>.<br>Prueba mas tarde.</body></html>"
+     else : 
+       return "<html><body>No tienes <font color='LEVEL'>10 hemocito de plata<font>.</body></html>"
+>>>>>>> Stashed changes
    return
 
  def onKill(self,npc,player,isPet):

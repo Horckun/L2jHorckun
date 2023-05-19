@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 AI individual:
 Esta carpeta contiene scripts AI para plantillas npc individuales (una ID npc, pero posiblemente muchas instancias).
 Es decir, si un NPC / mob en particular tiene una IA única o algo ligeramente diferente de todos los otros NPC genéricos,
+=======
+IA individual:
+Esta carpeta contiene scripts IA para plantillas npc individuales (una ID npc, pero posiblemente muchas instancias).
+Es decir, si un NPC/mob en particular tiene una IA única o algo ligeramente diferente de todos los otros NPC genéricos,
+>>>>>>> Stashed changes
 Se puede crear un script de IA individual para todas las ocurrencias de ese npc / mob. Tales guiones individuales deberían estar aquí.
 
 Las secuencias de comandos de IA individuales se pueden subclasificar. En otras palabras, un individuo puede heredar de un grupo u otro individuo.

@@ -16,7 +16,11 @@ from java.lang import System
 Benom = 29054
 BenomTeleport = 13101
 
+<<<<<<< Updated upstream
 BenomSpeak = [ "¡Deberías haber acabado conmigo cuando tuviste la oportunidad!", "¡Los aplastaré a todos!", "No he terminado aquí, ¡enfréntate a mi!", "¡Cobardes! ¡Voy a torturaros a todos y cada uno de ustedes!" ]
+=======
+BenomSpeak = [ "Deberias haber acabado conmigo cuando tuviste la oportunidad!", "Los aplastare a todos!", "No he terminado aqui, enfrentate a mi!", "Cobardes! Voy a torturaros a todos y cada uno de ustedes!" ]
+>>>>>>> Stashed changes
 
 WalkTimes = [ 18000,17000,4500,16000,22000,14000,10500,14000,9500,12500,20500,14500,17000,20000,22000,11000,11000,20000,8000,5500,20000,18000,25000,28000,25000,25000,25000,25000,10000,24000,7000,12000,20000 ]
 
@@ -96,9 +100,15 @@ class benom (JQuest):
         player.teleToLocation(X, Y, -3007)
         return
       else :
+<<<<<<< Updated upstream
         htmltext = "<html><body>Avatar de Benom: <br>Tu clan no posee este castillo. Solo los miembros del clan propietario de este castillo pueden desafiar a Benom.</body></html>"
     else :
       htmltext = "<html><body>Avatar de Benom: <br>Tu clan no posee este castillo. Solo los miembros del clan propietario de este castillo pueden desafiar a Benom.</body></html>"
+=======
+        htmltext = "<html><body><font color='LEVEL'>Avatar de Benom:</font><br><br>Tu clan no posee este castillo. Solo los miembros del clan propietario de este castillo pueden desafiar a Benom.</body></html>"
+    else :
+      htmltext = "<html><body><font color='LEVEL'>Avatar de Benom:</font><br><br>Tu clan no posee este castillo. Solo los miembros del clan propietario de este castillo pueden desafiar a Benom.</body></html>"
+>>>>>>> Stashed changes
     return htmltext
 
   def onAdvEvent(self, event, npc, player) :
