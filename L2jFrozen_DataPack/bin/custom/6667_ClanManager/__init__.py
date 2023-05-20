@@ -25,7 +25,11 @@ class Quest (JQuest) :
 	def __init__(self,id,name,descr): JQuest.__init__(self,id,name,descr)
 
 	def onEvent(self,event,st):
+<<<<<<< Updated upstream
                htmltext = "<html><head><body>No tengo nada que decirte.</body></html>"
+=======
+               htmltext = "<html><body>No tengo nada que decirte.</body></html>"
+>>>>>>> Stashed changes
                count=st.getQuestItemsCount(REQUESTED_ITEM)
                if event == "66667-clanOk.htm" :
                    if st.getPlayer().isClanLeader() and st.getPlayer().getClan().getLevel()<8:
@@ -56,7 +60,11 @@ class Quest (JQuest) :
                return htmltext
 
 	def onTalk (self,npc,player):
+<<<<<<< Updated upstream
 	   htmltext = "<html><head><body>No tengo nada que decirte.</body></html>"
+=======
+	   htmltext = "<html><body>No tengo nada que decirte.</body></html>"
+>>>>>>> Stashed changes
            st = player.getQuestState(qn)
            if not st : return htmltext
            npcId = npc.getNpcId()
@@ -64,7 +72,11 @@ class Quest (JQuest) :
            if id == CREATED :
                htmltext="66667-1.htm"
            elif id == COMPLETED :
+<<<<<<< Updated upstream
                htmltext = "<html><head><body>Esta busqueda ya se ha completado.</body></html>"
+=======
+               htmltext = "<html><body>Esta busqueda ya se ha completado.</body></html>"
+>>>>>>> Stashed changes
            else :
                st.exitQuest(1)
            return htmltext
