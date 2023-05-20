@@ -24,11 +24,16 @@ HERO_ITEMS={
 }
 
 def render_list(mode,item) :
+<<<<<<< Updated upstream
   html = "<html><body><font color=\"LEVEL\">Lista de objetos para heroes:</font><table border=0 width=300>"
+=======
+  html = "<html><body><font color='LEVEL'>Lista de objetos para heroes:</font><br><br><table border=0 width=300>"
+>>>>>>> Stashed changes
   if mode == "list" :
     for i in HERO_ITEMS.keys() :
-      html += "<tr><td width=35 height=45><img src=icon."+HERO_ITEMS[i][0]+" width=32 height=32 align=left></td><td valign=top><a action=\"bypass -h Quest 7000_HeroItems "+str(i)+"\"><font color=\"FFFFFF\">"+HERO_ITEMS[i][1]+"</font></a></td></tr>"
+      html += "<tr><td width=35 height=45><img src=icon."+HERO_ITEMS[i][0]+" width=32 height=32 align=left></td><td valign=top><a action=\"bypass -h Quest 7000_HeroItems "+str(i)+"\"><font color='FFFFFF'>"+HERO_ITEMS[i][1]+"</font></a></td></tr>"
   else :
+<<<<<<< Updated upstream
     html += "<tr><td align=left><font color=\"LEVEL\">Informacion de objeto:</font></td><td align=right>\
 <button value=Volver action=\"bypass -h Quest 7000_HeroItems buy\" width=80 height=27 back=L2UI_ch3.Btn1_normalOn fore=L2UI_ch3.Btn1_normal>\
 </td><td width=5><br></td></tr></table><table border=0 bgcolor=\"000000\" width=500 height=160><tr><td valign=top>\
@@ -36,6 +41,15 @@ def render_list(mode,item) :
 <td valign=top width=400><table border=0 width=100%><tr><td><font color=\"FFFFFF\">"+HERO_ITEMS[item][1]+"</font></td>\
 </tr></table></td></tr></table><br><font color=\"LEVEL\">Informacion de objeto:</font>\
 <table border=0 bgcolor=\"000000\" width=290 height=220><tr><td valign=top><font color=\"B09878\">"+HERO_ITEMS[item][2]+"</font>\
+=======
+    html += "<tr><td align=left><font color='LEVEL'>Informacion de objeto:</font><br><br></td><td align=right>\
+<button value=Volver action=\"bypass -h Quest 7000_HeroItems buy\" width=80 height=27 back=L2UI_ch3.Btn1_normalOn fore=L2UI_ch3.Btn1_normal>\
+</td><td width=5><br></td></tr></table><table border=0 bgcolor='000000' width=500 height=160><tr><td valign=top>\
+<table border=0><tr><td valign=top width=35><img src=icon."+HERO_ITEMS[item][0]+" width=32 height=32 align=left></td>\
+<td valign=top width=400><table border=0 width=100%><tr><td><font color='FFFFFF'>"+HERO_ITEMS[item][1]+"</font></td>\
+</tr></table></td></tr></table><br><font color='LEVEL'>Informacion de objeto:</font><br><br>\
+<table border=0 bgcolor='000000' width=290 height=220><tr><td valign=top><font color=\"B09878\">"+HERO_ITEMS[item][2]+"</font>\
+>>>>>>> Stashed changes
 </td></tr><tr><td><br>Tipo: "+HERO_ITEMS[item][4]+"<br><br>Ataque/Magia: "+HERO_ITEMS[item][3]+"<br><br>\
 <table border=0 width=300><tr><td align=center><button value=Obtener action=\"bypass -h Quest 7000_HeroItems _"+str(item)+"\" width=80 height=27 back=L2UI_ch3.Btn1_normalOn fore=L2UI_ch3.Btn1_normal></td></tr></table></td></tr></table></td></tr>"
   html += "</table></body></html>"
@@ -69,7 +83,11 @@ class Quest (JQuest) :
    if player.isHero() :
      htmltext = render_list("list",0)
    else :
+<<<<<<< Updated upstream
      html = "<html><body>Monumento de Heroes:<br>No cumples con los requisitos. Debes convertirte en un heroe primero!<br><a action=\"bypass -h npc_%objectId%_Chat 0\">Volver.</a></body></html>"
+=======
+     html = "<html><body><font color='LEVEL'>Monumento de Heroes:</font><br><br>No cumples con los requisitos. Debes convertirte en un heroe primero!<br><br><a action=\"bypass -h npc_%objectId%_Chat 0\">Volver.</a></body></html>"
+>>>>>>> Stashed changes
      htmltext = html.replace("%objectId%",str(npc.getObjectId()))
      st.exitQuest(1)
    return htmltext
