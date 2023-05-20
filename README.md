@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen:
 - Archivos corregidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\4000_ShadowWeapons
 - Pequeños arreglos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5000_MissQueen
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\5001_NewbieCoupons
+- Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\6050_KetraOrcSupport
 
 15/05/2023
 ----------
