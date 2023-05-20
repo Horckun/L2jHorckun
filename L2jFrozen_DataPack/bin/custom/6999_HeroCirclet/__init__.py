@@ -17,6 +17,7 @@ class Quest (JQuest) :
    htmltext = "<html><body>No estas en una mision que involucra a este NPC, o no cumples con los requisitos minimos de la mision de este NPC.</body></html>"
    if player.isHero() :
      if st.getQuestItemsCount(6842) :
+<<<<<<< Updated upstream
        htmltext = "No puedes tener más de un círculo."
      else:
        st.giveItems(6842,1)
@@ -24,6 +25,15 @@ class Quest (JQuest) :
      st.exitQuest(1)
    else :
      html = "<html><body>Monumento de los heroes:<br> No eres un heroe y no eres elegible para recibir el Circulo de alas del destino. Mas suerte la proxima vez.<br><a action=\"bypass -h npc_%objectId%_Chat 0\">Volver.</a></body></html>"
+=======
+       htmltext = "No puedes tener mas de un circulo."
+     else:
+       st.giveItems(6842,1)
+       htmltext = "Disfruta de tu circulo de alas del destino."
+     st.exitQuest(1)
+   else :
+     html = "<html><body><font color='LEVEL'>Monumento de los heroes:</font><br><br> No eres un heroe y no eres elegible para recibir el circulo de alas del destino. Mas suerte la proxima vez.<br><br><a action=\"bypass -h npc_%objectId%_Chat 0\">Volver.</a></body></html>"
+>>>>>>> Stashed changes
      htmltext = html.replace("%objectId%",str(npc.getObjectId()))
      st.exitQuest(1)
    return htmltext
