@@ -9,6 +9,7 @@ L2jHorckun basado en L2jFrozen:
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\6050_KetraOrcSupport
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\6051_VarkaSilenosSupport
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\6666_NoblessTrader
+- Archivos corregidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\6667_ClanManager
 
 15/05/2023
 ----------
