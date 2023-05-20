@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 20/05/2023
 ----------
 - Corrección de traducciones en L2jHorckun\L2jFrozen_DataPack\bin\custom\3995_echo
+- Archivos corregidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\4000_ShadowWeapons
 
 15/05/2023
 ----------
