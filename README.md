@@ -7,6 +7,7 @@ L2jHorckun basado en L2jFrozen:
 - Pequeños arreglos en L2jHorckun\L2jFrozen_DataPack\bin\custom\5000_MissQueen
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\5001_NewbieCoupons
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\6050_KetraOrcSupport
+- Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\6051_VarkaSilenosSupport
 
 15/05/2023
 ----------
