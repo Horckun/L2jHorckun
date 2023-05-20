@@ -1,4 +1,5 @@
-# Created by DrLecter
+# Creado por DrLecter
+# Editado por Horckun
 import sys
 
 from com.l2jfrozen.gameserver.model.quest        import State
