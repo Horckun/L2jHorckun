@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+21/05/2023
+----------
+- Archivos corregidos en L2jHorckun\L2jFrozen_DataPack\bin\custom\8000_RaidbossInfo
+
 20/05/2023
 ----------
 - Corrección de traducciones en L2jHorckun\L2jFrozen_DataPack\bin\custom\3995_echo
