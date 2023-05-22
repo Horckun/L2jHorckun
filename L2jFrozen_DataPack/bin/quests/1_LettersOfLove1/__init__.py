@@ -37,7 +37,11 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
    st = player.getQuestState(qn)
+<<<<<<< Updated upstream
    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>" 
+=======
+   htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>" 
+>>>>>>> Stashed changes
    if not st: return htmltext
 
    npcId = npc.getNpcId()
@@ -63,10 +67,17 @@ class Quest (JQuest) :
          htmltext = "30048-01.htm" 
          st.exitQuest(1) 
      else: 
+<<<<<<< Updated upstream
        htmltext = "<htm><body>Busqueda de personajes de nivel 2 y superior.</body></htm>" 
        st.exitQuest(1) 
    elif npcId == DARIN and cond == 0 and onlyone == 1 : 
      htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+       htmltext = "<html><body>Busqueda de personajes de nivel 2 y superior.</body></html>" 
+       st.exitQuest(1) 
+   elif npcId == DARIN and cond == 0 and onlyone == 1 : 
+     htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
    elif id == STARTED :
        if npcId == ROXXY and cond and onlyone == 0: 
          if ItemsCount_RK == 0 and ItemsCount_DL : 
