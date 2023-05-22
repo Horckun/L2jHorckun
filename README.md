@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\8001_NpcLocationInfo
 - Archivos corregidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\1_LettersOfLove1
+- Archivos coregidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\10_IntoTheWorld
 
 21/05/2023
 ----------
