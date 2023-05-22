@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 22/05/2023
 ----------
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\custom\8001_NpcLocationInfo
+- Archivos corregidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\1_LettersOfLove1
 
 21/05/2023
 ----------
