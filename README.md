@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\100_SagaOfTheMaestro
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\101_SwordOfSolidarity
+- Pequeñas correcciones en L2jHorckun\L2jFrozen_DataPack\bin\quests\102_FungusFever
 
 22/05/2023
 ----------
