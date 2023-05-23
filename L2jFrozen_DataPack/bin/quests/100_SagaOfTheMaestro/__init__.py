@@ -23,7 +23,11 @@ class Quest (JQuest) :
      self.X = [164650,47429,47391]
      self.Y = [-74121,-56923,-56929]
      self.Z = [-2871,-2383,-2370]
+<<<<<<< Updated upstream
      self.Text = ["PLAYERNAME! Perseguido hasta aqui! Sin embargo, salte de los limites de Banshouren. Miras al gigante como el signo del poder!",
+=======
+     self.Text = ["Perseguido hasta aqui! Sin embargo, salte de los limites de Banshouren. Miras al gigante como el signo del poder!",
+>>>>>>> Stashed changes
                   "... Oh Dios! Asi que fue... comencemos!","No tengo paciencia...! He sido una fuerza gigante...! Charla de tos ah ah ah!",
                   "Rendir homenaje a los que interrumpen a los ordenados sera la muerte de PLAYERNAME!","Ahora, mi alma liberada de los grilletes del milenio, Halixia, a la parte de atras vengo...",
                   "Por que interfieres en las batallas de los demas?","Esto es una perdida de tiempo... Di adios...! ","... Ese es el enemigo.",
