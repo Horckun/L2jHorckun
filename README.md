@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 24/05/2023
 ----------
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\106_ForgottenTruth
+- Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\107_MercilessPunishment
 
 23/05/2023
 ----------
