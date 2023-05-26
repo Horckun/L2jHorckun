@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+26/05/2023
+----------
+- Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\108_JumbleTumbleDiamondFuss
+
 24/05/2023
 ----------
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\106_ForgottenTruth
