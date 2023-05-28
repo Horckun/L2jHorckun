@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen:
 - Correcciones de etiquetas en L2jHorckun\L2jFrozen_DataPack\bin\quests\111_Elrokian_Hunters_proof
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\112_WalkOfFate
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\113_StatusOfTheBeaconTower
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\114_ResurrectionOfAnOldManager
 
 27/05/2023
 ----------
