@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+28/05/2023
+----------
+- L2jHorckun\L2jFrozen_DataPack\bin\quests\110_ToThePrimevalIsle
+
 27/05/2023
 ----------
 - Corrección en traducciones en L2jHorckun\L2jFrozen_DataPack\bin\quests\11_SecretMeetingWithKetraOrcs
