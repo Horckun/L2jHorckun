@@ -2,7 +2,8 @@ L2jHorckun basado en L2jFrozen:
 
 28/05/2023
 ----------
-- L2jHorckun\L2jFrozen_DataPack\bin\quests\110_ToThePrimevalIsle
+- Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\110_ToThePrimevalIsle
+- Correcciones de etiquetas en L2jHorckun\L2jFrozen_DataPack\bin\quests\111_Elrokian_Hunters_proof
 
 27/05/2023
 ----------
