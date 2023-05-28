@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\110_ToThePrimevalIsle
 - Correcciones de etiquetas en L2jHorckun\L2jFrozen_DataPack\bin\quests\111_Elrokian_Hunters_proof
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\112_WalkOfFate
 
 27/05/2023
 ----------
