@@ -36,7 +36,11 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):        
+<<<<<<< Updated upstream
     htmltext = "<html><head><body>No estas en una mision que involucra a este NPC o no cumples con los requisitos minimos de la mision de este NPC.</body></html>"
+=======
+    htmltext = "<html><body>No estas en una mision que involucra a este NPC o no cumples con los requisitos minimos de la mision de este NPC.</body></html>"
+>>>>>>> Stashed changes
     st = player.getQuestState(qn)
     if not st : return htmltext
     state = st.getState()
