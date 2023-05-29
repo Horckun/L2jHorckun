@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen:
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\116_BeyondTheHillsOfWinter
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\117_OceanOfDistantStar
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\118_ToLeadAndBeLed
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\119_LastImperialPrince
 
 28/05/2023
 ----------
