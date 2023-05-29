@@ -66,14 +66,22 @@ class Quest (JQuest) :
     st = player.getQuestState(qn)
     if not st : return htmltext    
     npcId=npc.getNpcId()
+<<<<<<< Updated upstream
     htmltext="<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+=======
+    htmltext="<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+>>>>>>> Stashed changes
     id = st.getState()
     if id == CREATED and npcId == ABEY :
       if st.getPlayer().getLevel() >= 39 :
         htmltext = "0.htm" #event 1
       else:
         st.exitQuest(1)
+<<<<<<< Updated upstream
         htmltext = "<htm><body>Esta mision solo la pueden realizar personajes que tengan un nivel minimo de 39. Vuelve cuando tengas mas experiencia.</body></htm>"
+=======
+        htmltext = "<html><body>Esta mision solo la pueden realizar personajes que tengan un nivel minimo de 39. Vuelve cuando tengas mas experiencia.</body></html>"
+>>>>>>> Stashed changes
     elif id == STARTED :
       cond = int(st.get("cond"))
       if npcId == GHOST :
@@ -102,7 +110,11 @@ class Quest (JQuest) :
       if npcId == GHOST_F and cond == 10 :
             htmltext = "9.htm" #link to 9a.htm so link to event 10
     elif id == COMPLETED:
+<<<<<<< Updated upstream
       htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+      htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
     return htmltext
 
   def onKill(self,npc,player,isPet):
