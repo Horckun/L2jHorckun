@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\115_TheOtherSideOfTruth
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\116_BeyondTheHillsOfWinter
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\117_OceanOfDistantStar
 
 28/05/2023
 ----------
