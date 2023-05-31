@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Corrección en etiquetas en L2jHorckun\L2jFrozen_DataPack\bin\quests\120_PavelsResearch
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\121_PavelTheGiants
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\122_OminousNews
 
 30/05/2023
 ----------
