@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 02/05/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\123_TheLeaderAndTheFollower
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\124_MeetingTheElroki
 
 31/05/2023
 ----------
