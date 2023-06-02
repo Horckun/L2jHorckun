@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+02/05/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\123_TheLeaderAndTheFollower
+
 31/05/2023
 ----------
 - Corrección en etiquetas en L2jHorckun\L2jFrozen_DataPack\bin\quests\120_PavelsResearch
