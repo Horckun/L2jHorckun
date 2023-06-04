@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas modificadas en L2jHorckun\L2jFrozen_DataPack\bin\quests\125_TheNameofEvilPart1
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\126_TheNameofEvilPart2
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\13_ParcelDelivery
 
 02/05/2023
 ----------
