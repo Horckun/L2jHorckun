@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen:
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\138_TempleChampionPart2
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\139_ShadowFoxPart1
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\14_WhereaboutsOfTheArchaeologist
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\140_ShadowFoxPart2
 
 04/06/2023
 ----------
