@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 05/06/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\137_TempleChampionPart1
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\138_TempleChampionPart2
 
 04/06/2023
 ----------
