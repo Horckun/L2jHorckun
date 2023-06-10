@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 10/06/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\143_FallenAngelRequestOfDusk
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\15_SweetWhisper
 
 09/06/2023
 ----------
