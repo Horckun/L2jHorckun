@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+21/06/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\154_SacrificeToSea
+
 19/06/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\153_WharfOldtimersFavor
