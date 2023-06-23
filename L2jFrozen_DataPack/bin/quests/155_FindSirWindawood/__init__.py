@@ -25,7 +25,11 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
+<<<<<<< Updated upstream
    htmltext = "<html><body>O no estas llevando a cabo su busqueda o no cumples con los criterios.</body></html>"
+=======
+   htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+>>>>>>> Stashed changes
    st = player.getQuestState(qn)
    if not st : return htmltext
 
