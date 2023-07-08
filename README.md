@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+08/07/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\161_FruitsOfMothertree
+
 07/07/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\160_NerupasFavor
