@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+14/07/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\165_WildHunt
+
 10/07/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\164_BloodFiend
