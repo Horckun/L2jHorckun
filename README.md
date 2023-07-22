@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+22/07/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\168_DeliverSupplies
+
 21/07/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\167_DwarvenKinship
