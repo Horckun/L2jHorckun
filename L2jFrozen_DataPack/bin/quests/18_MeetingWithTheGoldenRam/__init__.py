@@ -64,10 +64,10 @@ class Quest (JQuest) :
            htmltext = "31555-01.htm"
      return htmltext
 
-QUEST       = Quest(18, qn, "Meeting With The Golden Ram")
-CREATED     = State('Start', QUEST)
-STARTED     = State('Started', QUEST)
-COMPLETED   = State('Completed', QUEST)
+QUEST       = Quest(18, qn, "Reunion con el carnero dorado")
+CREATED     = State('Comienzo', QUEST)
+STARTED     = State('Empezado', QUEST)
+COMPLETED   = State('Completado', QUEST)
 
 QUEST.setInitialState(CREATED)
 QUEST.addStartNpc(DONAL)
