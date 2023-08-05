@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\171_ActsOfEvil
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\178_IconicTrinity
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\18_MeetingWithTheGoldenRam
 
 28/07/2023
 ----------
