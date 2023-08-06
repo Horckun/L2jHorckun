@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+06/08/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\183_Relic_Exploration
+
 05/08/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\171_ActsOfEvil
