@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 07/08/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\186_Contract_Execution
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\187_Nikolas_Heart
 
 06/08/2023
 ----------
