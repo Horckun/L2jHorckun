@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+11/08/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\188_Seal_Removal
+
 07/08/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\186_Contract_Execution
