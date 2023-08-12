@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\189_Contract_Completion
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\19_GoToThePastureland
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\191_Vain_Conclusion
 
 11/08/2023
 ----------
