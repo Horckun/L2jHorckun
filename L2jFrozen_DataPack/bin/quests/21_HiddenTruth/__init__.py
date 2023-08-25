@@ -44,6 +44,7 @@ class Quest (JQuest) :
                 st.giveItems(7141,1)
             st.playSound("ItemSound.quest_finish")
             st.startQuestTimer("timer",1)
+<<<<<<< Updated upstream
             htmltext = "Felicidades! Has completado esta mision!"     + \
 <<<<<<< Updated upstream
                        " \n La busqueda \"Tragedia en el bosque de Von Hellmann\""   + \
@@ -53,6 +54,12 @@ class Quest (JQuest) :
                        " se ha vuelto disponible.\n Muestra la cruz de Einhasad a lo alto."+ \
 >>>>>>> Stashed changes
                        " Sacerdote Tifaren."
+=======
+            htmltext = "<html><body>Felicidades! Has completado esta mision!"     + \
+                       " \n La busqueda \"Tragedia en el bosque Von Hellmann\""   + \
+                       " se ha vuelto disponible.\n Muestra la cruz de Einhasad a lo alto."+ \
+                       " Sacerdote Tifaren.</body></html>"
+>>>>>>> Stashed changes
         elif event == "31523-03.htm" :
             st.playSound("SkillSound5.horror_02")
             st.playSound("ItemSound.quest_middle")
@@ -99,9 +106,13 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    htmltext = "<html><body>O no estas llevando a cabo su busqueda o no cumples con los criterios.</body></html>"
 =======
    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+>>>>>>> Stashed changes
+=======
+   htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
 >>>>>>> Stashed changes
    st = player.getQuestState(qn)
    if not st : return htmltext
@@ -121,7 +132,11 @@ class Quest (JQuest) :
            htmltext = "31522-03.htm"
            st.exitQuest(1)
        else:
+<<<<<<< Updated upstream
          htmltext = "Esta mision ya se ha completado."
+=======
+         htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
+>>>>>>> Stashed changes
      elif cond == 1:
        htmltext = "31522-05.htm"       
    elif npcId == 31523 :
