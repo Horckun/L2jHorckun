@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+02/09/2023
+----------
+- Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\212_TrialOfDuty
+
 26/08/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\211_TrialOfChallenger
