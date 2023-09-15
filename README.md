@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+15/09/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\214_TrialOfScholar
+
 03/09/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\213_TrialOfSeeker
