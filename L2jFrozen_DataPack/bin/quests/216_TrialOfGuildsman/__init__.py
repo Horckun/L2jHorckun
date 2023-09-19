@@ -149,7 +149,11 @@ class Quest (JQuest) :
             htmltext = "30103-01.htm"
             st.exitQuest(1)
    elif npcId == 30103 and st.getInt("cond")==0 and st.getInt("onlyone")==1 :
+<<<<<<< Updated upstream
       htmltext = "<html><body>TEsta mision ya se ha completado.</body></html>"
+=======
+      htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
+>>>>>>> Stashed changes
    elif npcId == 30103 and st.getInt("cond")>=1 and st.getQuestItemsCount(VALKONS_RECOMMEND_ID)==1 :
         htmltext = "30103-07.htm"
    elif npcId == 30103 and st.getInt("cond")>=1 and st.getQuestItemsCount(ALLTRANS_INSTRUCTIONS_ID)==1 :
