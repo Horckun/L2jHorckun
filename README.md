@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 30/10/2023
 ----------
 - Etiquetas y correcciones en L2jHorckun\L2jFrozen_DataPack\bin\quests\219_TestimonyOfFate
+- Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\22_TragedyInVonHellmannForest
 
 28/10/2023
 ----------
