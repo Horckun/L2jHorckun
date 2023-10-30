@@ -154,7 +154,11 @@ class Quest (JQuest) :
 
  def onTalk (self,npc,player):
    st = player.getQuestState(qn)
+<<<<<<< Updated upstream
    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>" 
+=======
+   htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>" 
+>>>>>>> Stashed changes
    if not st: return htmltext
    npcId = npc.getNpcId()
    state = st.getState()
@@ -163,7 +167,11 @@ class Quest (JQuest) :
    cond = st.getInt("cond") 
    onlyone = st.getInt("onlyone")
    if state == COMPLETED :
+<<<<<<< Updated upstream
        htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+       htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
    elif npcId == INNOCENTIN :
        if state == CREATED :
            st2 = player.getQuestState("21_HiddenTruth")
