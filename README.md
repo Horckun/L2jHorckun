@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas y correcciones en L2jHorckun\L2jFrozen_DataPack\bin\quests\219_TestimonyOfFate
 - Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\22_TragedyInVonHellmannForest
+- Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\220_TestimonyOfGlory
 
 28/10/2023
 ----------
