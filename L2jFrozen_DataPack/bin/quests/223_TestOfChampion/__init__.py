@@ -106,14 +106,22 @@ class Quest (JQuest) :
 
 
  def onTalk (self,npc,player):
+<<<<<<< Updated upstream
    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+=======
+   htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+>>>>>>> Stashed changes
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
    id = st.getState()
    if npcId != 30624 and id != STARTED : return htmltext
    if id == COMPLETED :
+<<<<<<< Updated upstream
       htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+      htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
    elif id == CREATED :
      st.set("cond","0")
    if npcId == 30624 and st.getInt("cond") == 0 :
