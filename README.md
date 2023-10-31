@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\222_TestOfDuelist
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\223_TestOfChampion
+- Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\224_TestOfSagittarius
 
 30/10/2023
 ----------
