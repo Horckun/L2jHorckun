@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 31/10/2023
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\222_TestOfDuelist
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\223_TestOfChampion
 
 30/10/2023
 ----------
