@@ -79,7 +79,11 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
+<<<<<<< Updated upstream
    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+=======
+   htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+>>>>>>> Stashed changes
    st = player.getQuestState(qn)
    if not st : return htmltext
    cond = st.getInt("cond")
@@ -88,7 +92,11 @@ class Quest (JQuest) :
    if npcId != 30690 and id != STARTED : return htmltext
 
    if id == COMPLETED :
+<<<<<<< Updated upstream
       htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+      htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
    elif id == CREATED :
      st.set("cond","0")
      if npcId == NPC[3]:
@@ -234,7 +242,11 @@ class Quest (JQuest) :
         if cond==17 :
           htmltext = "30628-01.htm"
         else:
+<<<<<<< Updated upstream
           htmltext = "<htm><body>No tienes una llave para este cofre.</body></htm>"
+=======
+          htmltext = "<html><body>No tienes una llave para este cofre.</body></html>"
+>>>>>>> Stashed changes
    return htmltext
 
  def onKill(self,npc,player,isPet):
