@@ -182,7 +182,7 @@ class Quest (JQuest) :
 
 
   def onTalk (self,npc,player):
-    htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+    htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
     
     st = player.getQuestState(qn)
     if not st : return htmltext
@@ -210,7 +210,7 @@ class Quest (JQuest) :
       return htmltext
     # already done
     elif id == COMPLETED:
-      return "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+      return "<html><body>This quest has already been completed.</body></html>"
     # in progress, player is working on the quest
     else:
       step = st.getInt("step")        # var init for easier working with it
@@ -380,7 +380,7 @@ class Quest (JQuest) :
               st.takeItems(take,1)
               st.set(var,str(isValue+1))
             st.playSound("ItemSound.quest_middle")
-            return "Atrapaste el sello del principe Drevanul Zeruel"
+            return "You trapped the Seal of Drevanul Prince Zeruel"
           else:
             st.set(var,str(isValue+1))
         else:
