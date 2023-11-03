@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+03/11/2023
+----------
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\226_TestOfHealer
+
 02/11/2023
 ----------
 - Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\225_TestOfSearcher
