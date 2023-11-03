@@ -9,6 +9,7 @@ L2jHorckun basado en L2jFrozen:
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\23_LidiasHeart
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\230_TestOfSummoner
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\231_TestOfMaestro
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\232_TestOfLord
 
 02/11/2023
 ----------
