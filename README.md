@@ -7,6 +7,7 @@ L2jHorckun basado en L2jFrozen:
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\228_TestOfMagus
 - Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\229_TestOfWitchcraft
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\23_LidiasHeart
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\230_TestOfSummoner
 
 02/11/2023
 ----------
