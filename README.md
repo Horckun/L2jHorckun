@@ -10,6 +10,7 @@ L2jHorckun basado en L2jFrozen:
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\230_TestOfSummoner
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\231_TestOfMaestro
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\232_TestOfLord
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\233_TestOfWarspirit
 
 02/11/2023
 ----------
