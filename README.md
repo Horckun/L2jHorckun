@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\234_FatesWhisper
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\235_MimirsElixir
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\236_SeedsOfChaos
 
 03/11/2023
 ----------
