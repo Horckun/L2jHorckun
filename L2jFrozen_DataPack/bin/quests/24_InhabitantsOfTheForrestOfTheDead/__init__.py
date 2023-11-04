@@ -80,7 +80,11 @@ class Quest (JQuest) :
         return htmltext
 
     def onTalk (self,npc,player):
+<<<<<<< Updated upstream
         htmltext = "<htm><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></htm>"
+=======
+        htmltext = "<html><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
+>>>>>>> Stashed changes
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
@@ -89,7 +93,11 @@ class Quest (JQuest) :
             if npcId == Wizard :
                 htmltext = "31522-20.htm"
             else:
+<<<<<<< Updated upstream
                 htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+                htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
         cond = st.getInt("cond")
         if npcId == Dorian :
             if state == CREATED :
