@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen:
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\235_MimirsElixir
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\236_SeedsOfChaos
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\24_InhabitantsOfTheForrestOfTheDead
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\241_PossessorOfAPreciousSoul_1
 
 03/11/2023
 ----------
