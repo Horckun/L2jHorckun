@@ -24,7 +24,11 @@ MIMIRS_ELIXIR = 6319
 SCROLL_ENCHANT_WEAPON_A = 729
 
 #Messages
+<<<<<<< Updated upstream
 default   = "<htm><body>No tengo nada que decirte.</body></htm>"
+=======
+default   = "<html><body>No tengo nada que decirte.</body></html>"
+>>>>>>> Stashed changes
 #NPCs
 LADD,JOAN=30721,30718
 #Mobs, cond, Drop
@@ -48,7 +52,11 @@ class Quest (JQuest) :
     return htmltext
  
  def onTalk (self,npc,player):
+<<<<<<< Updated upstream
     htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+=======
+    htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+>>>>>>> Stashed changes
     st = player.getQuestState(qn)
     if not st : return htmltext
 
@@ -67,7 +75,11 @@ class Quest (JQuest) :
             elif st.getInt("cond")==0 :
                 htmltext = "30166-02.htm"    # Successful start: Bring me Pure silver from Reagents quest
         elif id == COMPLETED :
+<<<<<<< Updated upstream
             htmltext = "<htm><body>Ya has completado esta mision.</body></htm>"
+=======
+            htmltext = "<html><body>Ya has completado esta mision.</body></html>"
+>>>>>>> Stashed changes
         # was asked to get pure silver but has not done so yet.  Repeat: get pure silver
         elif cond==1 and not st.getQuestItemsCount(PURE_SILVER) :
             htmltext = "30166-03.htm"    # Bring me Pure silver from Reagents quest
