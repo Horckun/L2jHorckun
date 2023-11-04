@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 04/11/2023
 ----------
 - Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\234_FatesWhisper
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\235_MimirsElixir
 
 03/11/2023
 ----------
