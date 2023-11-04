@@ -99,7 +99,11 @@ class Quest (JQuest) :
             htmltext += "<a action=\"bypass -h Quest 234_FatesWhisper selectBGrade_" + str(Item.getObjectId()) +"\">" + itemTemplate.getName() + "+" + str(Item.getEnchantLevel()) + "</a><br>"
       if htmltext == "": 
         htmltext = "No tienes un arma de grado B superior aceptable en tu inventario."
+<<<<<<< Updated upstream
       htmltext = "<htm><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Elija que arma desea darme para derretir, de la lista a continuacion:<br><br>" + htmltext + "</body></htm>"
+=======
+      htmltext = "<html><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Elija que arma desea darme para derretir, de la lista a continuacion:<br><br>" + htmltext + "</body></html>"
+>>>>>>> Stashed changes
     elif event.startswith("selectBGrade_"):
       # store the object id of the selected weapon for the trade
       bGradeObjId = int(event.replace("selectBGrade_", ""))
@@ -112,7 +116,11 @@ class Quest (JQuest) :
         # now show the A Grade weapon list
         htmltext = "31002-AGradeList.htm"
       else :
+<<<<<<< Updated upstream
         htmltext = "<htm><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Estas tratando de enganarme?! Que paso con el arma que estabas a punto de darme para neutralizar el aura maligna de Infernum?</body></htm>"
+=======
+        htmltext = "<html><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Estas tratando de enganarme?! Que paso con el arma que estabas a punto de darme para neutralizar el aura maligna de Infernum?</body></html>"
+>>>>>>> Stashed changes
     elif event.startswith("selectAGrade_"):
       if st.getInt("bypass"):
         aGradeItemId = int(event.replace("selectAGrade_", ""))
@@ -127,12 +135,20 @@ class Quest (JQuest) :
           htmltext="bye"
           st.exitQuest(1)
       else:
+<<<<<<< Updated upstream
         htmltext="<htm><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Estas tratando de enganarme?! Que paso con el arma que estabas a punto de darme para neutralizar el aura maligna de Infernum?</body></htm>"
+=======
+        htmltext="<html><body><font color='LEVEL'>Maestro Reorin:</font><br><br>Estas tratando de enganarme?! Que paso con el arma que estabas a punto de darme para neutralizar el aura maligna de Infernum?</body></html>"
+>>>>>>> Stashed changes
         #st.exitQuest(1)
     return htmltext
 
   def onTalk (self,npc,player):
+<<<<<<< Updated upstream
     htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+=======
+    htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+>>>>>>> Stashed changes
     st = player.getQuestState(qn)
     if not st : return htmltext
 
@@ -149,7 +165,11 @@ class Quest (JQuest) :
       return htmltext
     # if quest is already completed
     elif id == COMPLETED:
+<<<<<<< Updated upstream
       return "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+      return "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
     # if quest is accepted and in progress
     elif id == STARTED:
       cond =st.getInt("cond")
@@ -252,17 +272,29 @@ class Quest (JQuest) :
         if npcId == NPC[5] and st.getQuestItemsCount(KERMONS_INFERNIUM_SCEPTER)==0 :
           htmltext = "31028-01.htm"
         elif npcId == NPC[5] :
+<<<<<<< Updated upstream
           htmltext = "<htm><body>Este cofre parece vacio.</body></htm>"
+=======
+          htmltext = "<html><body>Este cofre parece vacio.</body></html>"
+>>>>>>> Stashed changes
         # Golkonda's Chest
         elif npcId == NPC[6] and st.getQuestItemsCount(GOLCONDAS_INFERNIUM_SCEPTER)==0 :
           htmltext = "31029-01.htm"
         elif npcId == NPC[6] :
+<<<<<<< Updated upstream
           htmltext = "<htm><body>Este cofre parece vacio.</body></htm>"
+=======
+          htmltext = "<html><body>Este cofre parece vacio.</body></html>"
+>>>>>>> Stashed changes
         # Hallate's Chest 
         elif npcId == NPC[7] and st.getQuestItemsCount(HALLATES_INFERNIUM_SCEPTER)==0 :
           htmltext = "31030-01.htm"
         elif npcId == NPC[7] :
+<<<<<<< Updated upstream
           htmltext = "<htm><body>Este cofre parece vacio.</body></htm>"
+=======
+          htmltext = "<html><body>Este cofre parece vacio.</body></html>"
+>>>>>>> Stashed changes
     return htmltext    
 
   def onAttack (self, npc, player, damage, isPet):                   
