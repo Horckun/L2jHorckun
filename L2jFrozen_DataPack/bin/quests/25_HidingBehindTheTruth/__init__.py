@@ -120,14 +120,22 @@ class Quest (JQuest) :
 
 
     def onTalk (self,npc,player):
+<<<<<<< Updated upstream
         htmltext = "<htm><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision.</body></htm>"
+=======
+        htmltext = "<html><body>O no estas en una mision que involucre a este NPC, o no cumples con los requisitos minimos de mision.</body></html>"
+>>>>>>> Stashed changes
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
         id = st.getState()
         cond = st.getInt("cond")
         if id == COMPLETED:
+<<<<<<< Updated upstream
             htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+            htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
         elif id == CREATED:
             if npcId == Benedict:
                 st2 = player.getQuestState("24_InhabitantsOfTheForrestOfTheDead")
