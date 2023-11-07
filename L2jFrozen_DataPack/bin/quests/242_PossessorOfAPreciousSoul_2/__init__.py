@@ -82,7 +82,11 @@ class Quest (JQuest) :
    return htmltext
 
  def onTalk (self,npc,player):
+<<<<<<< Updated upstream
    htmltext = "<htm><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></htm>"
+=======
+   htmltext = "<html><body>O no estas llevando a cabo tu busqueda o no cumples con los criterios.</body></html>"
+>>>>>>> Stashed changes
    st = player.getQuestState(qn)
    if not st : return htmltext
 
@@ -99,7 +103,11 @@ class Quest (JQuest) :
    if player.isSubClassActive() :
      if npcId == VIRGIL and cond == 0 and st.getQuestItemsCount(VIRGILS_LETTER) == 1 :
        if id == COMPLETED :
+<<<<<<< Updated upstream
          htmltext = "<htm><body>Esta busqueda ya ha sido completada.</body></htm>"
+=======
+         htmltext = "<html><body>Esta busqueda ya ha sido completada.</body></html>"
+>>>>>>> Stashed changes
        elif player.getLevel() < 60 : 
          htmltext = "31742-2.htm"
          st.exitQuest(1)
