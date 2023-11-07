@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\242_PossessorOfAPreciousSoul_2
 - Etiquetas y traducciones corregidas en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\246_PossessorOfAPreciousSoul_3
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\247_PossessorOfAPreciousSoul_4
 
 04/11/2023
 ----------
