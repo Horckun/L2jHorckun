@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Archivos actualizados en L2jHorckun\L2jFrozen_DataPack\bin\quests\255_Tutorial
 - Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\257_GuardIsBusy1
+- Etiquetas corregidas en L2jHorckun\L2jFrozen_DataPack\bin\quests\258_BringWolfPelt1
 
 07/11/2023
 ----------
