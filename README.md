@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+10/11/2023
+----------
+- Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\quests\259_RanchersPlea
+
 09/11/2023
 ----------
 - Archivos actualizados en L2jHorckun\L2jFrozen_DataPack\bin\quests\255_Tutorial
