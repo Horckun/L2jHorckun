@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 11/11/2023
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\261_DreamOfMoneylender1
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\262_BringMeMushrooms1
 
 10/11/2023
 ----------
