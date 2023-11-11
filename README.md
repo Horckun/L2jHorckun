@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+11/11/2023
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\261_DreamOfMoneylender1
+
 10/11/2023
 ----------
 - Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\quests\259_RanchersPlea
