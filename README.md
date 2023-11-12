@@ -2,6 +2,7 @@ L2jHorckun basado en L2jFrozen:
 
 12/11/2023
 - Arcivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\263_KillAllSylphs1
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\264_KeenClaws
 
 11/11/2023
 ----------
