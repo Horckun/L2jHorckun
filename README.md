@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\265_ChainsOfSlavery
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\266_PleaOfPixies
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\267_WrathOfVerdure
 
 12/11/2023
 ----------
