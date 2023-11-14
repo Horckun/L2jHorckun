@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\27_ChestCaughtWithABaitOfWind
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\271_ProofOfValor
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\272_WrathOfAncestors
 
 13/11/2023
 ----------
