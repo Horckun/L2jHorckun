@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+14/11/2023
+----------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\27_ChestCaughtWithABaitOfWind
+
 13/11/2023
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\265_ChainsOfSlavery
