@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\275_BlackWingedSpies
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\276_HestuiTotem
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\277_GatekeepersOffering
 
 14/11/2023
 ----------
