@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 27/11/2023
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\280_TheFoodChain
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\281_HeadForTheHills
 
 26/11/2023
 ----------
