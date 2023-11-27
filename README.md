@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\280_TheFoodChain
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\281_HeadForTheHills
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\283_TheFewTheProudTheBrave
 
 26/11/2023
 ----------
