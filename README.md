@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 28/11/2023
 ----------
 - Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\quests\284_MuertosFeather
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\286_FabulousFeathers
 
 27/11/2023
 ----------
