@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 ----------
 - Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\quests\284_MuertosFeather
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\286_FabulousFeathers
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\29_ChestCaughtWithABaitOfEarth
 
 27/11/2023
 ----------
