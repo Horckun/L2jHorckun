@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 05/01/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\292_CrushBrigands
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\293_HiddenVein
 
 28/11/2023
 ----------
