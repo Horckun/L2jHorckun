@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+07/01/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\295_DreamsOfFlight
+
 06/01/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\294_CovertBusiness
