@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+09/01/24
+--------
+- Traducción de archivos en L2jHorckun\L2jFrozen_DataPack\bin\quests\297_GatekeepersFavor
+
 08/01/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\296_SilkOfTarantula
