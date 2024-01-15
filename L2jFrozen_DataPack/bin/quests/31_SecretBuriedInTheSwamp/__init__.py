@@ -12,7 +12,7 @@ FORGOTTEN_MONUMENT_1,FORGOTTEN_MONUMENT_2,FORGOTTEN_MONUMENT_3,FORGOTTEN_MONUMEN
 #ITEMS
 KRORINS_JOURNAL = 7252
 #MESSAGES
-default = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+default = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
 
 class Quest (JQuest) :
 
@@ -60,7 +60,7 @@ class Quest (JQuest) :
    id = st.getState()
    cond = st.getInt("cond")
    if id == COMPLETED :
-     htmltext = "<html><body>This quest has already been completed.</body></html>"
+     htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
    elif npcId == ABERCROMBIE :
      if cond == 0 :
        if player.getLevel() >= 66 :
