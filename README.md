@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+17/01/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\313_CollectSpores
+
 15/01/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\31_SecretBuriedInTheSwamp
