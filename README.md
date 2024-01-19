@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\32_AnObviousLie
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\320_BonesTellFuture
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\324_SweetestVenom
 
 18/01/24
 --------
