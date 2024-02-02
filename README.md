@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+02/02/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\329_CuriosityOfDwarf
+
 27/01/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\328_SenseForBusiness
