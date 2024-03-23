@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+23/03/24
+--------
+- _init_.py traducido
+
 09/03/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\331_ArrowForVengeance
