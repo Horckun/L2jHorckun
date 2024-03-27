@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+27/03/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\334_TheWishingPotion
+
 23/03/24
 --------
 - _init_.py traducido
