@@ -53,8 +53,8 @@ DROPLIST={AMBER_BASILISK:[AMBER_SCALE,15],WHISPERING_WIND:[WIND_SOULSTONE,20],GL
           TYRANT_KINGPIN:[TYRANTS_CHITIN,50],TURAK_BUGBEAR:[BUGBEAR_BLOOD,25],TURAK_BUGBEAR_WARRIOR:[BUGBEAR_BLOOD,25]}
 
 # set of random messages
-MESSAGES={SUCCUBUS_OF_SEDUCTION:["Do you wanna be loved?","Do you need love?","Let me love you...","Want to know what love is?","Are you in need of love?","Me love you long time"],
-          GRIMA:["hey hum hum!","boom! boom!","...","Ki ab kya karein hum"],
+MESSAGES={SUCCUBUS_OF_SEDUCTION:["Quieres ser amado?","Necesitas amor?","Dejame amarte...","Quieres saber que es el amor?","Necesitas amor?","Te amo desde hace mucho tiempo"],
+          GRIMA:["Hey Hum Hum!","Boom! Boom!","...","Que hacemos ahora?"],
           }
 
 def check_ingredients(st,required) :
@@ -120,7 +120,7 @@ class Quest (JQuest) :
        st.giveItems(WISH_POTION,1)
        st.set("cond","5")
      else :
-       htmltext="You don't have required items"
+       htmltext="No tienes los articulos requeridos."
    elif event == "30738-14.htm":
      # if you dropped or destroyed your wish potion, you are not able to see the wish list
      if st.getQuestItemsCount(WISH_POTION) :
@@ -162,15 +162,15 @@ class Quest (JQuest) :
      else:
        htmltext = "30738-14.htm"
    elif event == "matild_timer1":
-     autochat(npc,"OK, everybody pray fervently!")
+     autochat(npc,"Bien, todos oren fervientemente!")
      st.startQuestTimer("matild_timer2",4000,npc)
      return
    elif event == "matild_timer2":
-     autochat(npc,"Both hands to heaven, everybody yell together!")
+     autochat(npc,"Ambas manos al cielo, todos gritan juntos!")
      st.startQuestTimer("matild_timer3",4000,npc)
      return
    elif event == "matild_timer3":
-     autochat(npc,"One! Two! May your dreams come true!")
+     autochat(npc,"Uno! Dos! Que tus suenos se hagan realidad!")
      wish = st.getInt("wish")
      WISH_CHANCE = st.getRandom(100)
      if wish == 1 :
@@ -194,7 +194,7 @@ class Quest (JQuest) :
          st.giveItems(ANCIENT_CROWN,1)
        else:
          spawnedNpc=st.addSpawn(SANCHES,player,True,0)
-         autochat(spawnedNpc,"Who dares to call the dark Monarch?!")
+         autochat(spawnedNpc,"Quien se atreve a llamar al monarca oscuro?")
          st.startQuestTimer("sanches_timer1",200000,spawnedNpc)
      elif wish == 4 :
        if WISH_CHANCE <= 33:
@@ -204,28 +204,28 @@ class Quest (JQuest) :
          if not st.getRandom(3):
             st.giveItems(HEART_OF_PAAGRIO,1)
        else:
-         autochat(st.addSpawn(WISDOM_CHEST,120000),"I contain the wisdom, I am the wisdom box!")
+         autochat(st.addSpawn(WISDOM_CHEST,120000),"Contengo la sabiduria, soy la caja de la sabiduria!")
      npc.setBusy(False)
      return
    elif event == "sanches_timer1" :
-     autochat(npc,"Hehehe, i'm just wasting my time here!")
+     autochat(npc,"Jejeje, estoy perdiendo el tiempo aqui!")
      npc.deleteMe()
      return
    elif event == "bonaparterius_timer1" :
-     autochat(npc,"A worth opponent would be a good thing")
+     autochat(npc,"Un oponente digno seria una buena cosa.")
      npc.deleteMe()
    elif event == "ramsebalius_timer1" :
-     autochat(npc,"Your time is up!")
+     autochat(npc,"Tu tiempo se ha acabado!")
      npc.deleteMe()
      return
    elif event == "greatdemon_timer1" :
-     autochat(npc,"Do not interrupt my eternal rest again!")
+     autochat(npc,"No vuelvas a interrumpir mi eterno descanso!")
      npc.deleteMe()
      return
    return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
@@ -310,9 +310,9 @@ class Quest (JQuest) :
        try :
          st.getQuestTimer("sanches_timer1").cancel()
          if st.getRandom(100) <= 50 :
-            autochat(npc,"It's time to come out my Remless... Bonaparterius!")
+            autochat(npc,"Es hora de que salga mi Remless... Bonaparterius!")
             spawnedNpc=st.addSpawn(BONAPARTERIUS,npc,True,0)
-            autochat(spawnedNpc,"I am the Great Emperor's son!")
+            autochat(spawnedNpc,"Soy el hijo del gran emperador!")
             st.startQuestTimer("bonaparterius_timer1",600000,spawnedNpc)
          else :
             st.giveItems(R4[st.getRandom(len(R4))],1)
@@ -320,10 +320,10 @@ class Quest (JQuest) :
      elif npcId == BONAPARTERIUS:
        try :
          st.getQuestTimer("bonaparterius_timer1").cancel()
-         autochat(npc,"Only Ramsebalius would be able to avenge me!")
+         autochat(npc,"Solo Ramsebalius podria vengarme!")
          if st.getRandom(100) <= 50 :
            spawnedNpc=st.addSpawn(RAMSEBALIUS,npc,True,0)
-           autochat(spawnedNpc,"Meet the absolute ruler!")
+           autochat(spawnedNpc,"Conoce al gobernante absoluto!")
            st.startQuestTimer("ramsebalius_timer1",600000,spawnedNpc)
          else :
            st.giveItems(R4[st.getRandom(len(R4))],1)
@@ -331,10 +331,10 @@ class Quest (JQuest) :
      elif npcId == RAMSEBALIUS:
        try :
          st.getQuestTimer("ramsebalius_timer1").cancel()
-         autochat(npc,"You evil piece of...")
+         autochat(npc,"Eres un pedazo malvado de...")
          if st.getRandom(100) <= 50 :
            spawnedNpc=st.addSpawn(GREAT_DEMON_KING,npc,True,0)
-           autochat(spawnedNpc,"Who dares to kill my fiendly minion?!")
+           autochat(spawnedNpc,"Quien se atreve a matar a mi malvado siervo?")
            st.startQuestTimer("greatdemon_timer1",600000,spawnedNpc)
          else :
            st.giveItems(R4[st.getRandom(len(R4))],1)
