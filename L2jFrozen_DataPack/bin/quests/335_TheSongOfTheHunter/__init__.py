@@ -214,45 +214,45 @@ Cyb_Rewards = {
     }
 
 Tor_menu = [
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3727\">C: Obtain 40 charms of Kadesh</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3728\">C: Collect 50 Timak Jade Necklaces</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3729\">C: Gather 50 Enchanted Golem Shards</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3730\">C: Collect and bring back 30 pieces of Giant Monster Eye Meat</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3731\">C: Collect and bring back 40 Dire Wyrm Eggs</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3732\">C: Collect and bring back 100 guardian basilisk talons</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3733\">C: Collect and bring back 50 revenants chains</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3734\">C: Collect and bring back 30 Windsus Tusks</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3735\">C: Collect and bring back 100 Grandis Skulls</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3736\">C: Collect and bring back 50 Taik Obsidian Amulets</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3737\">C: Bring me 30 heads of karul bugbears</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3738\">C: Collect 40 Tamlin Ivory Charms</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3739\">B: Bring me the head of Elder Narak of the leto lizardmen</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3740\">B: Collect and bring back 50 Enchanted Gargoyle Horns</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3741\">B: Collect and bring back 50 Coiled Serpent Totems</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3742\">B: Bring me the totem of the Serpent Demon Kadesh</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3743\">B: Bring me the head of Kaikis</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3744\">B: Collect and bring back 30 Kronbe Venom Sacs</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3746\">A: Recover the precious stone tablet that was stolen from a Dwarven cargo wagon by grandis</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3747\">A: Recover the precious Book of Shunaiman</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3749\">C: Collect and bring back 40 Trisalim Venom Sacs</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3750\">C: Collect and bring back 50 Taik Orc Totems</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3751\">C: Collect and bring back 40 Harit Lizardman barbed necklaces</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3752\">C: Collect and bring back 20 coins of the old empire</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3753\">C: Kill 30 farcrans and bring back their skins</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3754\">C: Collect and bring back 40 Tempest Shards</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3755\">C: Collect and bring back 40 Tsunami Shards</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3756\">C: Collect and bring back 40 Satyr Manes</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3758\">C: Collect and bring back 30 Shillien Manes</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3759\">C: Collect and bring back 30 tarlk bugbear totems</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3760\">B: Bring me the head of Okun</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3761\">B: Bring me the head of Kakran</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3762\">B: Collect and bring back 40 narcissus soulstones</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3763\">B: Collect and bring back 20 Deprive Eyes</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3764\">B: Collect and bring back 20 horns of summon unicorn</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3765\">B: Bring me the golden mane of Kerunos</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3766\">A: Bring back 20 skulls of undead executed criminals</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3767\">A: Recover the stolen bust of the late King Travis</a><br>",
-    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3768\">A: Recover 10 swords of Cadmus</a><br>"
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3727\">C: Obten 40 amuletos de Kadesh.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3728\">C: Recoge 50 collares de jade Timak.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3729\">C: Reune 50 fragmentos de golem encantados.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3730\">C: Recoge y recupera 30 piezas de carne de ojo de monstruo gigante.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3731\">C: Recoge y trae 40 huevos de Dire Wyrm.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3732\">C: Recoge y recupera 100 garras de basilisco guardian.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3733\">C: Recoge y recupera 50 cadenas de aparecidos.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3734\">C: Recoge y trae 30 colmillos de Windsus.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3735\">C: Recoge y recupera 100 calaveras Grandis.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3736\">C: Recoge y recupera 50 amuletos de obsidiana Taik.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3737\">C: Traeme 30 cabezas de osgos karul.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3738\">C: Recoge 40 amuletos de marfil de Tamlin.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3739\">B: Traeme la cabeza del anciano Narak de los hombres lagarto leto.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3740\">B: Recoge y recupera 50 cuernos de gargola encantados.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3741\">B: Recoge y recupera 50 totems de serpientes enroscadas.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3742\">B: Traeme el totem del demonio serpiente Kadesh.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3743\">B: Traeme la cabeza de Kaikis.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3744\">B: Recoge y trae 30 sacos de veneno de Kronbe.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3746\">A: Recupera la tablilla de piedras preciosas que grandis robo de un vagon de carga enano.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3747\">A: Recupera el precioso libro de Shunaiman.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3749\">C: Recoge y trae 40 sacos de veneno de Trisalim.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3750\">C: Recoge y recupera 50 totems de orcos Taik.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3751\">C: Recoge y recupera 40 collares de puas del hombre lagarto Harit.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3752\">C: Recoge y recupera 20 monedas del antiguo imperio.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3753\">C: Mata a 30 farcrans y recupera sus pieles.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3754\">C: Recoge y recupera 40 fragmentos de tempestad.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3755\">C: Recoge y recupera 40 fragmentos de tsunami.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3756\">C: Recoge y recupera 40 Satyr Manes.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3758\">C: Recoge y recupera 30 Shillien Manes.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3759\">C: Recoge y recupera 30 totems de osgos tarlk.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3760\">B: Traeme la cabeza de Okun.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3761\">B: Traeme la cabeza de Kakran.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3762\">B: Recoge y recupera 40 piedras de alma de narciso.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3763\">B: Recoge y recupera 20 ojos privados.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3764\">B: Recoge y recupera 20 cuernos de invocar unicornio.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3765\">B: Traeme la melena dorada de Kerunos.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3766\">A: Recupera 20 craneos de criminales ejecutados no muertos.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3767\">A: Recupera el busto robado del difunto rey Travis.</a><br>",
+    "<a action=\"bypass -h Quest 335_TheSongOfTheHunter 3768\">A: Recupera 10 espadas de Cadmo.</a><br>"
     ]
 
 
@@ -319,7 +319,7 @@ class Quest (JQuest) :
                 htmltext = "30745-04.htm"
         elif event == "Tor_list_1" :
             if not st.getInt("hasTask") :
-                htmltext = "<html><body>Guild Member Tor:<br>"
+                htmltext = "<html><body><font color=\"LEVEL\">Miembro del gremio Tor:<br><br>"
                 pins = st.getQuestItemsCount(Leaf_Pin)
                 reply_0 = Rnd.get(12)
                 reply_1 = Rnd.get(12)
@@ -346,7 +346,7 @@ class Quest (JQuest) :
                 htmltext += "</body></html>"
         elif event == "Tor_list_2" :
             if not st.getInt("hasTask") :
-                htmltext = "<html><body>Guild Member Tor:<br>"
+                htmltext = "<html><body><font color=\"LEVEL\">Miembro del gremio Tor:<br><br>"
                 pins = st.getQuestItemsCount(Leaf_Pin)
                 reply_0 = Rnd.get(10)
                 reply_1 = Rnd.get(10)
@@ -397,7 +397,7 @@ class Quest (JQuest) :
         return htmltext
 
     def onTalk (self,npc,player):
-        htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+        htmltext = "<html><body>O no estas en una mision que involucre a este NPC o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
         st = player.getQuestState(qn)
         if not st : return htmltext
         npcId = npc.getNpcId()
@@ -562,7 +562,7 @@ class Quest (JQuest) :
                     if npcId in [27160,27164] and Rnd.get(2) :
                         st.addSpawn(27150,300000)
                         st.addSpawn(27150,300000)
-                        AutoChat(npc,"We will destroy the legacy of the ancient empire!")
+                        AutoChat(npc,"Destruiremos el legado del antiguo imperio!")
         elif cond == 3 :
             if npcId in Tor_requests_2.keys() :
                 req,give,amount,chance = Tor_requests_2[npcId]
@@ -576,10 +576,10 @@ class Quest (JQuest) :
                         if npcId == 27162 and Rnd.get(2) :
                             st.addSpawn(27150,300000)
                             st.addSpawn(27150,300000)
-                            AutoChat(npc,"We will destroy the legacy of the ancient empire!")
+                            AutoChat(npc,"Destruiremos el legado del antiguo imperio!")
                     if npcId in [20661,20662,20589,20590,20639] and not Rnd.get(20) :
                         st.addSpawn(Gremlin_Filcher,300000)
-                        AutoChat(npc,"Get out! The jewels are mine!")
+                        AutoChat(npc,"Sal! Las joyas son mias!")
             elif npcId == Gremlin_Filcher :
                 req = 0
                 for item in Filcher.keys() :
@@ -594,7 +594,7 @@ class Quest (JQuest) :
                             st.playSound("ItemSound.quest_middle")
                         else :
                             st.playSound("ItemSound.quest_itemget")
-                        AutoChat(npc,"What!")
+                        AutoChat(npc,"Que!")
         if npcId in Tor_requests_tospawn.keys() and rand < 10:
             it1,it2,id = Tor_requests_tospawn[npcId]
             if st.getQuestItemsCount(it1) and not st.getQuestItemsCount(it2) :
