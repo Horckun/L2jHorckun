@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+12/04/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\336_CoinOfMagic
+
 28/03/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\335_TheSongOfTheHunter
