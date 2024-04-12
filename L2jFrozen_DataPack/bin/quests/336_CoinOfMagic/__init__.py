@@ -6,7 +6,7 @@ QUEST_NUMBER      = 336
 QUEST_NAME        = "CoinOfMagic"
 QUEST_DESCRIPTION = "Coins of Magic"
 #Messages
-default = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+default = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
 
 #Quest items
 COIN_DIAGRAM,KALDIS_COIN,MEMBERSHIP_1,MEMBERSHIP_2,MEMBERSHIP_3 = range(3811,3816)
@@ -174,7 +174,7 @@ class Quest (JQuest) :
          if int(coin) in EXCHANGE_LIST[int(npc)].keys():
            htmltext=st.showHtmlFile(npc+"-06.htm").replace("%itemid%",coin)
          else:
-           htmltext="Cheating huh?"
+           htmltext="Hacer trampa, eh?"
            st.exitQuest(1)
        else:
          htmltext=npc+"-54.htm"
@@ -197,9 +197,9 @@ class Quest (JQuest) :
             else:
                htmltext=str(npc)+"-10.htm"
          else:
-           htmltext="Exchange not possible"
+           htmltext="Intercambio no posible."
        else:
-         htmltext="I can't trade with you"
+         htmltext="No puedo comerciar contigo."
     elif event.startswith("Ga_"):
         action,npc,coin,tries=event.split("_")
         npc,coin,tries=int(npc),int(coin),int(tries)
