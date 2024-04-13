@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+13/04/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\337_AudienceWithTheLandDragon
+
 12/04/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\336_CoinOfMagic
