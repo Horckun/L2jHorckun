@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+19/04/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\34_InSearchOfClothes
+
 14/04/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\338_AlligatorHunter
