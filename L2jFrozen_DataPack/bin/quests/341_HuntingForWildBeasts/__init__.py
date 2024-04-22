@@ -23,7 +23,7 @@ class Quest (JQuest) :
      return htmltext
 
  def onTalk (self,npc,player):
-     htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+     htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
 
@@ -35,7 +35,7 @@ class Quest (JQuest) :
          if level>=20 :
              htmltext = "30078-01.htm"
          else:
-             htmltext = "<html><body>This quest can only be taken by characters level 20 and higher!</body></html>"
+             htmltext = "<html><body>Esta mision solo la pueden realizar personajes de nivel 20 y superior!</body></html>"
              st.exitQuest(1)
      elif cond==1 :
          if st.getQuestItemsCount(BEAR_SKIN)>=20 :
