@@ -23,20 +23,20 @@ OUTCOME={0:1,1:2,2:0}
 TOSS={0:"Heads",1:"Tails"}
 ORBS=[10,30,70,150,310,0]
 #Messages
-start_msg=["One~ Two~ Three~","Go! One~ Two~ Three~","Ready? Go! One~ Two~ Three~","Here we go! One~ Two~ Three~"]
-tie_msg=["Ah ha! A tie! Take back the orbs that you bet. Well, shall we play again?",\
-         "Ha! A tie! Take back the orbs that you bet. Shall we try again?"]
-win_msg=["Well, you certainly got lucky that time! Take all the orbs we put up as a bet. Come on! Let's play another round!",\
-         "Oh no! I lose! Go ahead. Take all the orbs we put up as a bet. Come on! Let's play again!",\
-         "Oh no! I lose! Go ahead. Take all the orbs we put up as a bet. Humph... Come on! Let's play again!"]
-lose_msg=["Oh, too bad. You lose! Shall we play another round?",\
-          "Oh...! You lose! Oh well, the orbs are mine. Shall we play another round?",\
-          "Oh, too bad, you lose! I'll take those orbs now... Hey now, shall we play another round?"]
-again_msg=["Play the game.","Play the rock paper scissors game."]
-toss_msg=[["You're right!","You win!"],\
-          ["Hu wah! Right again!","You won twice in a row!"],\
-          ["Hu wah! Right again!","You won three times in a row!"],\
-          ["Ho ho! Right again!","You won four times in a row!"]]
+start_msg=["Uno~ Dos~ Tres~","Vamos! Uno~ Dos~ Tres~","Listo? Ir! Uno~ Dos~ Tres~","Aqui vamos! Uno~ Dos~ Tres~"]
+tie_msg=["Ah, ja! Un lazo! Recupera los orbes que apostaste. Bueno, jugamos de nuevo?",\
+         "Ja! Un lazo! Recupera los orbes que apostaste. Lo intentamos de nuevo?"]
+win_msg=["Bueno, ciertamente tuviste suerte esa vez! Toma todos los orbes que ponemos como apuesta. Vamos! Juguemos otra ronda!",\
+         "Oh, no! Pierdo! Adelante. Toma todos los orbes que ponemos como apuesta. Vamos! Juguemos otra vez!",\
+         "Oh, no! Pierdo! Adelante. Toma todos los orbes que ponemos como apuesta. Humph... Vamos! Juguemos otra vez!"]
+lose_msg=["OH!, que mal. Tu pierdes! Jugamos otra ronda?",\
+          "Oh! Tu pierdes! Bueno, los orbes son mios. Jugamos otra ronda?",\
+          "Que lastima, pierdes! Tomare esos orbes ahora... Oye, jugamos otra ronda?"]
+again_msg=["Juega el juego.", "Juega al juego de piedra, papel o tijera."]
+toss_msg=[["Tienes razon!","Tu ganas!"],\
+          ["Hu wa! Otra vez!","Ganaste dos veces seguidas!"],\
+          ["Hu wa! Otra vez correcto!","Ganaste tres veces seguidas!"],\
+          ["Ho, ho! Otra vez!","Ganaste cuatro veces seguidas!"]]
   
 class Quest (JQuest) :
 
@@ -147,7 +147,7 @@ class Quest (JQuest) :
      return htmltext
 
  def onTalk (self,npc,player):
-     htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+     htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
 
