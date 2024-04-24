@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+24/04/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\343_UnderTheShadowOfTheIvoryTower
+
 22/04/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\341_HuntingForWildBeasts
