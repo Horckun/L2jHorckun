@@ -40,7 +40,7 @@ class Quest (JQuest) :
              htmltext = "30912-03.htm"
              st.playSound("ItemSound.quest_itemget")
          else :
-             htmltext = "<html><body>You dont have enough adena!</body></html>"
+             htmltext = "<html><body>No tienes suficientes adenas!</body></html>"
      elif event == "4" :
          htmltext = "30973-02.htm"
          st.takeItems(POWDER_TO_SUMMON_DEAD_SOULS,-1)
@@ -53,7 +53,7 @@ class Quest (JQuest) :
      return htmltext
 
  def onTalk (self,npc,player):
-     htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+     htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
 
@@ -69,7 +69,7 @@ class Quest (JQuest) :
              if level>=35 :
                  htmltext = "30970-01.htm"
              else :
-                 htmltext = "<html><body>(This is a quest that can only be performed by players of level 35 and above.)</body></html>"
+                 htmltext = "<html><body>(Esta es una mision que solo pueden realizar jugadores de nivel 35 y superior)</body></html>"
                  st.exitQuest(1)
          elif cond==1 and st.getQuestItemsCount(VICTIMS_ARM_BONE) and st.getQuestItemsCount(VICTIMS_THIGH_BONE) and st.getQuestItemsCount(VICTIMS_SKULL) and st.getQuestItemsCount(VICTIMS_RIB_BONE) and st.getQuestItemsCount(VICTIMS_SPINE) :
              htmltext = "30970-05.htm"
@@ -86,7 +86,7 @@ class Quest (JQuest) :
              htmltext = "30912-01.htm"
              st.playSound("ItemSound.quest_middle")
          elif cond == 3 :
-             htmltext = "<html><body>What did the urn say?</body></html>"
+             htmltext = "<html><body>Que decia la urna?</body></html>"
          elif cond == 6 :
              htmltext = "30912-04.htm"
              st.set("cond","7")
