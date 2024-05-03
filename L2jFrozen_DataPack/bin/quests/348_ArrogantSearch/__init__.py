@@ -11,7 +11,7 @@ from com.l2jfrozen.gameserver.model.quest.jython import QuestJython as JQuest
 qn = "348_ArrogantSearch"
 
 #Messages
-default   = "<html><body>I have nothing to say to you.</body></html>"
+default   = "<html><body>No tengo nada que decirte.</body></html>"
 #MOBS TO KILL
 ARK_GUARDIAN_ELBEROTH = 27182
 ARK_GUARDIAN_SHADOWFANG = 27183
@@ -66,8 +66,8 @@ ADENA = 57 # cheater reward
 #ARK: [key, summon, no-key text, openning-with-key text, already-openned text, content item]
 ARKS={
 HOLY_ARK_OF_SECRECY_1: [FIRST_KEY_OF_ARK,0,"30977-01.htm","30977-02.htm","30977-03.htm",BLOOD_OF_SAINT],
-HOLY_ARK_OF_SECRECY_2: [SECOND_KEY_OF_ARK,ARK_GUARDIAN_ELBEROTH,"That doesn't belong to you.  Don't touch it!","30978-02.htm","30978-03.htm",BOOK_OF_SAINT],
-HOLY_ARK_OF_SECRECY_3: [THIRD_KEY_OF_ARK,ARK_GUARDIAN_SHADOWFANG, "Get off my sight, you infidels!","30979-02.htm","30979-03.htm",BRANCH_OF_SAINT],
+HOLY_ARK_OF_SECRECY_2: [SECOND_KEY_OF_ARK,ARK_GUARDIAN_ELBEROTH,"Eso no te pertenece. No lo toques!","30978-02.htm","30978-03.htm",BOOK_OF_SAINT],
+HOLY_ARK_OF_SECRECY_3: [THIRD_KEY_OF_ARK,ARK_GUARDIAN_SHADOWFANG, "Apartaos de mi vista, infieles!","30979-02.htm","30979-03.htm",BRANCH_OF_SAINT],
 }
 
 # npc: letter to take, item to check for, 1st time htm, return htm, COMPLETED part htm, [x,y,z of chest]
@@ -120,16 +120,16 @@ PLATINUM_TRIBE_OVERLORD: [25,BLOODED_FABRIC,1,2,WHITE_FABRIC_1],
 }
 
 """
-notes:
-In order to make it easier to participate in a Baium Raid, the number of Platinum Race monsters that must be
-killed to get "Blooded Fabric" in the Arrogant Search quest has been reduced a bit.  However, if a player clicks
-"Say that you will come back" to Magister Hanellin while carrying out the quest alone and repeats the quest,
-he must hunt the same number of Platinum Race monsters as before.
-In the process of delivering the Blooded Fabric to Sir Athebaldt/Iason Heine/Hardin when carrying out the
-Arrogant Search quest alone, if it is not the number of "Blooded Fabrics" that the related NPCs want, the
-game has been modified to have the player go back to Hanellin. Hanellin gives a reward in proportion to the
-number of errands run when the number of "Blooded Fabrics" that have to be delivered is not right and then
-the quest is ended.
+Notas:
+Para que sea mas facil participar en un raid Baium, la cantidad de monstruos de carrera platino que deben ser
+las personas asesinadas para obtener tela sangrienta en la mision arrogante se han reducido un poco. Sin embargo, si un jugador hace clic 
+en "Dile que volveras" al maestro Hanellin mientras realizas la mision solo y repite la mision.
+debe cazar la misma cantidad de monstruos de la carrera de platino que antes.
+En el proceso de entrega de tejidos con sangre a Sir Athebaldt/Iason Heine/Hardin al realizar la
+busqueda arrogante por si sola, si no es la cantidad de telas sangrientas que quieren los NPC relacionados, el 
+juego ha sido modificado para que el jugador regrese a Hanellin. Hanellin da una recompensa en proporcion a la
+numero de recados que se realizan cuando el numero de tejidos con sangre que se deben entregar no es el correcto y luego
+la busqueda ha terminado.
 """
 
 class Quest (JQuest) :
@@ -189,7 +189,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
-    htmltext = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>"
+    htmltext = "<html><body>O no estas en una mision que involucre a este NPC o no cumples con los requisitos minimos de mision de este NPC.</body></html>"
     st = player.getQuestState(qn)
     if not st : return htmltext
 
@@ -402,7 +402,7 @@ class Quest (JQuest) :
              if DROPS_29[npcId][4] != 0:
                  st.takeItems(DROPS_29[npcId][4],1)
      if npcId == ANGEL_KILLER :
-         return "Ha, that was fun! If you wish to find the key, search the corpse"
+         return "Ja, eso fue divertido! Si deseas encontrar la llave, busca el cadaver."
      return
 
 
