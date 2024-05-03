@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+03/05/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\348_ArrogantSearch
+
 28/04/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\347_GoGetTheCalculator
