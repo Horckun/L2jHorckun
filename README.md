@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+17/05/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\35_FindGlitteringJewelry
+
 03/05/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\348_ArrogantSearch
