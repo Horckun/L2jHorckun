@@ -38,11 +38,11 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_finish")
        st.exitQuest(1)
      else :
-       htmltext = "You don't have enough materials"
+       htmltext = "No tienes suficientes materiales."
    return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
@@ -55,10 +55,10 @@ class Quest (JQuest) :
          htmltext = "30091-0.htm"
          return htmltext
        else:
-         htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+         htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
          st.exitQuest(1)
      else:
-       htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+       htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
        st.exitQuest(1)
    elif npcId == 30879 and cond == 1 :
      htmltext = "30879-0.htm"
