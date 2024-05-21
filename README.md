@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+21/05/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\351_BlackSwan
+
 20/05/24
 --------
 - Archivos traducidos y corregidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\350_EnhanceYourWeapon
