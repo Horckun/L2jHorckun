@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+23/05/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\352_HelpRoodRaiseANewPet
+
 21/05/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\351_BlackSwan
