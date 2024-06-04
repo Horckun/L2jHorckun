@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+04/06/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\355_FamilyHonor
+
 03/06/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\354_ConquestOfAlligatorIsland
