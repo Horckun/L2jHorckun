@@ -27,7 +27,7 @@ class Quest (JQuest) :
 
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
@@ -40,24 +40,24 @@ class Quest (JQuest) :
    if npcId == 30956 and st.getInt("cond") == 0 :
         htmltext = "30956_1.htm"
    elif npcId == 30956 and st.getInt("cond") == 1 :
-        htmltext = "<html><body>Find Blacksmith Opix..</body></html>"
+        htmltext = "<html><body>Encuentra al herrero Opix...</body></html>"
    elif npcId == 30595 and st.getInt("cond") == 1 :
         st.set("cond","2")
         htmltext = "30595_1.htm"
    elif npcId == 30595 and st.getInt("cond") > 1 :
-        htmltext = "<html><body>Go back to Nanarin..</body></html>"
+        htmltext = "<html><body>Vuelve a Nanarin...</body></html>"
    elif npcId == 30956 and st.getInt("cond") == 2 :
         st.giveItems(4319,1)
         st.set("cond","3")
         htmltext = "30956_3.htm"
    elif npcId == 30956 and st.getInt("cond") == 3 :
-        htmltext = "<html><body>Find Barbado..</body></html>"
+        htmltext = "<html><body>Encuentra a Barbados...</body></html>"
    elif npcId == 30959 and st.getInt("cond") == 3 :
         st.takeItems(4319,1)
         st.set("cond","4")
         htmltext = "30959_1.htm"
    elif npcId == 30959 and st.getInt("cond") == 4 :
-        htmltext = "<html><body>Go back to Nanarin..</body></html>"
+        htmltext = "<html><body>Vuelve a Nanarin...</body></html>"
    elif npcId == 30956 and st.getInt("cond") == 4 :
         htmltext = "30956_4.htm"
    return htmltext
