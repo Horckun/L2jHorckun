@@ -7,6 +7,7 @@ L2jHorckun basado en L2jFrozen:
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\359_ForSleeplessDeadmen
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\36_MakeASewingKit
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\360_PlunderTheirSupplies
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\362_BardsMandolin
 
 16/06/24
 --------
