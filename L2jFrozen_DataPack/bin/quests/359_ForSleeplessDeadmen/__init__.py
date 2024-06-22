@@ -23,7 +23,7 @@ REMAINS = 5869
 REWARDS=range(6341,6347)+range(5494,5496)
 
 #Messages
-default   = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+default   = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
 
 #NPCs
 ORVEN = 30857
