@@ -24,7 +24,7 @@ REWARDS=range(6329,6340,2)+range(5364,5367,2)
 ALT_RP_100 = 0
 
 #Messages
-default   = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+default   = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
 
 #NPCs
 OLTLIN = 30862
