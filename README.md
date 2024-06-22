@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen:
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\358_IllegitimateChildOfAGoddess
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\359_ForSleeplessDeadmen
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\36_MakeASewingKit
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\360_PlunderTheirSupplies
 
 16/06/24
 --------
