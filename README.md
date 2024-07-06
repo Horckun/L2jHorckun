@@ -6,6 +6,7 @@ L2jHorckun basado en L2jFrozen:
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\365_DevilsLegacy
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\366_SilverHairedShaman
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\367_ElectrifyingRecharge
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\368_TrespassingIntoTheSacredArea
 
 22/06/24
 --------
