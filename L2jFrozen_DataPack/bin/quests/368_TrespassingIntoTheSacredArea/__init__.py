@@ -26,7 +26,7 @@ class Quest (JQuest) :
      return htmltext
 
  def onTalk (self,npc,player):
-     htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+     htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
 
@@ -39,7 +39,7 @@ class Quest (JQuest) :
         if level>=36 :
             htmltext = "30926-01.htm"
         else :
-            htmltext = "<html><body>(This is a quest that can only be performed by players of level 36 and above.)</body></html>"
+            htmltext = "<html><body>(Esta es una mision que solo pueden realizar jugadores de nivel 36 y superior)</body></html>"
      elif cond and not amount :
          htmltext = "30926-03.htm"
      elif amount :
