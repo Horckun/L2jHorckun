@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+06/07/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\364_JovialAccordion
+
 22/06/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\357_WarehouseKeepersAmbition
