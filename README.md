@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 20/07/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\369_CollectorOfJewels
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\37_PleaseMakeMeFormalWear
 
 06/07/24
 --------
