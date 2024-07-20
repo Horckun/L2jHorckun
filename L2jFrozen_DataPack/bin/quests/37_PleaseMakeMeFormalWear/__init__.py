@@ -38,7 +38,7 @@ class Quest (JQuest) :
          st.takeItems(ICE_WINE,1)
          st.set("cond","4")
       else:
-         htmltext = "You don't have enough materials"
+         htmltext = "No tienes suficientes materiales."
     elif event == "31521-3.htm" and cond == 4:
        st.giveItems(BOX_OF_COOKIES,1)
        st.set("cond","5")
@@ -51,7 +51,7 @@ class Quest (JQuest) :
          st.takeItems(SEWING_KIT,1)
          st.set("cond","7")
        else :
-         htmltext = "You don't have enough materials"
+         htmltext = "No tienes suficientes materiales."
     elif event == "31520-7.htm" :
        if st.getQuestItemsCount(DRESS_SHOES_BOX) :
          st.takeItems(DRESS_SHOES_BOX,1)
@@ -60,11 +60,11 @@ class Quest (JQuest) :
          st.unset("cond")
          st.playSound("ItemSound.quest_finish")
        else :
-         htmltext = "You don't have enough materials"
+         htmltext = "No tienes suficientes materiales."
    return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
@@ -72,7 +72,7 @@ class Quest (JQuest) :
    cond = st.getInt("cond")
    if npcId == 30842 and cond == 0 :
      if id == COMPLETED :
-       htmltext = "<html><body>This quest has already been completed.</body></html>"
+       htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
      elif player.getLevel() >= 60 :
        htmltext = "30842-0.htm"
        return htmltext
