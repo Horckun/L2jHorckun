@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+30/07/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\371_ShriekOfGhosts
+
 21/07/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\370_AWisemanSowsSeeds
