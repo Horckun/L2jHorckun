@@ -58,7 +58,7 @@ MESSENGER_A1:[WH_PAP,25],
 MESSENGER_A2:[WH_PAP,25]
 }
 #Messages
-default = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+default = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
 #Helpers
 def check_n_take(st,collection) :
     result = False
