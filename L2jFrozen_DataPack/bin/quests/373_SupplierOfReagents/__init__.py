@@ -55,7 +55,7 @@ BLOOD_FIRE, MIMIRS_ELIXIR, PURE_SILVER, TRUE_GOLD = range(6318,6322)
 
 MATS=range(6011,6032)+range(6320,6322)
 #Messages
-default   = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+default   = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
 #NPCs
 WESLEY,URN=30166,31149
 #Mobs & Drop
@@ -84,7 +84,7 @@ MIMIRS_ELIXIR:   [PURE_SILVER,1,TRUE_GOLD,1],
 def render_urn(st, page) :
     stone,ingredient,catalyst = st.getInt("mixing"),st.getInt("ingredient"),st.getInt("catalyst")
     if page == "Start" :
-       html = "<html><body>Alchemists Mixing Urn:<br><table border=0 width=300><tr><tr><td width=50%><a action=\"bypass -h Quest 373_SupplierOfReagents U_M_MACT\">MACT Mixing Stone</a></td><td></td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents U_I_IACT\">IACT Ingredients</a></td><td>(current: INGR)</td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents U_C_CACT\">CACT Catalyst</a></td><td>(current: CATA)</td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents 31149-5.htm\">Select Temperature</a></td><td>(current: TEMP)</td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents 31149-6.htm\">Mix Ingredients</a></td><td></td></tr></table></body></html>"
+       html = "<html><body><font color='LEVEL'>Urna de mezcla de alquimistas:</font><br><br><table border=0 width=300><tr><tr><td width=50%><a action=\"bypass -h Quest 373_SupplierOfReagents U_M_MACT\">Piedra mezcladora MACT.</a></td><td></td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents U_I_IACT\">Ingredientes IACT.</a></td><td>(Actual: INGR)</td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents U_C_CACT\">Catalizador CACT.</a></td><td>(Actual: CATA)</td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents 31149-5.htm\">Seleccionar temperatura</a></td><td>(Actual: TEMP)</td></tr><tr><td><a action=\"bypass -h Quest 373_SupplierOfReagents 31149-6.htm\">Mezclar ingredientes.</a></td><td></td></tr></table></body></html>"
        ingr,cata,temp=st.getInt("ingredient"),st.getInt("catalyst"),st.get("temp")
        if ingr : ingr = ITEMS[ingr][1]+"x"+st.get("i_qty")
        else : ingr = "None"
@@ -98,14 +98,14 @@ def render_urn(st, page) :
        if catalyst : html = html.replace("CACT","Retrieve")
        else : html = html.replace("CACT","Insert")
     elif isinstance(page,list) :
-       html = "<html><body>Insert:<table border=0>"
+       html = "<html><body>Insertar:<table border=0>"
        amt = 0
        for i in MATS :
          if st.getQuestItemsCount(i):
            amt += 1
            html += "<tr><td height=45><img src=icon."+ITEMS[i][0]+" height=32 width=32></td><td width=180>"+ITEMS[i][1]+"</td><td><button value=X1 action=\"bypass -h Quest 373_SupplierOfReagents x_1_"+page[1]+"_"+str(i)+"\" width=40 height=15 fore=sek.cbui92><button value=X10 action=\"bypass -h Quest 373_SupplierOfReagents x_2_"+page[1]+"_"+str(i)+"\" width=40 height=15 fore=sek.cbui92></td></tr>"
-       if not amt : html += "<tr><td>You don't have any material that could be used with this Urn. Read the Mixing Manual.</td></tr>"
-       html += "</table><center><a action=\"bypass -h Quest 373_SupplierOfReagents urn\">Back</a></center></body></html>"
+       if not amt : html += "<tr><td>No tienes ningun material que pueda usarse con esta urna. Lea el manual de mezcla.<br></td></tr>"
+       html += "</table><center><a action=\"bypass -h Quest 373_SupplierOfReagents urn\">Volver.</a></center></body></html>"
     return html
 
 class Quest (JQuest) :
@@ -143,7 +143,7 @@ class Quest (JQuest) :
                  st.set("mixing","1")
                  htmltext = "31149-2.htm"
               else :
-                 htmltext = "You don't have a mixing stone."
+                 htmltext = "No tienes una piedra para mezclar."
           elif event[2] == "Retrieve" :
               if st.getInt("mixing") :
                  st.set("mixing","0")
