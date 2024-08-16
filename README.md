@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 16/08/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\374_WhisperOfDreams1
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\375_WhisperOfDreams2
 
 15/08/24
 --------
