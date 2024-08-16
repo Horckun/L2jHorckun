@@ -5,6 +5,7 @@ L2jHorckun basado en L2jFrozen:
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\374_WhisperOfDreams1
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\375_WhisperOfDreams2
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\376_GiantsExploration1
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\377_GiantsExploration2
 
 15/08/24
 --------
