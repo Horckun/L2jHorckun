@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+23/08/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\379_FantasyWine
+
 17/08/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\378_MagnificentFeast
