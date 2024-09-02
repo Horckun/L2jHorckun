@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 02/09/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\380_BringOutTheFlavorOfIngredients
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\381_LetsBecomeARoyalMember
 
 01/09/24
 --------
