@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\380_BringOutTheFlavorOfIngredients
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\381_LetsBecomeARoyalMember
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\382_KailsMagicCoin
 
 01/09/24
 --------
