@@ -33,7 +33,7 @@ class Quest (JQuest) :
            st.addSpawn(SHARK,106590,197743,-4209,900000)
            st.playSound("ItemSound.quest_accept")
         else:
-           htmltext="You don't have required items"
+           htmltext="No tienes articulos requeridos."
            st.exitquest(1)
      elif event == "30890-02b.htm":
         if st.getQuestItemsCount(PIRATES_TREASURE_MAP) :
@@ -41,7 +41,7 @@ class Quest (JQuest) :
            st.giveItems(57,1000)
            st.playSound("ItemSound.quest_finish")
         else:
-           htmltext="You don't have required items"
+           htmltext="No tienes articulos requeridos."
         st.exitQuest(1)
      elif event == "31148-02.htm":
         if st.getQuestItemsCount(1661):
@@ -66,7 +66,7 @@ class Quest (JQuest) :
      return htmltext
 
  def onTalk (self,npc,player):
-     htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+     htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
      st = player.getQuestState(qn)
      if not st : return htmltext
 
