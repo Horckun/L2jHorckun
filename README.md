@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 30/09/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\384_WarehouseKeepersPastime
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\385_YokeofthePast
 
 03/09/24
 --------
