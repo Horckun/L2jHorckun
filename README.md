@@ -4,6 +4,7 @@ L2jHorckun basado en L2jFrozen:
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\384_WarehouseKeepersPastime
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\385_YokeofthePast
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\386_StolenDignity
 
 03/09/24
 --------
