@@ -73,7 +73,7 @@ class Quest (JQuest) :
        st.takeItems(RED_BONE_NECKLACE,100)       
        st.set("cond","4")
      else :
-       htmltext = "You don't have required items"
+       htmltext = "No tienes articulos requeridos."
     elif event == "30332-5.htm" :
      if st.getQuestItemsCount(INCENSE_POUCH) == st.getQuestItemsCount(GEM_OF_MAILLE) == 30 and cond == 5 :
        st.takeItems(INCENSE_POUCH,30)
@@ -85,18 +85,18 @@ class Quest (JQuest) :
        st.playSound("ItemSound.quest_finish")
        st.setState(COMPLETED)
      else :
-       htmltext = "You don't have required items"
+       htmltext = "No tienes articulos requeridos."
    return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
    npcId = npc.getNpcId()
    id = st.getState()
    cond = st.getInt("cond")
    if id == COMPLETED :
-       htmltext = "<html><body>This quest has already been completed.</body></html>"
+       htmltext = "<html><body>Esta mision ya se ha completado.</body></html>"
    elif npcId == BABENCO :
      if id == CREATED :     
        if player.getLevel() >= 20 :
