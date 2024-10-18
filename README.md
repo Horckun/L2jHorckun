@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+18/10/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\402_PathToKnight
+
 13/10/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\401_PathToWarrior
