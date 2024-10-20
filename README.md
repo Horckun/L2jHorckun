@@ -3,6 +3,7 @@ L2jHorckun basado en L2jFrozen:
 20/10/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\data\scripts\quests\403_PathToRogue
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\404_PathToWizard
 
 18/10/24
 --------
