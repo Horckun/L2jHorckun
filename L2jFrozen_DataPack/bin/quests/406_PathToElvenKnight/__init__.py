@@ -15,7 +15,7 @@ TOPAZ_PIECE = 1205
 EMERALD_PIECE = 1206
 KLUTO_MEMO = 1276
 #messages
-default="<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+default="<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
 
 class Quest (JQuest) :
 
@@ -55,7 +55,7 @@ class Quest (JQuest) :
     return htmltext
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
