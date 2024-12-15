@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+15/12/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\411_PathToAssassin
+
 29/11/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\410_PathToPalusKnight
