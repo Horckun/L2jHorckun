@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+31/12/24
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\414_PathToOrcRaider
+
 27/12/24
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\413_PathToShillienOracle
