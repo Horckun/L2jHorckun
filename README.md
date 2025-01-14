@@ -1,5 +1,9 @@
 L2jHorckun basado en L2jFrozen:
 
+14/01/25
+--------
+- Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\416_PathToOrcShaman
+
 10/01/25
 --------
 - Archivos traducidos en L2jHorckun\L2jFrozen_DataPack\bin\quests\415_PathToOrcMonk
