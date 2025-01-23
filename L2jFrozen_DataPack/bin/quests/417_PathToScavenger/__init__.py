@@ -65,7 +65,7 @@ class Quest (JQuest) :
               htmltext = "30519-04.htm"
               st.giveItems(BRONKS_INGOT,1)
         else:
-            htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+            htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
     elif event == "30519_2" :
           htmltext = "30519-06.htm"
     elif event == "30519_3" :
@@ -93,7 +93,7 @@ class Quest (JQuest) :
               st.takeItems(ZIMENFS_POTION,1)
               st.takeItems(BRONKS_INGOT,1)
         else:
-            htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+            htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
     elif event == "30519_6" :
         if st.getQuestItemsCount(ZIMENFS_PAY) or st.getQuestItemsCount(CHALIS_PAY) or st.getQuestItemsCount(BRONKS_PAY):
             n = st.getRandom(3)
@@ -110,7 +110,7 @@ class Quest (JQuest) :
               htmltext = "30519-04.htm"
               st.giveItems(BRONKS_INGOT,1)
         else:
-            htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+            htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
     elif event == "30316_1" :
         if st.getQuestItemsCount(BEAD_PARCEL):
           htmltext = "30316-02.htm"
@@ -118,7 +118,7 @@ class Quest (JQuest) :
           st.giveItems(ROUTS_TP_SCROLL,1)
           st.set("cond","10")
         else:
-            htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+            htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
     elif event == "30316_2" :
         if st.getQuestItemsCount(BEAD_PARCEL):
           htmltext = "30316-03.htm"
@@ -126,7 +126,7 @@ class Quest (JQuest) :
           st.giveItems(ROUTS_TP_SCROLL,1)
           st.set("cond","10")
         else:
-            htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+            htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
     elif event == "30557_1" :
           htmltext = "30557-02.htm"
     elif event == "30557_2" :
@@ -136,12 +136,12 @@ class Quest (JQuest) :
           st.giveItems(SUCCUBUS_UNDIES,1)
           st.set("cond","11")
         else:
-            htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>" 
+            htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>" 
     return htmltext
 
 
  def onTalk (self,npc,player):
-   htmltext = "<html><body>You are either not carrying out your quest or don't meet the criteria.</body></html>"
+   htmltext = "<html><body>O no estas llevando a cabo tu mision o no cumples los criterios.</body></html>"
    st = player.getQuestState(qn)
    if not st : return htmltext
 
